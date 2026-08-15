@@ -3,6 +3,7 @@ Description=Commit and push Chrysanthemum changes to GitHub
 Documentation=https://github.com/danielluzhu/chrysanthemum
 After=network-online.target
 Wants=network-online.target
+StartLimitIntervalSec=0
 
 [Service]
 Type=oneshot
