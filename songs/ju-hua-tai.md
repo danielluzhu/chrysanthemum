@@ -8,6 +8,7 @@ era: 2006
 rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E5%91%A8%E6%9D%B0%E5%80%AB+%E8%8F%8A%E8%8A%B1%E5%8F%B0
+youtube_id: PdjbRvvJAzg
 ---
 
 ## notes

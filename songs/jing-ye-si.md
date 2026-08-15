@@ -8,6 +8,7 @@ era: Tang dynasty, c. 8th century
 rights: public-domain
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E9%9D%99%E5%A4%9C%E6%80%9D+%E6%AD%8C
+youtube_id: ynGeJjsh0QM
 ---
 
 ## notes
