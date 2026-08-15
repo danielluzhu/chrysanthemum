@@ -169,6 +169,7 @@ def build_home(songs):
             "slug": s["slug"], "title": s["title"], "pinyinTitle": s["pinyinTitle"],
             "titleEn": s["titleEn"], "artist": s["artist"], "era": s["era"],
             "rights": s["rights"], "level": s["level"],
+            "youtubeId": s["youtubeId"],
             "lines": len(s["lines"]), "vocab": len(s["vocab"]),
             "hay": " ".join([
                 s["title"], s["pinyinTitle"], s["titleEn"], s["artist"], s["era"], s["level"]
