@@ -44,3 +44,4 @@ I lower my head and think of home
 举头 | jǔ tóu | to raise one's head
 低头 | dī tóu | to lower one's head
 故乡 | gùxiāng | hometown, native place
+

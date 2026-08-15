@@ -17,10 +17,6 @@ Environment=PATH=/home/ubuntu/.bun/bin:/usr/local/bin:/usr/bin:/bin
 
 ExecStart=/workspace/deploy/sync.sh
 
-# Overlapping triggers are pointless — a run already in flight will pick up
-# whatever landed after it started.
-StartLimitIntervalSec=0
-
 StandardOutput=journal
 StandardError=journal
 SyslogIdentifier=chrysanthemum-sync
