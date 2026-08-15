@@ -124,6 +124,15 @@ A paragraph or two of context — who wrote it, when, why it matters.
 Hànzì yī háng
 One line of characters
 
+## listen for
+
+Free prose: the shape of the song, what the arrangement is doing, what to
+listen out for.
+
+## patterns
+
+已 | literary "already" | 天色已暗 | The sky has already darkened
+
 ## vocab
 
 词 | cí | word
