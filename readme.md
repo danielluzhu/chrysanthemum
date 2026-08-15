@@ -7,15 +7,28 @@ while you listen.
 Named for the chrysanthemum, the flower that travelled from China to British gardens
 and then to the rest of the world.
 
+**Live site: <https://danielluzhu.github.io/chrysanthemum/>**
+
 ## Try it
 
 ```sh
-python3 build.py && open index.html
+python3 build.py && python3 -m http.server 8000
 ```
 
-No dependencies, no build tooling — `build.py` reads `songs/*.md` and writes a
-single self-contained `index.html`. On the page you can hide the pinyin or the
-English to test yourself, and switch between light and dark.
+No dependencies and no build tooling — `build.py` reads `songs/*.md` and writes
+plain HTML:
+
+```
+index.html      home: card grid with live search and filters
+about.html      what the project is, and how songs are handled
+s/<slug>.html   one page per song
+assets/style.css  hand-written, not generated
+```
+
+The home page searches titles, pinyin, artists and eras as you type, and filters
+by full-text/vocabulary and by difficulty. On a song page you can switch off the
+pinyin or the English to test yourself, and page straight to the next song. Light
+and dark both supported; your choice is remembered.
 
 ## How songs are handled
 
