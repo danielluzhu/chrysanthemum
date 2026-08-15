@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>不如 Better If — Chrysanthemum</title>
+<meta name="description" content="Chinese songs line by line — characters, pinyin and English — for learners.">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>%E2%9C%BD</text></svg>">
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="bloom">&#10045;</span> Chrysanthemum</a>
+  <nav class="site-nav">
+    <a href="../index.html">Songs</a>
+    <a href="../about.html">About</a>
+    <button class="icon-btn" id="t-theme" title="Toggle light / dark">&#9681;</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<article class="song-page">
+  <a class="back" href="../index.html">&larr; All songs</a>
+  <h1 class="song-title">不如</h1>
+  <p class="song-py">Bùrú</p>
+  <p class="song-en">Better If</p>
+  <p class="song-meta">秦海清 &middot; contemporary</p>
+  <div class="badges song-head-badges"><span class="badge">Vocabulary only</span><span class="badge">intermediate</span></div>
+  <div class="notes"><p>Imported from the source playlist. <strong>Under copyright, so no lyrics here</strong> — use the video, and read the words on a licensed service such as QQ&amp;#38899;&amp;#20048;, Apple Music, Spotify or YouTube&#x27;s own captions.</p><p>Notes, a listening guide and vocabulary for this song are still to be written.</p></div>
+  
+<div class="video">
+  <button class="video-facade" data-id="jY85rZhcEKM"
+          aria-label="Play 不如 on YouTube"
+          style="background-image:url('https://i.ytimg.com/vi/jY85rZhcEKM/hqdefault.jpg')">
+    <span class="play" aria-hidden="true"></span>
+  </button>
+  <p class="video-note">
+    Plays from YouTube &middot;
+    <a href="https://www.youtube.com/watch?v=jY85rZhcEKM" target="_blank" rel="noopener">open there instead</a>
+  </p>
+</div>
+  
+  
+  
+  
+  <nav class="pager"><a class="prev" href="all-about-you.html"><div class="dir">&larr; Previous</div><div class="nm">All About You</div></a><a class="next" href="ju-hua-tai.html"><div class="dir">Next &rarr;</div><div class="nm">菊花台</div></a></nav>
+</article>
+
+</main>
+
+<footer class="site-foot"><div class="wrap">
+  <p>Full text appears only for songs in the <strong>public domain</strong> — classical
+     poems and traditional folk songs. Songs still under copyright are listed with a
+     link and a vocabulary sheet instead; open them on a licensed service to read along.</p>
+  <p>English translations are original to this project.
+     <a href="https://github.com/danielluzhu/chrysanthemum">Source on GitHub</a></p>
+</div></footer>
+
+<script>
+document.getElementById('t-theme').addEventListener('click', () => {
+  const root = document.documentElement;
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const cur = root.dataset.theme || (dark ? 'dark' : 'light');
+  root.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+});
+try {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.dataset.theme = saved;
+} catch (e) {}
+
+const toggle = (id, cls) => {
+  const b = document.getElementById(id);
+  if (!b) return;
+  b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') === 'true';
+    b.setAttribute('aria-pressed', String(!on));
+    document.body.classList.toggle(cls, on);
+  });
+};
+toggle('t-pinyin', 'hide-pinyin');
+toggle('t-english', 'hide-english');
+
+// Swap the thumbnail for the real player only once the visitor clicks.
+document.querySelectorAll('.video-facade').forEach(el => {
+  el.addEventListener('click', () => {
+    const frame = document.createElement('iframe');
+    frame.src = 'https://www.youtube-nocookie.com/embed/' + el.dataset.id +
+                '?autoplay=1&rel=0';
+    frame.title = 'YouTube video player';
+    frame.allow = 'accelerometer; autoplay; encrypted-media; picture-in-picture; fullscreen';
+    frame.allowFullscreen = true;
+    frame.loading = 'lazy';
+    el.replaceWith(frame);
+  }, { once: true });
+});
+
+</script>
+</body>
+</html>
