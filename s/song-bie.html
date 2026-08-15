@@ -128,6 +128,20 @@ const toggle = (id, cls) => {
 toggle('t-pinyin', 'hide-pinyin');
 toggle('t-english', 'hide-english');
 
+// Swap the thumbnail for the real player only once the visitor clicks.
+document.querySelectorAll('.video-facade').forEach(el => {
+  el.addEventListener('click', () => {
+    const frame = document.createElement('iframe');
+    frame.src = 'https://www.youtube-nocookie.com/embed/' + el.dataset.id +
+                '?autoplay=1&rel=0';
+    frame.title = 'YouTube video player';
+    frame.allow = 'accelerometer; autoplay; encrypted-media; picture-in-picture; fullscreen';
+    frame.allowFullscreen = true;
+    frame.loading = 'lazy';
+    el.replaceWith(frame);
+  }, { once: true });
+});
+
 </script>
 </body>
 </html>
