@@ -140,7 +140,13 @@ listen out for.
 
 The `## lines` section is blank-line-separated triplets: characters, then pinyin,
 then English. Omit it entirely for songs under copyright. `## vocab` rows are
-`word | pinyin | meaning`. Then run `python3 build.py`.
+`word | pinyin | meaning`, and `## patterns` rows are
+`form | what it does | example | example translated`. Then run `python3 build.py`.
+
+For songs still under copyright, `## listen for` and `## patterns` are what
+carry the entry. Write both from scratch — describe the structure and the
+grammar, and use your own example sentences rather than lines lifted from the
+song.
 
 ## Videos
 
