@@ -57,6 +57,7 @@ def parse_song(path):
         "rights": meta.get("rights", "copyrighted"),
         "level": meta.get("level", ""),
         "youtube": meta.get("youtube", ""),
+        "youtubeId": meta.get("youtube_id", ""),
         "notes": sections.get("notes", ""),
         "lines": [],
         "vocab": [],
@@ -298,8 +299,28 @@ def build_song(song, prev, nxt):
                  f'<div class="nm">{E(nxt["title"])}</div></a>') if nxt else "<span></span>"
         pager = f'<nav class="pager">{left}{right}</nav>'
 
-    listen = (f'<a class="listen" href="{E(song["youtube"])}" target="_blank" '
-              f'rel="noopener">&#9654; Find it on YouTube</a>') if song["youtube"] else ""
+    # Click-to-play facade: only a thumbnail loads up front. The player itself
+    # is injected on click, so nothing is requested from YouTube until the
+    # visitor asks for it.
+    if song["youtubeId"]:
+        vid = E(song["youtubeId"])
+        listen = f"""
+<div class="video">
+  <button class="video-facade" data-id="{vid}"
+          aria-label="Play {E(song['title'])} on YouTube"
+          style="background-image:url('https://i.ytimg.com/vi/{vid}/hqdefault.jpg')">
+    <span class="play" aria-hidden="true"></span>
+  </button>
+  <p class="video-note">
+    Plays from YouTube &middot;
+    <a href="https://www.youtube.com/watch?v={vid}" target="_blank" rel="noopener">open there instead</a>
+  </p>
+</div>"""
+    elif song["youtube"]:
+        listen = (f'<a class="listen" href="{E(song["youtube"])}" target="_blank" '
+                  f'rel="noopener">&#9654; Find it on YouTube</a>')
+    else:
+        listen = ""
 
     body = f"""
 <article class="song-page">
