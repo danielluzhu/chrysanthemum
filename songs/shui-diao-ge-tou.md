@@ -61,6 +61,26 @@ I rise and dance with my own clear shadow
 Hé sì zài rén jiān
 what place could match this world of ours?
 
+转朱阁
+Zhuǎn zhū gé
+It rounds the vermilion pavilion
+
+低绮户
+Dī qǐ hù
+stoops to the carved window
+
+照无眠
+Zhào wú mián
+and shines on the sleepless
+
+不应有恨
+Bù yīng yǒu hèn
+It ought to bear us no grudge
+
+何事长向别时圆
+Hé shì cháng xiàng bié shí yuán
+so why is it always full when we part?
+
 人有悲欢离合
 Rén yǒu bēi huān lí hé
 People know sorrow and joy, parting and reunion
@@ -87,6 +107,9 @@ and share this moon a thousand miles apart
 青天 | qīng tiān | the blue sky, the heavens
 乘风 | chéng fēng | to ride the wind
 不胜寒 | bù shèng hán | unable to bear the cold
+朱阁 | zhū gé | vermilion pavilion
+绮户 | qǐ hù | carved or latticed window
+无眠 | wú mián | sleepless, without sleep
 悲欢离合 | bēi huān lí hé | sorrow and joy, parting and reunion (set phrase for life's ups and downs)
 圆缺 | yuán quē | waxing and waning
 但愿 | dàn yuàn | if only, I wish that

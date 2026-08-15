@@ -1,0 +1,43 @@
+[Unit]
+Description=Commit and push Chrysanthemum changes to GitHub
+Documentation=https://github.com/danielluzhu/chrysanthemum
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/workspace
+
+# git and the gh credential helper both read config from HOME.
+Environment=HOME=/home/ubuntu
+Environment=PATH=/home/ubuntu/.bun/bin:/usr/local/bin:/usr/bin:/bin
+
+ExecStart=/workspace/deploy/sync.sh
+
+# Overlapping triggers are pointless — a run already in flight will pick up
+# whatever landed after it started.
+StartLimitIntervalSec=0
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=chrysanthemum-sync
+
+# --- hardening -------------------------------------------------------------
+# Needs to read the gh token under ~/.config/gh and write to the repo.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/workspace
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictNamespaces=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+
+[Install]
+WantedBy=multi-user.target

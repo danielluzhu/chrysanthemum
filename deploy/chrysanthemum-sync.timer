@@ -1,0 +1,17 @@
+[Unit]
+Description=Periodic backstop for the Chrysanthemum GitHub sync
+Documentation=https://github.com/danielluzhu/chrysanthemum
+
+[Timer]
+# The path unit handles the normal case. This catches what it misses: edits
+# made while the machine was off, and commits left unpushed because the
+# network was down when the earlier run fired.
+OnBootSec=2min
+OnUnitActiveSec=10min
+AccuracySec=30s
+Persistent=true
+
+Unit=chrysanthemum-sync.service
+
+[Install]
+WantedBy=timers.target

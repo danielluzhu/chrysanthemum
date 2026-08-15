@@ -1,0 +1,19 @@
+[Unit]
+Description=Watch Chrysanthemum sources and sync them to GitHub
+Documentation=https://github.com/danielluzhu/chrysanthemum
+
+[Path]
+# Only the hand-edited sources are watched. Generated output (index.html,
+# about.html, s/) is deliberately not, or each rebuild would retrigger the
+# sync in a loop.
+PathModified=/workspace/songs
+PathChanged=/workspace/songs
+PathModified=/workspace/readme.md
+PathModified=/workspace/build.py
+PathModified=/workspace/server.ts
+PathModified=/workspace/assets/style.css
+
+Unit=chrysanthemum-sync.service
+
+[Install]
+WantedBy=multi-user.target
