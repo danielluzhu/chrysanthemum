@@ -59,7 +59,9 @@ def parse_song(path):
         "youtube": meta.get("youtube", ""),
         "youtubeId": meta.get("youtube_id", ""),
         "notes": sections.get("notes", ""),
+        "listen": sections.get("listen for", ""),
         "lines": [],
+        "patterns": [],
         "vocab": [],
     }
 
@@ -78,6 +80,16 @@ def parse_song(path):
                     f"{len(rows)} line(s): {rows!r}"
                 )
             song["lines"].append({"hanzi": rows[0], "pinyin": rows[1], "en": rows[2]})
+
+    for row in sections.get("patterns", "").splitlines():
+        if row.strip():
+            parts = [p.strip() for p in row.split("|")]
+            if len(parts) != 4:
+                sys.exit(f"{path.name}: bad pattern row (want 4 fields): {row!r}")
+            song["patterns"].append({
+                "form": parts[0], "gloss": parts[1],
+                "example": parts[2], "exampleEn": parts[3],
+            })
 
     for row in sections.get("vocab", "").splitlines():
         if row.strip():
