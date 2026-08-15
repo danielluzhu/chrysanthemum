@@ -135,18 +135,18 @@ button[aria-pressed="true"] {
 }
 .card-body { padding: 1.25rem; display: flex; flex-direction: column; flex: 1; }
 
-/* Cover art. YouTube's hqdefault thumbnails are 4:3 with black bars top and
-   bottom, so the image is scaled up and cropped to a 16:9 window to trim them. */
+/* Cover art. maxresdefault and mqdefault are both natively 16:9, so the image
+   fills this 16:9 window exactly — no scaling or cropping needed. (hqdefault
+   is deliberately not used: it is 4:3 with black letterbox bars.) */
 .cover {
   aspect-ratio: 16 / 9; overflow: hidden;
   background: var(--surface-2); border-bottom: 1px solid var(--rule);
 }
 .cover img {
   width: 100%; height: 100%; object-fit: cover;
-  transform: scale(1.35); display: block;
-  transition: transform .3s ease;
+  display: block; transition: filter .2s ease;
 }
-.card:hover .cover img { transform: scale(1.42); }
+.card:hover .cover img { filter: brightness(1.06); }
 .cover-blank {
   display: flex; align-items: center; justify-content: center;
   color: var(--gold); font-size: 2.25rem; opacity: .35;
