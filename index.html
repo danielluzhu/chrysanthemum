@@ -88,6 +88,11 @@ function render() {
 
   grid.innerHTML = hits.length ? hits.map(s => `
     <a class="card" href="s/${esc(s.slug)}.html">
+      ${s.youtubeId ? `<div class="cover">
+        <img src="https://i.ytimg.com/vi/${esc(s.youtubeId)}/hqdefault.jpg"
+             alt="" loading="lazy" decoding="async">
+      </div>` : `<div class="cover cover-blank" aria-hidden="true">&#10045;</div>`}
+      <div class="card-body">
       <div class="hz">${esc(s.title)}</div>
       <div class="py">${esc(s.pinyinTitle)}</div>
       <div class="en">${esc(s.titleEn)}</div>
