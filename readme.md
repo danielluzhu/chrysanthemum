@@ -30,6 +30,51 @@ by full-text/vocabulary and by difficulty. On a song page you can switch off the
 pinyin or the English to test yourself, and page straight to the next song. Light
 and dark both supported; your choice is remembered.
 
+## Self-hosting with Bun + systemd
+
+The generated site is plain static files, so GitHub Pages serves it fine. To run
+it on your own box instead, there is a small Bun server and a systemd unit.
+
+```sh
+PORT=8787 bun run server.ts          # foreground, for a quick look
+```
+
+`server.ts` has no dependencies. It serves the built pages, resolves
+extension-less URLs (`/about`, `/s/mo-li-hua`), returns a styled 404, refuses
+anything that isn't GET/HEAD, and rejects paths that try to escape the project
+directory.
+
+To install it as a service:
+
+```sh
+sudo cp deploy/chrysanthemum.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now chrysanthemum
+```
+
+```sh
+systemctl status chrysanthemum
+journalctl -u chrysanthemum -f
+sudo systemctl restart chrysanthemum   # also rebuilds the site
+```
+
+Two things worth knowing about the unit:
+
+**It rebuilds before serving.** `ExecStartPre` runs `build.py`, so a restart always
+picks up edits to `songs/`. If a song breaks the copyright rule below, the build
+fails and *the service refuses to start* — better to serve nothing than to serve
+text that shouldn't be there.
+
+**It binds to `127.0.0.1` only.** Nothing reaches it from outside the machine as
+shipped. Put a reverse proxy in front of it for real traffic, and let that
+terminate TLS — or set `HOST=0.0.0.0` in the unit if you genuinely want it
+exposed directly.
+
+The unit runs as `ubuntu` with the usual hardening (`ProtectSystem=strict`,
+`ProtectHome=read-only`, a syscall filter, `/workspace` the only writable path).
+Note `MemoryDenyWriteExecute=false` is deliberate — Bun's JIT needs
+write-execute pages and the service will not start without it.
+
 ## How songs are handled
 
 Songs come in two kinds, and the difference is about copyright.

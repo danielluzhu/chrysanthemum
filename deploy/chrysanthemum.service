@@ -1,0 +1,55 @@
+[Unit]
+Description=Chrysanthemum — Chinese songs line by line
+Documentation=https://github.com/danielluzhu/chrysanthemum
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/workspace
+
+Environment=PORT=8787
+Environment=HOST=127.0.0.1
+
+# Regenerate the pages from songs/*.md before serving, so a restart always
+# picks up content edits. Fails the start if a song violates the copyright
+# rule in build.py, which is intentional — better to not start than to serve
+# lyrics that shouldn't be there.
+ExecStartPre=/usr/bin/python3 /workspace/build.py
+ExecStart=/home/ubuntu/.bun/bin/bun run /workspace/server.ts
+
+Restart=always
+RestartSec=2s
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=chrysanthemum
+
+# --- hardening -------------------------------------------------------------
+# The service only reads the site and writes the generated HTML, so it needs
+# very little. ProtectHome is read-only rather than true because the bun
+# binary lives under /home/ubuntu/.bun.
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/workspace
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+ProtectClock=true
+ProtectHostname=true
+RestrictNamespaces=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+MemoryDenyWriteExecute=false
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+SystemCallFilter=@system-service
+SystemCallErrorNumber=EPERM
+
+[Install]
+WantedBy=multi-user.target
