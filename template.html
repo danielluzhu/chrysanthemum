@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chrysanthemum — Chinese songs, line by line</title>
+<style>
+  :root {
+    --bg: #fbf7ef;
+    --surface: #fffdf8;
+    --ink: #22201c;
+    --muted: #6f6858;
+    --faint: #a89e88;
+    --gold: #b8860b;
+    --gold-soft: #f0e2bc;
+    --rule: #e5dcc8;
+    --shadow: 0 1px 2px rgba(60, 50, 20, .06), 0 8px 24px rgba(60, 50, 20, .05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16150f;
+      --surface: #1f1d16;
+      --ink: #f0ebdf;
+      --muted: #a49a84;
+      --faint: #6d6553;
+      --gold: #e0b44a;
+      --gold-soft: #3a3018;
+      --rule: #322d20;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16150f; --surface: #1f1d16; --ink: #f0ebdf; --muted: #a49a84;
+    --faint: #6d6553; --gold: #e0b44a; --gold-soft: #3a3018; --rule: #322d20;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
+  }
+  :root[data-theme="light"] {
+    --bg: #fbf7ef; --surface: #fffdf8; --ink: #22201c; --muted: #6f6858;
+    --faint: #a89e88; --gold: #b8860b; --gold-soft: #f0e2bc; --rule: #e5dcc8;
+    --shadow: 0 1px 2px rgba(60,50,20,.06), 0 8px 24px rgba(60,50,20,.05);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 52rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+
+  header { margin-bottom: 2.5rem; }
+  .bloom { font-size: 2rem; line-height: 1; color: var(--gold); }
+  h1 {
+    font-size: clamp(1.9rem, 5vw, 2.6rem);
+    margin: .5rem 0 .35rem;
+    letter-spacing: -.02em;
+    font-weight: 650;
+  }
+  .tagline { color: var(--muted); margin: 0; max-width: 34rem; }
+
+  .controls {
+    display: flex; flex-wrap: wrap; gap: .5rem;
+    margin: 1.75rem 0 0; padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+  button {
+    font: inherit; font-size: .875rem;
+    padding: .4rem .85rem; border-radius: 999px;
+    border: 1px solid var(--rule); background: var(--surface);
+    color: var(--muted); cursor: pointer; transition: .15s;
+  }
+  button:hover { border-color: var(--gold); color: var(--ink); }
+  button[aria-pressed="true"] {
+    background: var(--gold-soft); border-color: var(--gold); color: var(--ink);
+  }
+
+  .song {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 1.75rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+  }
+  .song-head { display: flex; flex-wrap: wrap; gap: .75rem 1rem; align-items: baseline; }
+  .song h2 { margin: 0; font-size: 1.5rem; letter-spacing: -.01em; font-weight: 650; }
+  .song h2 .en { color: var(--muted); font-weight: 400; font-size: 1.05rem; }
+  .pin { color: var(--gold); font-size: .95rem; margin: .15rem 0 0; }
+  .meta { color: var(--faint); font-size: .85rem; margin: .5rem 0 0; }
+
+  .badges { display: flex; gap: .4rem; flex-wrap: wrap; margin-left: auto; }
+  .badge {
+    font-size: .7rem; text-transform: uppercase; letter-spacing: .06em;
+    padding: .2rem .55rem; border-radius: 999px;
+    border: 1px solid var(--rule); color: var(--muted); white-space: nowrap;
+  }
+  .badge.pd { border-color: var(--gold); color: var(--gold); }
+
+  .notes {
+    color: var(--muted); font-size: .925rem;
+    margin: 1.25rem 0 0; padding-left: .9rem;
+    border-left: 2px solid var(--rule);
+  }
+  .notes p { margin: 0 0 .7rem; }
+  .notes p:last-child { margin-bottom: 0; }
+  .notes strong { color: var(--ink); }
+
+  .listen {
+    display: inline-flex; align-items: center; gap: .45rem;
+    margin-top: 1.25rem; font-size: .9rem; font-weight: 500;
+    color: var(--gold); text-decoration: none;
+    border-bottom: 1px solid transparent; padding-bottom: 1px;
+  }
+  .listen:hover { border-bottom-color: var(--gold); }
+
+  .lines { margin: 1.5rem 0 0; padding: 1.25rem 0 0; border-top: 1px solid var(--rule); }
+  .line { padding: .6rem 0; }
+  .line + .line { border-top: 1px dashed var(--rule); }
+  .hanzi { font-size: 1.35rem; line-height: 1.5; letter-spacing: .02em; }
+  .py { color: var(--gold); font-size: .9rem; margin-top: .15rem; }
+  .en-line { color: var(--muted); font-size: .95rem; margin-top: .1rem; }
+  body.hide-pinyin .py, body.hide-english .en-line { display: none; }
+
+  .vocab { margin: 1.5rem 0 0; padding: 1.25rem 0 0; border-top: 1px solid var(--rule); }
+  .vocab h3 {
+    margin: 0 0 .85rem; font-size: .75rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .09em; color: var(--faint);
+  }
+  .v-scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: .925rem; min-width: 22rem; }
+  td { padding: .45rem .75rem .45rem 0; border-bottom: 1px solid var(--rule); vertical-align: baseline; }
+  tr:last-child td { border-bottom: 0; }
+  .v-word { font-size: 1.1rem; white-space: nowrap; }
+  .v-py { color: var(--gold); white-space: nowrap; }
+  .v-en { color: var(--muted); }
+
+  footer {
+    margin-top: 3rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--faint); font-size: .85rem;
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="bloom">✽</div>
+  <h1>Chrysanthemum</h1>
+  <p class="tagline">
+    Chinese songs, line by line — characters, pinyin, and English together.
+    Put the recording on, follow along, and pick up some Chinese on the way.
+  </p>
+  <div class="controls">
+    <button id="t-pinyin" aria-pressed="true">Pinyin</button>
+    <button id="t-english" aria-pressed="true">English</button>
+    <button id="t-theme">Toggle theme</button>
+  </div>
+</header>
+
+<main id="songs"></main>
+
+<footer>
+  <p>
+    Full text is given only for songs in the <strong>public domain</strong> — classical
+    poems and traditional folk songs. Songs still under copyright are listed with a
+    link and a vocabulary sheet instead of their lyrics; open them on a licensed
+    service to read along.
+  </p>
+  <p>English translations are original to this project.</p>
+</footer>
+</div>
+
+<script>
+const SONGS = /*__SONGS__*/[];
+
+const esc = s => String(s).replace(/[&<>"]/g, c => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]
+));
+
+const paras = t => t.split(/\n\s*\n/).filter(Boolean).map(p =>
+  `<p>${esc(p.replace(/\n/g, ' ')).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')}</p>`
+).join('');
+
+document.getElementById('songs').innerHTML = SONGS.map(s => `
+  <article class="song">
+    <div class="song-head">
+      <div>
+        <h2>${esc(s.title)} <span class="en">${esc(s.titleEn)}</span></h2>
+        <div class="pin">${esc(s.pinyinTitle)}</div>
+      </div>
+      <div class="badges">
+        ${s.rights === 'public-domain'
+          ? '<span class="badge pd">Full text</span>'
+          : '<span class="badge">Vocabulary only</span>'}
+        ${s.level ? `<span class="badge">${esc(s.level)}</span>` : ''}
+      </div>
+    </div>
+    <p class="meta">${esc(s.artist)}${s.era ? ' · ' + esc(s.era) : ''}</p>
+    ${s.notes ? `<div class="notes">${paras(s.notes)}</div>` : ''}
+    ${s.youtube ? `<a class="listen" href="${esc(s.youtube)}" target="_blank" rel="noopener">▶ Find it on YouTube</a>` : ''}
+    ${s.lines.length ? `<div class="lines">${s.lines.map(l => `
+      <div class="line">
+        <div class="hanzi">${esc(l.hanzi)}</div>
+        <div class="py">${esc(l.pinyin)}</div>
+        <div class="en-line">${esc(l.en)}</div>
+      </div>`).join('')}</div>` : ''}
+    ${s.vocab.length ? `<div class="vocab">
+      <h3>Vocabulary</h3>
+      <div class="v-scroll"><table>${s.vocab.map(v => `
+        <tr>
+          <td class="v-word">${esc(v.word)}</td>
+          <td class="v-py">${esc(v.pinyin)}</td>
+          <td class="v-en">${esc(v.en)}</td>
+        </tr>`).join('')}</table></div>
+    </div>` : ''}
+  </article>
+`).join('');
+
+const toggle = (id, cls) => {
+  const b = document.getElementById(id);
+  b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') === 'true';
+    b.setAttribute('aria-pressed', String(!on));
+    document.body.classList.toggle(cls, on);
+  });
+};
+toggle('t-pinyin', 'hide-pinyin');
+toggle('t-english', 'hide-english');
+
+document.getElementById('t-theme').addEventListener('click', () => {
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const cur = document.documentElement.dataset.theme || (dark ? 'dark' : 'light');
+  document.documentElement.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+});
+</script>
+</body>
+</html>
