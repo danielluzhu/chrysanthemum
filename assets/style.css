@@ -183,6 +183,36 @@ button[aria-pressed="true"] {
 }
 .listen:hover { background: var(--gold); color: var(--bg); }
 
+/* ---------- video embed ---------- */
+.video { margin-top: 1.75rem; }
+.video iframe,
+.video-facade {
+  display: block; width: 100%; aspect-ratio: 16 / 9;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  background: var(--surface-2) center/cover no-repeat;
+  padding: 0; cursor: pointer; position: relative;
+  transition: border-color .15s;
+}
+.video-facade:hover { border-color: var(--gold); }
+.video-facade .play {
+  position: absolute; inset: 0; margin: auto;
+  width: 4.5rem; height: 3.2rem; border-radius: 12px;
+  background: rgba(20, 18, 12, .72);
+  transition: background .15s, transform .15s;
+}
+.video-facade .play::after {
+  content: ""; position: absolute; inset: 0; margin: auto;
+  width: 0; height: 0;
+  border-left: 1.15rem solid #fff;
+  border-top: .72rem solid transparent;
+  border-bottom: .72rem solid transparent;
+  transform: translateX(.18rem);
+}
+.video-facade:hover .play { background: #c8100f; transform: scale(1.05); }
+.video-facade:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.video-note { color: var(--faint); font-size: .8rem; margin: .55rem 0 0; }
+.video-note a { color: var(--muted); }
+
 .section-head {
   display: flex; align-items: center; gap: .75rem; flex-wrap: wrap;
   margin: 2.5rem 0 1rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
