@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>菊花台 Chrysanthemum Terrace — Chrysanthemum</title>
+<meta name="description" content="Chinese songs line by line — characters, pinyin and English — for learners.">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>%E2%9C%BD</text></svg>">
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="bloom">&#10045;</span> Chrysanthemum</a>
+  <nav class="site-nav">
+    <a href="../index.html">Songs</a>
+    <a href="../about.html">About</a>
+    <button class="icon-btn" id="t-theme" title="Toggle light / dark">&#9681;</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<article class="song-page">
+  <a class="back" href="../index.html">&larr; All songs</a>
+  <h1 class="song-title">菊花台</h1>
+  <p class="song-py">Jú Huā Tái</p>
+  <p class="song-en">Chrysanthemum Terrace</p>
+  <p class="song-meta">周杰伦 (Jay Chou), lyrics by 方文山 (Vincent Fang) &middot; 2006</p>
+  <div class="badges song-head-badges"><span class="badge">Vocabulary only</span><span class="badge">advanced</span></div>
+  <div class="notes"><p>The song this project is named after. Written for the film *Curse of the Golden Flower*, with lyrics by Vincent Fang in the ornate pseudo-classical register he made his signature — a soldier at the frontier, a woman waiting, and chrysanthemums as the image of loss.</p><p><strong>This song is under copyright, so its lyrics are not reproduced here.</strong> Use the link to listen, and pull the lyrics up alongside on a licensed service — QQ音乐, Apple Music, Spotify and YouTube&#x27;s own captions all display them legitimately.</p><p>What follows is a vocabulary list to study before you listen. Knowing these first turns the song from noise into something you can follow.</p></div>
+  <a class="listen" href="https://www.youtube.com/results?search_query=%E5%91%A8%E6%9D%B0%E5%80%AB+%E8%8F%8A%E8%8A%B1%E5%8F%B0" target="_blank" rel="noopener">&#9654; Find it on YouTube</a>
+  
+  <div class="section-head"><h2>Vocabulary</h2></div><div class="v-scroll"><table><tr><td class="v-word">菊花</td><td class="v-py">júhuā</td><td class="v-en">chrysanthemum</td></tr><tr><td class="v-word">台</td><td class="v-py">tái</td><td class="v-en">terrace, platform, stage</td></tr><tr><td class="v-word">满地</td><td class="v-py">mǎn dì</td><td class="v-en">covering the ground</td></tr><tr><td class="v-word">伤</td><td class="v-py">shāng</td><td class="v-en">wound, injury; to hurt</td></tr><tr><td class="v-word">北风</td><td class="v-py">běifēng</td><td class="v-en">north wind</td></tr><tr><td class="v-word">惆怅</td><td class="v-py">chóuchàng</td><td class="v-en">melancholy, wistful dejection</td></tr><tr><td class="v-word">影子</td><td class="v-py">yǐngzi</td><td class="v-en">shadow</td></tr><tr><td class="v-word">思念</td><td class="v-py">sīniàn</td><td class="v-en">to long for, to miss</td></tr><tr><td class="v-word">凋谢</td><td class="v-py">diāoxiè</td><td class="v-en">to wither and fall (of flowers)</td></tr><tr><td class="v-word">苍白</td><td class="v-py">cāngbái</td><td class="v-en">pale, pallid</td></tr><tr><td class="v-word">战场</td><td class="v-py">zhànchǎng</td><td class="v-en">battlefield</td></tr><tr><td class="v-word">铁马</td><td class="v-py">tiěmǎ</td><td class="v-en">armoured warhorse (literary)</td></tr></table></div>
+  <nav class="pager"><a class="prev" href="song-yuan-er.html"><div class="dir">&larr; Previous</div><div class="nm">送元二使安西</div></a><a class="next" href="yue-liang-dai-biao-wo-de-xin.html"><div class="dir">Next &rarr;</div><div class="nm">月亮代表我的心</div></a></nav>
+</article>
+
+</main>
+
+<footer class="site-foot"><div class="wrap">
+  <p>Full text appears only for songs in the <strong>public domain</strong> — classical
+     poems and traditional folk songs. Songs still under copyright are listed with a
+     link and a vocabulary sheet instead; open them on a licensed service to read along.</p>
+  <p>English translations are original to this project.
+     <a href="https://github.com/danielluzhu/chrysanthemum">Source on GitHub</a></p>
+</div></footer>
+
+<script>
+document.getElementById('t-theme').addEventListener('click', () => {
+  const root = document.documentElement;
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const cur = root.dataset.theme || (dark ? 'dark' : 'light');
+  root.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+});
+try {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.dataset.theme = saved;
+} catch (e) {}
+
+const toggle = (id, cls) => {
+  const b = document.getElementById(id);
+  if (!b) return;
+  b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') === 'true';
+    b.setAttribute('aria-pressed', String(!on));
+    document.body.classList.toggle(cls, on);
+  });
+};
+toggle('t-pinyin', 'hide-pinyin');
+toggle('t-english', 'hide-english');
+
+</script>
+</body>
+</html>

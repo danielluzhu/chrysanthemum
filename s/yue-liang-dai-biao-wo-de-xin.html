@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>月亮代表我的心 The Moon Represents My Heart — Chrysanthemum</title>
+<meta name="description" content="Chinese songs line by line — characters, pinyin and English — for learners.">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>%E2%9C%BD</text></svg>">
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="bloom">&#10045;</span> Chrysanthemum</a>
+  <nav class="site-nav">
+    <a href="../index.html">Songs</a>
+    <a href="../about.html">About</a>
+    <button class="icon-btn" id="t-theme" title="Toggle light / dark">&#9681;</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<article class="song-page">
+  <a class="back" href="../index.html">&larr; All songs</a>
+  <h1 class="song-title">月亮代表我的心</h1>
+  <p class="song-py">Yuè Liàng Dài Biǎo Wǒ De Xīn</p>
+  <p class="song-en">The Moon Represents My Heart</p>
+  <p class="song-meta">邓丽君 (Teresa Teng) &middot; 1977</p>
+  <div class="badges song-head-badges"><span class="badge">Vocabulary only</span><span class="badge">beginner</span></div>
+  <div class="notes"><p>Teresa Teng&#x27;s 1977 recording is probably the single most recognized Chinese love song anywhere in the world. Slow, gentle, and sung with unusually clear articulation — which makes it a favourite of learners.</p><p><strong>Under copyright, so no lyrics here.</strong> Listen via the link with the lyrics open on a licensed service alongside.</p><p>Grammatically it is a gift for beginners: short sentences, present tense, heavy repetition, and the core pattern 代表 (&quot;stands for / represents&quot;) repeated throughout. Learn the words below and you will catch a large share of the song on first listen.</p></div>
+  <a class="listen" href="https://www.youtube.com/results?search_query=%E9%84%A7%E9%BA%97%E5%90%9B+%E6%9C%88%E4%BA%AE%E4%BB%A3%E8%A1%A8%E6%88%91%E7%9A%84%E5%BF%83" target="_blank" rel="noopener">&#9654; Find it on YouTube</a>
+  
+  <div class="section-head"><h2>Vocabulary</h2></div><div class="v-scroll"><table><tr><td class="v-word">月亮</td><td class="v-py">yuèliang</td><td class="v-en">the moon</td></tr><tr><td class="v-word">代表</td><td class="v-py">dàibiǎo</td><td class="v-en">to represent, to stand for</td></tr><tr><td class="v-word">心</td><td class="v-py">xīn</td><td class="v-en">heart</td></tr><tr><td class="v-word">爱</td><td class="v-py">ài</td><td class="v-en">love; to love</td></tr><tr><td class="v-word">真</td><td class="v-py">zhēn</td><td class="v-en">true, real</td></tr><tr><td class="v-word">深</td><td class="v-py">shēn</td><td class="v-en">deep</td></tr><tr><td class="v-word">轻轻</td><td class="v-py">qīngqīng</td><td class="v-en">gently, softly</td></tr><tr><td class="v-word">一点点</td><td class="v-py">yī diǎn diǎn</td><td class="v-en">a little bit</td></tr><tr><td class="v-word">问</td><td class="v-py">wèn</td><td class="v-en">to ask</td></tr><tr><td class="v-word">情</td><td class="v-py">qíng</td><td class="v-en">feeling, affection</td></tr><tr><td class="v-word">不移</td><td class="v-py">bù yí</td><td class="v-en">unwavering, unchanging</td></tr></table></div>
+  <nav class="pager"><a class="prev" href="ju-hua-tai.html"><div class="dir">&larr; Previous</div><div class="nm">菊花台</div></a><span></span></nav>
+</article>
+
+</main>
+
+<footer class="site-foot"><div class="wrap">
+  <p>Full text appears only for songs in the <strong>public domain</strong> — classical
+     poems and traditional folk songs. Songs still under copyright are listed with a
+     link and a vocabulary sheet instead; open them on a licensed service to read along.</p>
+  <p>English translations are original to this project.
+     <a href="https://github.com/danielluzhu/chrysanthemum">Source on GitHub</a></p>
+</div></footer>
+
+<script>
+document.getElementById('t-theme').addEventListener('click', () => {
+  const root = document.documentElement;
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const cur = root.dataset.theme || (dark ? 'dark' : 'light');
+  root.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+});
+try {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.dataset.theme = saved;
+} catch (e) {}
+
+const toggle = (id, cls) => {
+  const b = document.getElementById(id);
+  if (!b) return;
+  b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') === 'true';
+    b.setAttribute('aria-pressed', String(!on));
+    document.body.classList.toggle(cls, on);
+  });
+};
+toggle('t-pinyin', 'hide-pinyin');
+toggle('t-english', 'hide-english');
+
+</script>
+</body>
+</html>

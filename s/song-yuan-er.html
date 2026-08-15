@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>送元二使安西 Seeing Yuan the Second Off to Anxi — Chrysanthemum</title>
+<meta name="description" content="Chinese songs line by line — characters, pinyin and English — for learners.">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>%E2%9C%BD</text></svg>">
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="bloom">&#10045;</span> Chrysanthemum</a>
+  <nav class="site-nav">
+    <a href="../index.html">Songs</a>
+    <a href="../about.html">About</a>
+    <button class="icon-btn" id="t-theme" title="Toggle light / dark">&#9681;</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<article class="song-page">
+  <a class="back" href="../index.html">&larr; All songs</a>
+  <h1 class="song-title">送元二使安西</h1>
+  <p class="song-py">Sòng Yuán Èr Shǐ Ān Xī</p>
+  <p class="song-en">Seeing Yuan the Second Off to Anxi</p>
+  <p class="song-meta">王维 (Wang Wei) &middot; Tang dynasty, c. 8th century</p>
+  <div class="badges song-head-badges"><span class="badge pd">Full text</span><span class="badge">intermediate</span></div>
+  <div class="notes"><p>Set to music as 阳关三叠 (*Yángguān Sān Dié*, &quot;Three Refrains on Yang Pass&quot;), one of the oldest surviving Chinese art songs, usually performed on guqin. A farewell poem for a friend posted to a garrison at the far western frontier — Yang Pass was the last outpost before the desert.</p><p>Four lines, and the whole weight of the poem lands on the last one: past this point there is no one left who knows you.</p></div>
+  <a class="listen" href="https://www.youtube.com/results?search_query=%E9%98%B3%E5%85%B3%E4%B8%89%E5%8F%A0+%E5%8F%A4%E7%90%B4" target="_blank" rel="noopener">&#9654; Find it on YouTube</a>
+  
+<div class="section-head">
+  <h2>Line by line</h2>
+  <div class="toggles">
+    <button id="t-pinyin" aria-pressed="true">Pinyin</button>
+    <button id="t-english" aria-pressed="true">English</button>
+  </div>
+</div>
+<div class="lines"><div class="line">
+  <div class="hanzi">渭城朝雨浥轻尘</div>
+  <div class="py">Wèi chéng zhāo yǔ yì qīng chén</div>
+  <div class="en">Morning rain in Weicheng settles the light dust</div>
+</div><div class="line">
+  <div class="hanzi">客舍青青柳色新</div>
+  <div class="py">Kè shè qīng qīng liǔ sè xīn</div>
+  <div class="en">By the inn the willows are green, their color new</div>
+</div><div class="line">
+  <div class="hanzi">劝君更尽一杯酒</div>
+  <div class="py">Quàn jūn gèng jìn yī bēi jiǔ</div>
+  <div class="en">Let me urge one more cup of wine on you</div>
+</div><div class="line">
+  <div class="hanzi">西出阳关无故人</div>
+  <div class="py">Xī chū Yáng guān wú gù rén</div>
+  <div class="en">West of Yang Pass there will be no old friends</div>
+</div></div>
+  <div class="section-head"><h2>Vocabulary</h2></div><div class="v-scroll"><table><tr><td class="v-word">朝雨</td><td class="v-py">zhāo yǔ</td><td class="v-en">morning rain</td></tr><tr><td class="v-word">轻尘</td><td class="v-py">qīng chén</td><td class="v-en">light dust</td></tr><tr><td class="v-word">客舍</td><td class="v-py">kè shè</td><td class="v-en">inn, guest house</td></tr><tr><td class="v-word">柳</td><td class="v-py">liǔ</td><td class="v-en">willow (traditional symbol of parting — 柳 liǔ puns on 留 liú, &quot;to stay&quot;)</td></tr><tr><td class="v-word">劝</td><td class="v-py">quàn</td><td class="v-en">to urge, to persuade</td></tr><tr><td class="v-word">一杯酒</td><td class="v-py">yī bēi jiǔ</td><td class="v-en">a cup of wine</td></tr><tr><td class="v-word">阳关</td><td class="v-py">Yáng guān</td><td class="v-en">Yang Pass, the western frontier gate</td></tr><tr><td class="v-word">故人</td><td class="v-py">gù rén</td><td class="v-en">an old friend</td></tr></table></div>
+  <nav class="pager"><a class="prev" href="song-bie.html"><div class="dir">&larr; Previous</div><div class="nm">送别</div></a><a class="next" href="ju-hua-tai.html"><div class="dir">Next &rarr;</div><div class="nm">菊花台</div></a></nav>
+</article>
+
+</main>
+
+<footer class="site-foot"><div class="wrap">
+  <p>Full text appears only for songs in the <strong>public domain</strong> — classical
+     poems and traditional folk songs. Songs still under copyright are listed with a
+     link and a vocabulary sheet instead; open them on a licensed service to read along.</p>
+  <p>English translations are original to this project.
+     <a href="https://github.com/danielluzhu/chrysanthemum">Source on GitHub</a></p>
+</div></footer>
+
+<script>
+document.getElementById('t-theme').addEventListener('click', () => {
+  const root = document.documentElement;
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const cur = root.dataset.theme || (dark ? 'dark' : 'light');
+  root.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+});
+try {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.dataset.theme = saved;
+} catch (e) {}
+
+const toggle = (id, cls) => {
+  const b = document.getElementById(id);
+  if (!b) return;
+  b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') === 'true';
+    b.setAttribute('aria-pressed', String(!on));
+    document.body.classList.toggle(cls, on);
+  });
+};
+toggle('t-pinyin', 'hide-pinyin');
+toggle('t-english', 'hide-english');
+
+</script>
+</body>
+</html>

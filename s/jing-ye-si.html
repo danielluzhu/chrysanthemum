@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>静夜思 Quiet Night Thoughts — Chrysanthemum</title>
+<meta name="description" content="Chinese songs line by line — characters, pinyin and English — for learners.">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>%E2%9C%BD</text></svg>">
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><span class="bloom">&#10045;</span> Chrysanthemum</a>
+  <nav class="site-nav">
+    <a href="../index.html">Songs</a>
+    <a href="../about.html">About</a>
+    <button class="icon-btn" id="t-theme" title="Toggle light / dark">&#9681;</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<article class="song-page">
+  <a class="back" href="../index.html">&larr; All songs</a>
+  <h1 class="song-title">静夜思</h1>
+  <p class="song-py">Jìng Yè Sī</p>
+  <p class="song-en">Quiet Night Thoughts</p>
+  <p class="song-meta">李白 (Li Bai) &middot; Tang dynasty, c. 8th century</p>
+  <div class="badges song-head-badges"><span class="badge pd">Full text</span><span class="badge">beginner</span></div>
+  <div class="notes"><p>Probably the most memorized poem in the Chinese language — most children in China learn it before they can write. Twenty characters, four lines, and almost every one of them is a word a beginner already needs. It has been set to music countless times, so there are many recordings to pick from.</p><p>The whole poem turns on a single physical gesture: head up, head down. Moon, then home.</p></div>
+  <a class="listen" href="https://www.youtube.com/results?search_query=%E9%9D%99%E5%A4%9C%E6%80%9D+%E6%AD%8C" target="_blank" rel="noopener">&#9654; Find it on YouTube</a>
+  
+<div class="section-head">
+  <h2>Line by line</h2>
+  <div class="toggles">
+    <button id="t-pinyin" aria-pressed="true">Pinyin</button>
+    <button id="t-english" aria-pressed="true">English</button>
+  </div>
+</div>
+<div class="lines"><div class="line">
+  <div class="hanzi">床前明月光</div>
+  <div class="py">Chuáng qián míng yuè guāng</div>
+  <div class="en">Before my bed, the bright moonlight</div>
+</div><div class="line">
+  <div class="hanzi">疑是地上霜</div>
+  <div class="py">Yí shì dì shàng shuāng</div>
+  <div class="en">I took it for frost upon the ground</div>
+</div><div class="line">
+  <div class="hanzi">举头望明月</div>
+  <div class="py">Jǔ tóu wàng míng yuè</div>
+  <div class="en">I lift my head and gaze at the bright moon</div>
+</div><div class="line">
+  <div class="hanzi">低头思故乡</div>
+  <div class="py">Dī tóu sī gùxiāng</div>
+  <div class="en">I lower my head and think of home</div>
+</div></div>
+  <div class="section-head"><h2>Vocabulary</h2></div><div class="v-scroll"><table><tr><td class="v-word">明月</td><td class="v-py">míng yuè</td><td class="v-en">bright moon</td></tr><tr><td class="v-word">霜</td><td class="v-py">shuāng</td><td class="v-en">frost</td></tr><tr><td class="v-word">举头</td><td class="v-py">jǔ tóu</td><td class="v-en">to raise one&#x27;s head</td></tr><tr><td class="v-word">低头</td><td class="v-py">dī tóu</td><td class="v-en">to lower one&#x27;s head</td></tr><tr><td class="v-word">故乡</td><td class="v-py">gùxiāng</td><td class="v-en">hometown, native place</td></tr></table></div>
+  <nav class="pager"><span></span><a class="next" href="mo-li-hua.html"><div class="dir">Next &rarr;</div><div class="nm">茉莉花</div></a></nav>
+</article>
+
+</main>
+
+<footer class="site-foot"><div class="wrap">
+  <p>Full text appears only for songs in the <strong>public domain</strong> — classical
+     poems and traditional folk songs. Songs still under copyright are listed with a
+     link and a vocabulary sheet instead; open them on a licensed service to read along.</p>
+  <p>English translations are original to this project.
+     <a href="https://github.com/danielluzhu/chrysanthemum">Source on GitHub</a></p>
+</div></footer>
+
+<script>
+document.getElementById('t-theme').addEventListener('click', () => {
+  const root = document.documentElement;
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const cur = root.dataset.theme || (dark ? 'dark' : 'light');
+  root.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+});
+try {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.dataset.theme = saved;
+} catch (e) {}
+
+const toggle = (id, cls) => {
+  const b = document.getElementById(id);
+  if (!b) return;
+  b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') === 'true';
+    b.setAttribute('aria-pressed', String(!on));
+    document.body.classList.toggle(cls, on);
+  });
+};
+toggle('t-pinyin', 'hide-pinyin');
+toggle('t-english', 'hide-english');
+
+</script>
+</body>
+</html>

@@ -3,864 +3,122 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chrysanthemum — Chinese songs, line by line</title>
-<style>
-  :root {
-    --bg: #fbf7ef;
-    --surface: #fffdf8;
-    --ink: #22201c;
-    --muted: #6f6858;
-    --faint: #a89e88;
-    --gold: #b8860b;
-    --gold-soft: #f0e2bc;
-    --rule: #e5dcc8;
-    --shadow: 0 1px 2px rgba(60, 50, 20, .06), 0 8px 24px rgba(60, 50, 20, .05);
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #16150f;
-      --surface: #1f1d16;
-      --ink: #f0ebdf;
-      --muted: #a49a84;
-      --faint: #6d6553;
-      --gold: #e0b44a;
-      --gold-soft: #3a3018;
-      --rule: #322d20;
-      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #16150f; --surface: #1f1d16; --ink: #f0ebdf; --muted: #a49a84;
-    --faint: #6d6553; --gold: #e0b44a; --gold-soft: #3a3018; --rule: #322d20;
-    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3);
-  }
-  :root[data-theme="light"] {
-    --bg: #fbf7ef; --surface: #fffdf8; --ink: #22201c; --muted: #6f6858;
-    --faint: #a89e88; --gold: #b8860b; --gold-soft: #f0e2bc; --rule: #e5dcc8;
-    --shadow: 0 1px 2px rgba(60,50,20,.06), 0 8px 24px rgba(60,50,20,.05);
-  }
-
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--ink);
-    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    -webkit-font-smoothing: antialiased;
-  }
-  .wrap { max-width: 52rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
-
-  header { margin-bottom: 2.5rem; }
-  .bloom { font-size: 2rem; line-height: 1; color: var(--gold); }
-  h1 {
-    font-size: clamp(1.9rem, 5vw, 2.6rem);
-    margin: .5rem 0 .35rem;
-    letter-spacing: -.02em;
-    font-weight: 650;
-  }
-  .tagline { color: var(--muted); margin: 0; max-width: 34rem; }
-
-  .controls {
-    display: flex; flex-wrap: wrap; gap: .5rem;
-    margin: 1.75rem 0 0; padding-top: 1.25rem;
-    border-top: 1px solid var(--rule);
-  }
-  button {
-    font: inherit; font-size: .875rem;
-    padding: .4rem .85rem; border-radius: 999px;
-    border: 1px solid var(--rule); background: var(--surface);
-    color: var(--muted); cursor: pointer; transition: .15s;
-  }
-  button:hover { border-color: var(--gold); color: var(--ink); }
-  button[aria-pressed="true"] {
-    background: var(--gold-soft); border-color: var(--gold); color: var(--ink);
-  }
-
-  .song {
-    background: var(--surface);
-    border: 1px solid var(--rule);
-    border-radius: 14px;
-    padding: 1.75rem;
-    margin-bottom: 1.5rem;
-    box-shadow: var(--shadow);
-  }
-  .song-head { display: flex; flex-wrap: wrap; gap: .75rem 1rem; align-items: baseline; }
-  .song h2 { margin: 0; font-size: 1.5rem; letter-spacing: -.01em; font-weight: 650; }
-  .song h2 .en { color: var(--muted); font-weight: 400; font-size: 1.05rem; }
-  .pin { color: var(--gold); font-size: .95rem; margin: .15rem 0 0; }
-  .meta { color: var(--faint); font-size: .85rem; margin: .5rem 0 0; }
-
-  .badges { display: flex; gap: .4rem; flex-wrap: wrap; margin-left: auto; }
-  .badge {
-    font-size: .7rem; text-transform: uppercase; letter-spacing: .06em;
-    padding: .2rem .55rem; border-radius: 999px;
-    border: 1px solid var(--rule); color: var(--muted); white-space: nowrap;
-  }
-  .badge.pd { border-color: var(--gold); color: var(--gold); }
-
-  .notes {
-    color: var(--muted); font-size: .925rem;
-    margin: 1.25rem 0 0; padding-left: .9rem;
-    border-left: 2px solid var(--rule);
-  }
-  .notes p { margin: 0 0 .7rem; }
-  .notes p:last-child { margin-bottom: 0; }
-  .notes strong { color: var(--ink); }
-
-  .listen {
-    display: inline-flex; align-items: center; gap: .45rem;
-    margin-top: 1.25rem; font-size: .9rem; font-weight: 500;
-    color: var(--gold); text-decoration: none;
-    border-bottom: 1px solid transparent; padding-bottom: 1px;
-  }
-  .listen:hover { border-bottom-color: var(--gold); }
-
-  .lines { margin: 1.5rem 0 0; padding: 1.25rem 0 0; border-top: 1px solid var(--rule); }
-  .line { padding: .6rem 0; }
-  .line + .line { border-top: 1px dashed var(--rule); }
-  .hanzi { font-size: 1.35rem; line-height: 1.5; letter-spacing: .02em; }
-  .py { color: var(--gold); font-size: .9rem; margin-top: .15rem; }
-  .en-line { color: var(--muted); font-size: .95rem; margin-top: .1rem; }
-  body.hide-pinyin .py, body.hide-english .en-line { display: none; }
-
-  .vocab { margin: 1.5rem 0 0; padding: 1.25rem 0 0; border-top: 1px solid var(--rule); }
-  .vocab h3 {
-    margin: 0 0 .85rem; font-size: .75rem; font-weight: 600;
-    text-transform: uppercase; letter-spacing: .09em; color: var(--faint);
-  }
-  .v-scroll { overflow-x: auto; }
-  table { border-collapse: collapse; width: 100%; font-size: .925rem; min-width: 22rem; }
-  td { padding: .45rem .75rem .45rem 0; border-bottom: 1px solid var(--rule); vertical-align: baseline; }
-  tr:last-child td { border-bottom: 0; }
-  .v-word { font-size: 1.1rem; white-space: nowrap; }
-  .v-py { color: var(--gold); white-space: nowrap; }
-  .v-en { color: var(--muted); }
-
-  footer {
-    margin-top: 3rem; padding-top: 1.5rem;
-    border-top: 1px solid var(--rule);
-    color: var(--faint); font-size: .85rem;
-  }
-  footer a { color: var(--muted); }
-</style>
+<title>Chrysanthemum — Chinese songs line by line</title>
+<meta name="description" content="Chinese songs line by line — characters, pinyin and English — for learners.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>%E2%9C%BD</text></svg>">
 </head>
 <body>
-<div class="wrap">
-<header>
-  <div class="bloom">✽</div>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="index.html"><span class="bloom">&#10045;</span> Chrysanthemum</a>
+  <nav class="site-nav">
+    <a href="index.html" aria-current="page">Songs</a>
+    <a href="about.html">About</a>
+    <button class="icon-btn" id="t-theme" title="Toggle light / dark">&#9681;</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<section class="hero">
+  <div class="bloom">&#10045;</div>
   <h1>Chrysanthemum</h1>
-  <p class="tagline">
-    Chinese songs, line by line — characters, pinyin, and English together.
-    Put the recording on, follow along, and pick up some Chinese on the way.
-  </p>
-  <div class="controls">
-    <button id="t-pinyin" aria-pressed="true">Pinyin</button>
-    <button id="t-english" aria-pressed="true">English</button>
-    <button id="t-theme">Toggle theme</button>
+  <p>Chinese songs, line by line — characters, pinyin and English together.
+     Put the recording on, follow along, and pick up some Chinese as you listen.</p>
+</section>
+
+<section class="toolbar">
+  <input class="search" id="q" type="search" autocomplete="off"
+         placeholder="Search by title, pinyin, artist&hellip;" aria-label="Search songs">
+  <div class="filters">
+    <span class="label">Show</span>
+    <button data-f="rights" data-v="all" aria-pressed="true">All</button>
+    <button data-f="rights" data-v="public-domain" aria-pressed="false">Full text</button>
+    <button data-f="rights" data-v="copyrighted" aria-pressed="false">Vocabulary</button>
+    <span class="label" style="margin-left:.75rem">Level</span>
+    <button data-f="level" data-v="all" aria-pressed="true">Any</button>
+    <button data-f="level" data-v="beginner" aria-pressed="false">Beginner</button>
+    <button data-f="level" data-v="intermediate" aria-pressed="false">Intermediate</button>
+    <button data-f="level" data-v="advanced" aria-pressed="false">Advanced</button>
   </div>
-</header>
+  <p class="count" id="count"></p>
+</section>
 
-<main id="songs"></main>
+<section class="grid" id="grid"></section>
 
-<footer>
-  <p>
-    Full text is given only for songs in the <strong>public domain</strong> — classical
-    poems and traditional folk songs. Songs still under copyright are listed with a
-    link and a vocabulary sheet instead of their lyrics; open them on a licensed
-    service to read along.
-  </p>
-  <p>English translations are original to this project.</p>
-</footer>
-</div>
+</main>
+
+<footer class="site-foot"><div class="wrap">
+  <p>Full text appears only for songs in the <strong>public domain</strong> — classical
+     poems and traditional folk songs. Songs still under copyright are listed with a
+     link and a vocabulary sheet instead; open them on a licensed service to read along.</p>
+  <p>English translations are original to this project.
+     <a href="https://github.com/danielluzhu/chrysanthemum">Source on GitHub</a></p>
+</div></footer>
 
 <script>
-const SONGS = [
- {
-  "slug": "shui-diao-ge-tou",
-  "title": "水调歌头·明月几时有",
-  "pinyinTitle": "Shuǐ Diào Gē Tóu · Míng Yuè Jǐ Shí Yǒu",
-  "titleEn": "When Will the Bright Moon Appear?",
-  "artist": "苏轼 (Su Shi)",
-  "era": "Song dynasty, 1076",
-  "rights": "public-domain",
-  "level": "advanced",
-  "youtube": "https://www.youtube.com/results?search_query=%E4%BD%86%E9%A1%98%E4%BA%BA%E9%95%B7%E4%B9%85+%E6%B0%B4%E8%AA%BF%E6%AD%8C%E9%A0%AD",
-  "notes": "Written at the Mid-Autumn Festival in 1076, while Su Shi was drunk, far from home,\nand missing his brother. Nine hundred years later it is still what people quote at\nthe Mid-Autumn Festival.\n\nThe poem text is ancient and free to reproduce. Note that the famous *sung* versions\nuse modern melodies that are themselves under copyright — the words below are Su\nShi's; the tune you'll hear on the recording belongs to its composer.\n\nThe last two lines are the ones everyone knows. If you learn nothing else here,\nlearn those.",
-  "lines": [
-   {
-    "hanzi": "明月几时有",
-    "pinyin": "Míng yuè jǐ shí yǒu",
-    "en": "When did the bright moon first appear?"
-   },
-   {
-    "hanzi": "把酒问青天",
-    "pinyin": "Bǎ jiǔ wèn qīng tiān",
-    "en": "Wine cup in hand, I ask the blue sky"
-   },
-   {
-    "hanzi": "不知天上宫阙",
-    "pinyin": "Bù zhī tiān shàng gōng què",
-    "en": "I wonder — in those palaces of heaven"
-   },
-   {
-    "hanzi": "今夕是何年",
-    "pinyin": "Jīn xī shì hé nián",
-    "en": "what year is it tonight?"
-   },
-   {
-    "hanzi": "我欲乘风归去",
-    "pinyin": "Wǒ yù chéng fēng guī qù",
-    "en": "I long to ride the wind and return there"
-   },
-   {
-    "hanzi": "又恐琼楼玉宇",
-    "pinyin": "Yòu kǒng qióng lóu yù yǔ",
-    "en": "yet I fear those towers of jade and marble"
-   },
-   {
-    "hanzi": "高处不胜寒",
-    "pinyin": "Gāo chù bù shèng hán",
-    "en": "are too cold to bear, so high up"
-   },
-   {
-    "hanzi": "起舞弄清影",
-    "pinyin": "Qǐ wǔ nòng qīng yǐng",
-    "en": "I rise and dance with my own clear shadow"
-   },
-   {
-    "hanzi": "何似在人间",
-    "pinyin": "Hé sì zài rén jiān",
-    "en": "what place could match this world of ours?"
-   },
-   {
-    "hanzi": "人有悲欢离合",
-    "pinyin": "Rén yǒu bēi huān lí hé",
-    "en": "People know sorrow and joy, parting and reunion"
-   },
-   {
-    "hanzi": "月有阴晴圆缺",
-    "pinyin": "Yuè yǒu yīn qíng yuán quē",
-    "en": "the moon knows dark and clear, waxing and waning"
-   },
-   {
-    "hanzi": "此事古难全",
-    "pinyin": "Cǐ shì gǔ nán quán",
-    "en": "these things have never once been perfect"
-   },
-   {
-    "hanzi": "但愿人长久",
-    "pinyin": "Dàn yuàn rén cháng jiǔ",
-    "en": "I wish only that we live long"
-   },
-   {
-    "hanzi": "千里共婵娟",
-    "pinyin": "Qiān lǐ gòng chán juān",
-    "en": "and share this moon a thousand miles apart"
-   }
-  ],
-  "vocab": [
-   {
-    "word": "明月",
-    "pinyin": "míng yuè",
-    "en": "bright moon"
-   },
-   {
-    "word": "青天",
-    "pinyin": "qīng tiān",
-    "en": "the blue sky, the heavens"
-   },
-   {
-    "word": "乘风",
-    "pinyin": "chéng fēng",
-    "en": "to ride the wind"
-   },
-   {
-    "word": "不胜寒",
-    "pinyin": "bù shèng hán",
-    "en": "unable to bear the cold"
-   },
-   {
-    "word": "悲欢离合",
-    "pinyin": "bēi huān lí hé",
-    "en": "sorrow and joy, parting and reunion (set phrase for life's ups and downs)"
-   },
-   {
-    "word": "圆缺",
-    "pinyin": "yuán quē",
-    "en": "waxing and waning"
-   },
-   {
-    "word": "但愿",
-    "pinyin": "dàn yuàn",
-    "en": "if only, I wish that"
-   },
-   {
-    "word": "千里",
-    "pinyin": "qiān lǐ",
-    "en": "a thousand li, i.e. a great distance"
-   },
-   {
-    "word": "婵娟",
-    "pinyin": "chán juān",
-    "en": "the moon (poetic); a beautiful woman"
-   }
-  ]
- },
- {
-  "slug": "mo-li-hua",
-  "title": "茉莉花",
-  "pinyinTitle": "Mò Lì Huā",
-  "titleEn": "Jasmine Flower",
-  "artist": "Traditional (Jiangsu folk song)",
-  "era": "Qing dynasty, 18th century",
-  "rights": "public-domain",
-  "level": "beginner",
-  "youtube": "https://www.youtube.com/results?search_query=%E8%8C%89%E8%8E%89%E8%8A%B1+%E6%B0%91%E6%AD%8C",
-  "notes": "The Chinese folk song best known outside China. A British envoy's attaché\ntranscribed it in the 1790s and published it in London; Puccini later borrowed the\nmelody for *Turandot*. If you have heard one Chinese folk tune, it is this one.\n\nSimple, repetitive, and slow — the best possible first song for a learner. The\ngrammar is plain and the vocabulary is everyday.",
-  "lines": [
-   {
-    "hanzi": "好一朵美丽的茉莉花",
-    "pinyin": "Hǎo yī duǒ měilì de mòlihuā",
-    "en": "What a beautiful jasmine flower"
-   },
-   {
-    "hanzi": "芬芳美丽满枝桠",
-    "pinyin": "Fēnfāng měilì mǎn zhīyā",
-    "en": "Fragrant and lovely, crowding every branch"
-   },
-   {
-    "hanzi": "又香又白人人夸",
-    "pinyin": "Yòu xiāng yòu bái rénrén kuā",
-    "en": "Sweet-scented and white, praised by everyone"
-   },
-   {
-    "hanzi": "让我来将你摘下",
-    "pinyin": "Ràng wǒ lái jiāng nǐ zhāi xià",
-    "en": "Let me pick you from the bough"
-   },
-   {
-    "hanzi": "送给别人家",
-    "pinyin": "Sòng gěi biérén jiā",
-    "en": "and give you to another"
-   },
-   {
-    "hanzi": "茉莉花呀茉莉花",
-    "pinyin": "Mòlihuā ya mòlihuā",
-    "en": "Jasmine flower, oh jasmine flower"
-   }
-  ],
-  "vocab": [
-   {
-    "word": "茉莉花",
-    "pinyin": "mòlihuā",
-    "en": "jasmine flower"
-   },
-   {
-    "word": "一朵",
-    "pinyin": "yī duǒ",
-    "en": "one (measure word for flowers and clouds)"
-   },
-   {
-    "word": "美丽",
-    "pinyin": "měilì",
-    "en": "beautiful"
-   },
-   {
-    "word": "芬芳",
-    "pinyin": "fēnfāng",
-    "en": "fragrant, sweet-smelling"
-   },
-   {
-    "word": "枝桠",
-    "pinyin": "zhīyā",
-    "en": "branch, bough"
-   },
-   {
-    "word": "又…又…",
-    "pinyin": "yòu … yòu …",
-    "en": "both … and … (pattern)"
-   },
-   {
-    "word": "夸",
-    "pinyin": "kuā",
-    "en": "to praise"
-   },
-   {
-    "word": "摘",
-    "pinyin": "zhāi",
-    "en": "to pick, to pluck"
-   }
-  ]
- },
- {
-  "slug": "song-yuan-er",
-  "title": "送元二使安西",
-  "pinyinTitle": "Sòng Yuán Èr Shǐ Ān Xī",
-  "titleEn": "Seeing Yuan the Second Off to Anxi",
-  "artist": "王维 (Wang Wei)",
-  "era": "Tang dynasty, c. 8th century",
-  "rights": "public-domain",
-  "level": "intermediate",
-  "youtube": "https://www.youtube.com/results?search_query=%E9%98%B3%E5%85%B3%E4%B8%89%E5%8F%A0+%E5%8F%A4%E7%90%B4",
-  "notes": "Set to music as 阳关三叠 (*Yángguān Sān Dié*, \"Three Refrains on Yang Pass\"), one of\nthe oldest surviving Chinese art songs, usually performed on guqin. A farewell poem\nfor a friend posted to a garrison at the far western frontier — Yang Pass was the\nlast outpost before the desert.\n\nFour lines, and the whole weight of the poem lands on the last one: past this point\nthere is no one left who knows you.",
-  "lines": [
-   {
-    "hanzi": "渭城朝雨浥轻尘",
-    "pinyin": "Wèi chéng zhāo yǔ yì qīng chén",
-    "en": "Morning rain in Weicheng settles the light dust"
-   },
-   {
-    "hanzi": "客舍青青柳色新",
-    "pinyin": "Kè shè qīng qīng liǔ sè xīn",
-    "en": "By the inn the willows are green, their color new"
-   },
-   {
-    "hanzi": "劝君更尽一杯酒",
-    "pinyin": "Quàn jūn gèng jìn yī bēi jiǔ",
-    "en": "Let me urge one more cup of wine on you"
-   },
-   {
-    "hanzi": "西出阳关无故人",
-    "pinyin": "Xī chū Yáng guān wú gù rén",
-    "en": "West of Yang Pass there will be no old friends"
-   }
-  ],
-  "vocab": [
-   {
-    "word": "朝雨",
-    "pinyin": "zhāo yǔ",
-    "en": "morning rain"
-   },
-   {
-    "word": "轻尘",
-    "pinyin": "qīng chén",
-    "en": "light dust"
-   },
-   {
-    "word": "客舍",
-    "pinyin": "kè shè",
-    "en": "inn, guest house"
-   },
-   {
-    "word": "柳",
-    "pinyin": "liǔ",
-    "en": "willow (traditional symbol of parting — 柳 liǔ puns on 留 liú, \"to stay\")"
-   },
-   {
-    "word": "劝",
-    "pinyin": "quàn",
-    "en": "to urge, to persuade"
-   },
-   {
-    "word": "一杯酒",
-    "pinyin": "yī bēi jiǔ",
-    "en": "a cup of wine"
-   },
-   {
-    "word": "阳关",
-    "pinyin": "Yáng guān",
-    "en": "Yang Pass, the western frontier gate"
-   },
-   {
-    "word": "故人",
-    "pinyin": "gù rén",
-    "en": "an old friend"
-   }
-  ]
- },
- {
-  "slug": "song-bie",
-  "title": "送别",
-  "pinyinTitle": "Sòng Bié",
-  "titleEn": "Farewell",
-  "artist": "李叔同 (Li Shutong), to a melody by John P. Ordway",
-  "era": "1915",
-  "rights": "public-domain",
-  "level": "intermediate",
-  "youtube": "https://www.youtube.com/results?search_query=%E9%80%81%E5%88%AB+%E6%9D%8E%E5%8F%94%E5%90%8C",
-  "notes": "A curious piece of history: the melody is American — Ordway's *Dreaming of Home and\nMother* (1851) — which travelled to Japan, was refitted with Japanese words, and\nthen reached the monk and artist Li Shutong, who wrote these Chinese lyrics in 1915.\nIt has been a school-graduation standard in China ever since.\n\nLi Shutong died in 1942 and the melody dates to 1851, so both words and tune are\nlong out of copyright.\n\nThe imagery is stock classical farewell furniture — pavilion, road, willows, wine —\nassembled with unusual plainness.",
-  "lines": [
-   {
-    "hanzi": "长亭外",
-    "pinyin": "Cháng tíng wài",
-    "en": "Beyond the long pavilion"
-   },
-   {
-    "hanzi": "古道边",
-    "pinyin": "Gǔ dào biān",
-    "en": "alongside the ancient road"
-   },
-   {
-    "hanzi": "芳草碧连天",
-    "pinyin": "Fāng cǎo bì lián tiān",
-    "en": "sweet grass, green all the way to the sky"
-   },
-   {
-    "hanzi": "晚风拂柳笛声残",
-    "pinyin": "Wǎn fēng fú liǔ dí shēng cán",
-    "en": "Evening wind stirs the willows; the flute note dies away"
-   },
-   {
-    "hanzi": "夕阳山外山",
-    "pinyin": "Xī yáng shān wài shān",
-    "en": "sunset, and mountains beyond the mountains"
-   },
-   {
-    "hanzi": "天之涯",
-    "pinyin": "Tiān zhī yá",
-    "en": "To the ends of the sky"
-   },
-   {
-    "hanzi": "地之角",
-    "pinyin": "Dì zhī jiǎo",
-    "en": "to the corners of the earth"
-   },
-   {
-    "hanzi": "知交半零落",
-    "pinyin": "Zhī jiāo bàn líng luò",
-    "en": "half the friends I knew have scattered and fallen away"
-   },
-   {
-    "hanzi": "一壶浊酒尽余欢",
-    "pinyin": "Yī hú zhuó jiǔ jìn yú huān",
-    "en": "One jug of cloudy wine — let us finish what joy is left"
-   },
-   {
-    "hanzi": "今宵别梦寒",
-    "pinyin": "Jīn xiāo bié mèng hán",
-    "en": "tonight the parting dream runs cold"
-   }
-  ],
-  "vocab": [
-   {
-    "word": "长亭",
-    "pinyin": "cháng tíng",
-    "en": "roadside pavilion (where travellers were seen off)"
-   },
-   {
-    "word": "古道",
-    "pinyin": "gǔ dào",
-    "en": "ancient road"
-   },
-   {
-    "word": "芳草",
-    "pinyin": "fāng cǎo",
-    "en": "fragrant grass"
-   },
-   {
-    "word": "碧",
-    "pinyin": "bì",
-    "en": "jade-green, blue-green"
-   },
-   {
-    "word": "拂",
-    "pinyin": "fú",
-    "en": "to brush lightly, to stir"
-   },
-   {
-    "word": "笛",
-    "pinyin": "dí",
-    "en": "bamboo flute"
-   },
-   {
-    "word": "残",
-    "pinyin": "cán",
-    "en": "fading, remnant, incomplete"
-   },
-   {
-    "word": "天涯",
-    "pinyin": "tiān yá",
-    "en": "the edge of the sky, the far ends of the earth"
-   },
-   {
-    "word": "知交",
-    "pinyin": "zhī jiāo",
-    "en": "close friend"
-   },
-   {
-    "word": "零落",
-    "pinyin": "líng luò",
-    "en": "to scatter and fall (of leaves; of people)"
-   },
-   {
-    "word": "浊酒",
-    "pinyin": "zhuó jiǔ",
-    "en": "unfiltered, cloudy wine"
-   },
-   {
-    "word": "今宵",
-    "pinyin": "jīn xiāo",
-    "en": "tonight (literary)"
-   }
-  ]
- },
- {
-  "slug": "jing-ye-si",
-  "title": "静夜思",
-  "pinyinTitle": "Jìng Yè Sī",
-  "titleEn": "Quiet Night Thoughts",
-  "artist": "李白 (Li Bai)",
-  "era": "Tang dynasty, c. 8th century",
-  "rights": "public-domain",
-  "level": "beginner",
-  "youtube": "https://www.youtube.com/results?search_query=%E9%9D%99%E5%A4%9C%E6%80%9D+%E6%AD%8C",
-  "notes": "Probably the most memorized poem in the Chinese language — most children in China\nlearn it before they can write. Twenty characters, four lines, and almost every one\nof them is a word a beginner already needs. It has been set to music countless\ntimes, so there are many recordings to pick from.\n\nThe whole poem turns on a single physical gesture: head up, head down. Moon, then home.",
-  "lines": [
-   {
-    "hanzi": "床前明月光",
-    "pinyin": "Chuáng qián míng yuè guāng",
-    "en": "Before my bed, the bright moonlight"
-   },
-   {
-    "hanzi": "疑是地上霜",
-    "pinyin": "Yí shì dì shàng shuāng",
-    "en": "I took it for frost upon the ground"
-   },
-   {
-    "hanzi": "举头望明月",
-    "pinyin": "Jǔ tóu wàng míng yuè",
-    "en": "I lift my head and gaze at the bright moon"
-   },
-   {
-    "hanzi": "低头思故乡",
-    "pinyin": "Dī tóu sī gùxiāng",
-    "en": "I lower my head and think of home"
-   }
-  ],
-  "vocab": [
-   {
-    "word": "明月",
-    "pinyin": "míng yuè",
-    "en": "bright moon"
-   },
-   {
-    "word": "霜",
-    "pinyin": "shuāng",
-    "en": "frost"
-   },
-   {
-    "word": "举头",
-    "pinyin": "jǔ tóu",
-    "en": "to raise one's head"
-   },
-   {
-    "word": "低头",
-    "pinyin": "dī tóu",
-    "en": "to lower one's head"
-   },
-   {
-    "word": "故乡",
-    "pinyin": "gùxiāng",
-    "en": "hometown, native place"
-   }
-  ]
- },
- {
-  "slug": "yue-liang-dai-biao-wo-de-xin",
-  "title": "月亮代表我的心",
-  "pinyinTitle": "Yuè Liàng Dài Biǎo Wǒ De Xīn",
-  "titleEn": "The Moon Represents My Heart",
-  "artist": "邓丽君 (Teresa Teng)",
-  "era": "1977",
-  "rights": "copyrighted",
-  "level": "beginner",
-  "youtube": "https://www.youtube.com/results?search_query=%E9%84%A7%E9%BA%97%E5%90%9B+%E6%9C%88%E4%BA%AE%E4%BB%A3%E8%A1%A8%E6%88%91%E7%9A%84%E5%BF%83",
-  "notes": "Teresa Teng's 1977 recording is probably the single most recognized Chinese love\nsong anywhere in the world. Slow, gentle, and sung with unusually clear\narticulation — which makes it a favourite of learners.\n\n**Under copyright, so no lyrics here.** Listen via the link with the lyrics open on a\nlicensed service alongside.\n\nGrammatically it is a gift for beginners: short sentences, present tense, heavy\nrepetition, and the core pattern 代表 (\"stands for / represents\") repeated throughout.\nLearn the words below and you will catch a large share of the song on first listen.",
-  "lines": [],
-  "vocab": [
-   {
-    "word": "月亮",
-    "pinyin": "yuèliang",
-    "en": "the moon"
-   },
-   {
-    "word": "代表",
-    "pinyin": "dàibiǎo",
-    "en": "to represent, to stand for"
-   },
-   {
-    "word": "心",
-    "pinyin": "xīn",
-    "en": "heart"
-   },
-   {
-    "word": "爱",
-    "pinyin": "ài",
-    "en": "love; to love"
-   },
-   {
-    "word": "真",
-    "pinyin": "zhēn",
-    "en": "true, real"
-   },
-   {
-    "word": "深",
-    "pinyin": "shēn",
-    "en": "deep"
-   },
-   {
-    "word": "轻轻",
-    "pinyin": "qīngqīng",
-    "en": "gently, softly"
-   },
-   {
-    "word": "一点点",
-    "pinyin": "yī diǎn diǎn",
-    "en": "a little bit"
-   },
-   {
-    "word": "问",
-    "pinyin": "wèn",
-    "en": "to ask"
-   },
-   {
-    "word": "情",
-    "pinyin": "qíng",
-    "en": "feeling, affection"
-   },
-   {
-    "word": "不移",
-    "pinyin": "bù yí",
-    "en": "unwavering, unchanging"
-   }
-  ]
- },
- {
-  "slug": "ju-hua-tai",
-  "title": "菊花台",
-  "pinyinTitle": "Jú Huā Tái",
-  "titleEn": "Chrysanthemum Terrace",
-  "artist": "周杰伦 (Jay Chou), lyrics by 方文山 (Vincent Fang)",
-  "era": "2006",
-  "rights": "copyrighted",
-  "level": "advanced",
-  "youtube": "https://www.youtube.com/results?search_query=%E5%91%A8%E6%9D%B0%E5%80%AB+%E8%8F%8A%E8%8A%B1%E5%8F%B0",
-  "notes": "The song this project is named after. Written for the film *Curse of the Golden\nFlower*, with lyrics by Vincent Fang in the ornate pseudo-classical register he made\nhis signature — a soldier at the frontier, a woman waiting, and chrysanthemums as\nthe image of loss.\n\n**This song is under copyright, so its lyrics are not reproduced here.** Use the link\nto listen, and pull the lyrics up alongside on a licensed service — QQ音乐, Apple\nMusic, Spotify and YouTube's own captions all display them legitimately.\n\nWhat follows is a vocabulary list to study before you listen. Knowing these first\nturns the song from noise into something you can follow.",
-  "lines": [],
-  "vocab": [
-   {
-    "word": "菊花",
-    "pinyin": "júhuā",
-    "en": "chrysanthemum"
-   },
-   {
-    "word": "台",
-    "pinyin": "tái",
-    "en": "terrace, platform, stage"
-   },
-   {
-    "word": "满地",
-    "pinyin": "mǎn dì",
-    "en": "covering the ground"
-   },
-   {
-    "word": "伤",
-    "pinyin": "shāng",
-    "en": "wound, injury; to hurt"
-   },
-   {
-    "word": "北风",
-    "pinyin": "běifēng",
-    "en": "north wind"
-   },
-   {
-    "word": "惆怅",
-    "pinyin": "chóuchàng",
-    "en": "melancholy, wistful dejection"
-   },
-   {
-    "word": "影子",
-    "pinyin": "yǐngzi",
-    "en": "shadow"
-   },
-   {
-    "word": "思念",
-    "pinyin": "sīniàn",
-    "en": "to long for, to miss"
-   },
-   {
-    "word": "凋谢",
-    "pinyin": "diāoxiè",
-    "en": "to wither and fall (of flowers)"
-   },
-   {
-    "word": "苍白",
-    "pinyin": "cāngbái",
-    "en": "pale, pallid"
-   },
-   {
-    "word": "战场",
-    "pinyin": "zhànchǎng",
-    "en": "battlefield"
-   },
-   {
-    "word": "铁马",
-    "pinyin": "tiěmǎ",
-    "en": "armoured warhorse (literary)"
-   }
-  ]
- }
-];
+document.getElementById('t-theme').addEventListener('click', () => {
+  const root = document.documentElement;
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const cur = root.dataset.theme || (dark ? 'dark' : 'light');
+  root.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+});
+try {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.dataset.theme = saved;
+} catch (e) {}
 
-const esc = s => String(s).replace(/[&<>"]/g, c => (
-  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]
-));
+const SONGS = [{"slug": "jing-ye-si", "title": "静夜思", "pinyinTitle": "Jìng Yè Sī", "titleEn": "Quiet Night Thoughts", "artist": "李白 (Li Bai)", "era": "Tang dynasty, c. 8th century", "rights": "public-domain", "level": "beginner", "lines": 4, "vocab": 5, "hay": "静夜思 jìng yè sī quiet night thoughts 李白 (li bai) tang dynasty, c. 8th century beginner"}, {"slug": "mo-li-hua", "title": "茉莉花", "pinyinTitle": "Mò Lì Huā", "titleEn": "Jasmine Flower", "artist": "Traditional (Jiangsu folk song)", "era": "Qing dynasty, 18th century", "rights": "public-domain", "level": "beginner", "lines": 6, "vocab": 8, "hay": "茉莉花 mò lì huā jasmine flower traditional (jiangsu folk song) qing dynasty, 18th century beginner"}, {"slug": "shui-diao-ge-tou", "title": "水调歌头·明月几时有", "pinyinTitle": "Shuǐ Diào Gē Tóu · Míng Yuè Jǐ Shí Yǒu", "titleEn": "When Will the Bright Moon Appear?", "artist": "苏轼 (Su Shi)", "era": "Song dynasty, 1076", "rights": "public-domain", "level": "advanced", "lines": 14, "vocab": 9, "hay": "水调歌头·明月几时有 shuǐ diào gē tóu · míng yuè jǐ shí yǒu when will the bright moon appear? 苏轼 (su shi) song dynasty, 1076 advanced"}, {"slug": "song-bie", "title": "送别", "pinyinTitle": "Sòng Bié", "titleEn": "Farewell", "artist": "李叔同 (Li Shutong), to a melody by John P. Ordway", "era": "1915", "rights": "public-domain", "level": "intermediate", "lines": 10, "vocab": 12, "hay": "送别 sòng bié farewell 李叔同 (li shutong), to a melody by john p. ordway 1915 intermediate"}, {"slug": "song-yuan-er", "title": "送元二使安西", "pinyinTitle": "Sòng Yuán Èr Shǐ Ān Xī", "titleEn": "Seeing Yuan the Second Off to Anxi", "artist": "王维 (Wang Wei)", "era": "Tang dynasty, c. 8th century", "rights": "public-domain", "level": "intermediate", "lines": 4, "vocab": 8, "hay": "送元二使安西 sòng yuán èr shǐ ān xī seeing yuan the second off to anxi 王维 (wang wei) tang dynasty, c. 8th century intermediate"}, {"slug": "ju-hua-tai", "title": "菊花台", "pinyinTitle": "Jú Huā Tái", "titleEn": "Chrysanthemum Terrace", "artist": "周杰伦 (Jay Chou), lyrics by 方文山 (Vincent Fang)", "era": "2006", "rights": "copyrighted", "level": "advanced", "lines": 0, "vocab": 12, "hay": "菊花台 jú huā tái chrysanthemum terrace 周杰伦 (jay chou), lyrics by 方文山 (vincent fang) 2006 advanced"}, {"slug": "yue-liang-dai-biao-wo-de-xin", "title": "月亮代表我的心", "pinyinTitle": "Yuè Liàng Dài Biǎo Wǒ De Xīn", "titleEn": "The Moon Represents My Heart", "artist": "邓丽君 (Teresa Teng)", "era": "1977", "rights": "copyrighted", "level": "beginner", "lines": 0, "vocab": 11, "hay": "月亮代表我的心 yuè liàng dài biǎo wǒ de xīn the moon represents my heart 邓丽君 (teresa teng) 1977 beginner"}];
+const state = { q: '', rights: 'all', level: 'all' };
+const grid = document.getElementById('grid');
+const countEl = document.getElementById('count');
+const esc = s => String(s).replace(/[&<>"]/g, c =>
+  ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
-const paras = t => t.split(/\n\s*\n/).filter(Boolean).map(p =>
-  `<p>${esc(p.replace(/\n/g, ' ')).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')}</p>`
-).join('');
+function render() {
+  const hits = SONGS.filter(s =>
+    (state.rights === 'all' || s.rights === state.rights) &&
+    (state.level === 'all' || s.level === state.level) &&
+    (!state.q || s.hay.includes(state.q)));
 
-document.getElementById('songs').innerHTML = SONGS.map(s => `
-  <article class="song">
-    <div class="song-head">
-      <div>
-        <h2>${esc(s.title)} <span class="en">${esc(s.titleEn)}</span></h2>
-        <div class="pin">${esc(s.pinyinTitle)}</div>
-      </div>
+  countEl.textContent = hits.length === SONGS.length
+    ? SONGS.length + ' songs'
+    : hits.length + ' of ' + SONGS.length + ' songs';
+
+  grid.innerHTML = hits.length ? hits.map(s => `
+    <a class="card" href="s/${esc(s.slug)}.html">
+      <div class="hz">${esc(s.title)}</div>
+      <div class="py">${esc(s.pinyinTitle)}</div>
+      <div class="en">${esc(s.titleEn)}</div>
+      <div class="meta">${esc(s.artist)}${s.era ? ' &middot; ' + esc(s.era) : ''}</div>
       <div class="badges">
         ${s.rights === 'public-domain'
-          ? '<span class="badge pd">Full text</span>'
+          ? '<span class="badge pd">' + s.lines + ' lines</span>'
           : '<span class="badge">Vocabulary only</span>'}
-        ${s.level ? `<span class="badge">${esc(s.level)}</span>` : ''}
+        ${s.level ? '<span class="badge">' + esc(s.level) + '</span>' : ''}
       </div>
-    </div>
-    <p class="meta">${esc(s.artist)}${s.era ? ' · ' + esc(s.era) : ''}</p>
-    ${s.notes ? `<div class="notes">${paras(s.notes)}</div>` : ''}
-    ${s.youtube ? `<a class="listen" href="${esc(s.youtube)}" target="_blank" rel="noopener">▶ Find it on YouTube</a>` : ''}
-    ${s.lines.length ? `<div class="lines">${s.lines.map(l => `
-      <div class="line">
-        <div class="hanzi">${esc(l.hanzi)}</div>
-        <div class="py">${esc(l.pinyin)}</div>
-        <div class="en-line">${esc(l.en)}</div>
-      </div>`).join('')}</div>` : ''}
-    ${s.vocab.length ? `<div class="vocab">
-      <h3>Vocabulary</h3>
-      <div class="v-scroll"><table>${s.vocab.map(v => `
-        <tr>
-          <td class="v-word">${esc(v.word)}</td>
-          <td class="v-py">${esc(v.pinyin)}</td>
-          <td class="v-en">${esc(v.en)}</td>
-        </tr>`).join('')}</table></div>
-    </div>` : ''}
-  </article>
-`).join('');
+    </a>`).join('')
+    : '<p class="empty">No songs match that. Try a different search.</p>';
+}
 
-const toggle = (id, cls) => {
-  const b = document.getElementById(id);
-  b.addEventListener('click', () => {
-    const on = b.getAttribute('aria-pressed') === 'true';
-    b.setAttribute('aria-pressed', String(!on));
-    document.body.classList.toggle(cls, on);
-  });
-};
-toggle('t-pinyin', 'hide-pinyin');
-toggle('t-english', 'hide-english');
-
-document.getElementById('t-theme').addEventListener('click', () => {
-  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
-  const cur = document.documentElement.dataset.theme || (dark ? 'dark' : 'light');
-  document.documentElement.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+document.getElementById('q').addEventListener('input', e => {
+  state.q = e.target.value.trim().toLowerCase();
+  render();
 });
+
+document.querySelectorAll('.filters button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const f = btn.dataset.f;
+    state[f] = btn.dataset.v;
+    document.querySelectorAll(`.filters button[data-f="${f}"]`).forEach(b =>
+      b.setAttribute('aria-pressed', String(b === btn)));
+    render();
+  });
+});
+
+render();
+
 </script>
 </body>
 </html>

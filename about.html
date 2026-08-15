@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Chrysanthemum</title>
+<meta name="description" content="Chinese songs line by line — characters, pinyin and English — for learners.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>%E2%9C%BD</text></svg>">
+</head>
+<body>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="index.html"><span class="bloom">&#10045;</span> Chrysanthemum</a>
+  <nav class="site-nav">
+    <a href="index.html">Songs</a>
+    <a href="about.html" aria-current="page">About</a>
+    <button class="icon-btn" id="t-theme" title="Toggle light / dark">&#9681;</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<section class="prose">
+  <h1>About</h1>
+  <p>Chrysanthemum presents Chinese songs line by line — simplified characters,
+     pinyin, and an English translation stacked together — so you can put a
+     recording on, follow along, and pick up some Chinese while you listen.</p>
+  <p>It is named for the chrysanthemum, the flower that travelled from China to
+     British gardens and from there to the rest of the world.</p>
+
+  <h2>How to use it</h2>
+  <ul>
+    <li>Find a song, open it, and hit the listening link.</li>
+    <li>Read through the vocabulary first — arriving at a song already knowing
+        the words beats scanning a translation while it plays.</li>
+    <li>On a song page, switch off <strong>Pinyin</strong> or <strong>English</strong>
+        to test how much you can carry on your own.</li>
+  </ul>
+
+  <h2>Two kinds of entry</h2>
+  <p><strong>Public domain — full text.</strong> Classical poems and traditional folk
+     songs whose copyright expired long ago. These get the complete line-by-line
+     treatment. There are 5 of them at the moment, from Tang and Song dynasty
+     poetry through to an early twentieth-century school song.</p>
+  <p><strong>Still in copyright — link and vocabulary.</strong> Modern songs are
+     somebody's living work, and reproducing a full set of lyrics is not ours to
+     do, whether or not pinyin and a translation sit underneath. Those entries
+     carry a listening link, background on the song, and a vocabulary sheet to
+     study before you press play. Read the lyrics on QQ&#38899;&#20048;, Apple Music,
+     Spotify, or YouTube's own captions.</p>
+  <p>The build enforces this: a song marked <code>rights: copyrighted</code> that
+     carries a <code>## lines</code> section fails the build outright.</p>
+
+  <h2>Translations</h2>
+  <p>The English here is original to this project. It aims to be useful to a
+     learner first and literary second — where a choice had to be made, it follows
+     the structure of the Chinese line rather than reaching for an elegant
+     paraphrase.</p>
+
+  <h2>Adding a song</h2>
+  <p>Drop a markdown file into <code>songs/</code> and run <code>python3 build.py</code>.
+     The format is documented in the project readme.</p>
+</section>
+
+</main>
+
+<footer class="site-foot"><div class="wrap">
+  <p>Full text appears only for songs in the <strong>public domain</strong> — classical
+     poems and traditional folk songs. Songs still under copyright are listed with a
+     link and a vocabulary sheet instead; open them on a licensed service to read along.</p>
+  <p>English translations are original to this project.
+     <a href="https://github.com/danielluzhu/chrysanthemum">Source on GitHub</a></p>
+</div></footer>
+
+<script>
+document.getElementById('t-theme').addEventListener('click', () => {
+  const root = document.documentElement;
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const cur = root.dataset.theme || (dark ? 'dark' : 'light');
+  root.dataset.theme = cur === 'dark' ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+});
+try {
+  const saved = localStorage.getItem('theme');
+  if (saved) document.documentElement.dataset.theme = saved;
+} catch (e) {}
+
+</script>
+</body>
+</html>
