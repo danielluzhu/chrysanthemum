@@ -299,6 +299,24 @@ def build_song(song, prev, nxt):
 </div>""" for l in song["lines"]
         ) + "</div>"
 
+    listen_for = ""
+    if song["listen"]:
+        listen_for = (f'<div class="section-head"><h2>What to listen for</h2></div>'
+                      f'<div class="notes notes-plain">{paras(song["listen"])}</div>')
+
+    patterns = ""
+    if song["patterns"]:
+        rows = "".join(
+            f"""<div class="pattern">
+  <div class="pat-form">{E(p['form'])}</div>
+  <div class="pat-gloss">{E(p['gloss'])}</div>
+  <div class="pat-eg"><span class="eg-hz">{E(p['example'])}</span>
+    <span class="eg-en">{E(p['exampleEn'])}</span></div>
+</div>""" for p in song["patterns"]
+        )
+        patterns = (f'<div class="section-head"><h2>Grammar patterns</h2></div>'
+                    f'<div class="patterns">{rows}</div>')
+
     vocab = ""
     if song["vocab"]:
         rows = "".join(
@@ -353,6 +371,8 @@ def build_song(song, prev, nxt):
   {f'<div class="notes">{paras(song["notes"])}</div>' if song["notes"] else ""}
   {listen}
   {lines}
+  {listen_for}
+  {patterns}
   {vocab}
   {pager}
 </article>
