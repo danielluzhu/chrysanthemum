@@ -133,12 +133,30 @@ The `## lines` section is blank-line-separated triplets: characters, then pinyin
 then English. Omit it entirely for songs under copyright. `## vocab` rows are
 `word | pinyin | meaning`. Then run `python3 build.py`.
 
-## A note on the YouTube links
+## Videos
 
-Each song links to a YouTube **search** for its title and artist rather than a
-specific video ID. Individual uploads get taken down or re-uploaded constantly,
-and a search link keeps working. If you want to pin a particular official
-recording, replace the URL in the song's frontmatter.
+Each song embeds a recording, set by `youtube_id` in its frontmatter. Official
+artist, label, VEVO and Topic channels are preferred where they exist, since
+those are far less likely to disappear than fan uploads.
+
+Nothing loads from YouTube until you ask it to. The page renders a thumbnail
+with a play button, and the player is injected only on click — via
+`youtube-nocookie.com`, so no tracking cookie is set for visitors who never
+press play.
+
+Video IDs rot: uploads get deleted, made private, or region-blocked. To find
+out before your visitors do:
+
+```sh
+python3 deploy/verify-videos.py
+```
+
+It asks YouTube's oEmbed endpoint about every ID and prints the channel and
+title each currently resolves to, exiting non-zero if any fail. Worth running
+periodically — a swapped video is otherwise invisible.
+
+The `youtube:` search URL stays in the frontmatter as a fallback: if a song has
+no `youtube_id`, the page falls back to a plain search link.
 
 ## Translations
 
