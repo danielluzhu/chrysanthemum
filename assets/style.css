@@ -249,6 +249,22 @@ button[aria-pressed="true"] {
 .line .en { color: var(--muted); font-size: .97rem; margin-top: .12rem; }
 body.hide-pinyin .line .py, body.hide-english .line .en { display: none; }
 
+/* ---------- grammar patterns ---------- */
+.notes-plain { border-left-color: var(--gold); }
+.patterns { display: grid; gap: .75rem; }
+.pattern {
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 10px; padding: .9rem 1.1rem;
+}
+.pat-form { font-size: 1.15rem; font-weight: 600; }
+.pat-gloss { color: var(--muted); font-size: .9rem; margin-top: .15rem; }
+.pat-eg {
+  margin-top: .6rem; padding-top: .6rem;
+  border-top: 1px dashed var(--rule); font-size: .95rem;
+}
+.eg-hz { display: block; }
+.eg-en { display: block; color: var(--faint); font-size: .88rem; margin-top: .1rem; }
+
 .v-scroll { overflow-x: auto; }
 table { border-collapse: collapse; width: 100%; font-size: .94rem; min-width: 20rem; }
 td { padding: .5rem .8rem .5rem 0; border-bottom: 1px solid var(--rule); vertical-align: baseline; }
