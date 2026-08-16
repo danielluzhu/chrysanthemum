@@ -13,11 +13,51 @@ youtube_id: GPnymcrXgX0
 
 ## notes
 
-Imported from the source playlist. **Under copyright, so no lyrics here** — use
-the video, and read the words on a licensed service such as QQ&#38899;&#20048;,
-Apple Music, Spotify or YouTube's own captions.
+Escape Plan's 2011 song, and one of the few genuine rock anthems in mainland
+Chinese pop. It arrived quietly and grew into a standard — covered constantly,
+sung at graduations, and by now familiar to people who could not name the band.
 
-Notes, a listening guide and vocabulary for this song are still to be written.
+**Under copyright, so no lyrics here.** Use the video and read the words on a
+licensed service.
+
+The appeal for a learner is the register: it is direct, unornamented modern
+Mandarin, with none of the classical vocabulary that makes [[ju-hua-tai]] hard.
+The difficulty is pace and density rather than obscure words.
+
+## listen for
+
+A long, patient build. It opens sparse — voice and guitar — and adds layers
+until the final chorus arrives full band. That shape is the song; if you only
+track one thing, track how much is playing at any moment.
+
+The vocal is deliberately unpolished, slightly strained at the top. That strain
+is the point, not a flaw in the recording.
+
+The title phrase is the anchor and returns at the head of each chorus. It is a
+long phrase — seven syllables — so use it as a landmark: once you can catch it,
+you always know where you are in the song.
+
+Roughly four and a half minutes, which is long for pop, and it earns the length
+through the build rather than through extra sections.
+
+## patterns
+
+最 + adjective | the superlative marker — the most … | 最亮的星 | the brightest star
+是否 | whether or not — a formal yes/no question word, common in lyrics | 你是否还记得 | Do you still remember?
+能否 | can or cannot — formal, more literary than 能不能 | 能否再见一面 | Might we meet once more?
+在 + place + verb | locates an action: doing something at a place | 我在夜空中寻找 | I search in the night sky
+给 + person + verb | do something for or to someone | 请给我一点时间 | Please give me a little time
 
 ## vocab
 
+夜空 | yèkōng | night sky
+亮 | liàng | bright; to shine
+星 | xīng | star
+祈祷 | qídǎo | to pray
+迷失 | míshī | to lose one's way, to become lost
+光芒 | guāngmáng | rays of light, radiance
+灵魂 | línghún | soul
+自由 | zìyóu | freedom; free
+呼吸 | hūxī | to breathe; breath
+仰望 | yǎngwàng | to look up at
+疲惫 | píbèi | exhausted, worn out
