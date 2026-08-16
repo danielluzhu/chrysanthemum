@@ -13,11 +13,47 @@ youtube_id: sU_ByeHJtw8
 
 ## notes
 
-Imported from the source playlist. **Under copyright, so no lyrics here** — use
-the video, and read the words on a licensed service such as QQ&#38899;&#20048;,
-Apple Music, Spotify or YouTube's own captions.
+Leehom Wang's 2011 ballad, written for his own wedding-adjacent era and long
+since absorbed into the standard repertoire for Chinese weddings. Wang trained
+formally in Western classical music, and it shows in how the melody is
+constructed — it resolves the way a hymn does.
 
-Notes, a listening guide and vocabulary for this song are still to be written.
+**Under copyright, so no lyrics here.** Use the video and read the words on a
+licensed service.
+
+Wang grew up in the United States and his Mandarin is famously clean and
+deliberate, which makes him one of the easier singers on this playlist to
+follow.
+
+## listen for
+
+Piano and strings, unhurried, with none of the R&B and hip-hop production Wang
+uses elsewhere. Deliberately traditional.
+
+The title works as a two-part statement — 依然 ("still") setting up 愛你 ("love
+you") — and it recurs enough that catching it once means catching it throughout.
+
+Listen for how long he holds the final note of each chorus. That sustain is the
+emotional device of the whole song, and it is a good introduction to hearing
+phrase endings in Mandarin, where the last syllable often carries the weight.
+
+## patterns
+
+依然 | still, as before — literary, more formal than 还是 | 他依然在等 | He is still waiting
+一直 | all along, continuously | 我一直相信你 | I've believed in you all along
+不管…都… | no matter … , still … | 不管多难，我都会去 | No matter how hard, I'll go
+為了 | for the sake of — purpose before an action | 为了你，我愿意等 | For you, I'm willing to wait
+陪 + person + verb | to accompany someone in doing something | 我陪你去 | I'll go with you
 
 ## vocab
 
+依然 | yīrán | still, as before
+幸福 | xìngfú | happiness, contentment
+誓言 | shìyán | vow, oath
+牵 | qiān | to lead by the hand, to hold
+永远 | yǒngyuǎn | forever
+陪伴 | péibàn | to accompany, to be with
+温柔 | wēnróu | gentle, tender
+守护 | shǒuhù | to guard, to watch over
+拥有 | yōngyǒu | to possess, to have
+一生 | yīshēng | a lifetime
