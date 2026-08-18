@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%A5%BC%E9%A1%B6%E4%B8%8A%E7%9A%84%E5%B0%8F%E6%96%91%E9%B8%A0%20%E9%9A%8A%E9%95%B7
 youtube_id: E126nJRgryo
+thumb: maxresdefault
+views: 434855
 album: 队长的音乐世界
 year: 2021
 country: CN
