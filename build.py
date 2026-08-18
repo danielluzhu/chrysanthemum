@@ -232,7 +232,33 @@ def build_home(songs):
 
     script = """
 const SONGS = __CARDS__;
-const state = { q: '', rights: 'all', level: 'all' };
+const state = { q: '', rights: 'all', level: 'all',
+                artist: 'all', album: 'all', year: 'all', country: 'all' };
+
+const COUNTRIES = {
+  TW: 'Taiwan', CN: 'Mainland China', HK: 'Hong Kong', SG: 'Singapore',
+  MY: 'Malaysia', US: 'United States', JP: 'Japan', KR: 'South Korea',
+  GB: 'United Kingdom', CA: 'Canada', AU: 'Australia',
+};
+
+/** Fill a <select> with the distinct values present in the data. */
+function fillSelect(id, key, label, format) {
+  const el = document.getElementById(id);
+  const values = [...new Set(SONGS.map(s => s[key]).filter(Boolean))]
+    .sort((a, b) => key === 'year' ? b.localeCompare(a) : a.localeCompare(b, 'zh'));
+  const missing = SONGS.some(s => !s[key]);
+  el.innerHTML = `<option value="all">All ${label}</option>`
+    + values.map(v => `<option value="${esc(v)}">${esc(format ? format(v) : v)}</option>`).join('')
+    + (missing ? '<option value="__none">Unknown</option>' : '');
+  el.addEventListener('change', () => { state[key] = el.value; render(); });
+}
+
+function matchField(song, key) {
+  const want = state[key];
+  if (want === 'all') return true;
+  if (want === '__none') return !song[key];
+  return song[key] === want;
+}
 const grid = document.getElementById('grid');
 const countEl = document.getElementById('count');
 const esc = s => String(s).replace(/[&<>"]/g, c =>
