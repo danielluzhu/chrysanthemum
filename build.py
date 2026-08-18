@@ -100,7 +100,15 @@ def parse_song(path):
             parts = [p.strip() for p in row.split("|")]
             if len(parts) != 3:
                 sys.exit(f"{path.name}: bad vocab row: {row!r}")
-            song["vocab"].append({"word": parts[0], "pinyin": parts[1], "en": parts[2]})
+            # A headword mixing Latin letters into CJK is almost always an
+            # English gloss that slipped into the wrong column.
+            head = parts[0]
+            if re.search(r"[A-Za-z]", head) and re.search(r"[一-鿿]", head):
+                sys.exit(
+                    f"{path.name}: vocab headword mixes Latin and Chinese — "
+                    f"likely a stray gloss: {head!r}"
+                )
+            song["vocab"].append({"word": head, "pinyin": parts[1], "en": parts[2]})
 
     return song
 
