@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%AE%B0%E5%BF%86%E5%81%9C%E7%95%99%20%E8%93%9D%E5%BF%83%E7%BE%BD
 youtube_id: rHQGyDrOztI
+album: 记忆停留
+year: 2021
+country: CN
 ---
 
 ## notes
