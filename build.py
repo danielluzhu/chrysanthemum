@@ -565,12 +565,12 @@ def build_about(songs):
 # ---------------------------------------------------------------- main
 
 def main():
-    # Most-played first. Public-domain entries keep their own group at the
-    # front: they are the ones with full text, and a Tang poem's view count
-    # says nothing useful about how worthwhile it is to study.
+    # Most-played first, straight down the list. The public-domain entries
+    # sink a long way — a Tang poem setting cannot compete with Mandopop on
+    # view count — but the "Full text" filter surfaces them in one click.
     songs = sorted(
         (parse_song(p) for p in SONGS_DIR.glob("*.md")),
-        key=lambda s: (s["rights"] != "public-domain", -s["views"], s["pinyinTitle"]),
+        key=lambda s: (-s["views"], s["pinyinTitle"]),
     )
     if not songs:
         sys.exit("no songs found in songs/")
