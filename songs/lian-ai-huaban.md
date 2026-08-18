@@ -8,9 +8,9 @@ era: contemporary
 rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%81%8B%E7%88%B1%E7%94%BB%E6%9D%BF%20%E9%94%A6%E9%9B%B6
-youtube_id: LwBzpVvwYxk
+youtube_id: ofX9b-D30kM
 thumb: maxresdefault
-views: 299613
+views: 1854925
 album: 
 year: 
 country: CN
