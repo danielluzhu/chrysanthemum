@@ -165,7 +165,7 @@ def page(base, title, body, nav, extra_script=""):
 </head>
 <body>
 <header class="site-head"><div class="wrap">
-  <a class="brand" href="{base}index.html"><span class="bloom">&#10045;</span> Chrysanthemum</a>
+  <a class="brand" href="{base}index.html">{bloom_svg("bloom-mark")} <span>Chrysanthemum</span></a>
   <nav class="site-nav">
     <a href="{base}index.html"{' aria-current="page"' if nav == 'home' else ''}>Songs</a>
     <a href="{base}about.html"{' aria-current="page"' if nav == 'about' else ''}>About</a>
@@ -231,12 +231,15 @@ def build_home(songs):
         for s in songs
     ], ensure_ascii=False)
 
-    body = """
+    body = f"""
 <section class="hero">
-  <div class="bloom">&#10045;</div>
-  <h1>Chrysanthemum</h1>
-  <p>Chinese songs, line by line — characters, pinyin and English together.
-     Put the recording on, follow along, and pick up some Chinese as you listen.</p>
+  <div class="hero-art">{bloom_svg("bloom-hero")}</div>
+  <div class="hero-text">
+    <p class="eyebrow">&#33738; Chinese songs, line by line</p>
+    <h1>Chrysanthemum</h1>
+    <p class="lede">Characters, pinyin and English stacked together.
+       Put the recording on, follow along, and pick up some Chinese as you listen.</p>
+  </div>
 </section>
 
 <section class="toolbar">
