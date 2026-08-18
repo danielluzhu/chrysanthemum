@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=Circles%20%E9%AB%98%E7%88%BE%E5%AE%A3%20OSN
 youtube_id: YIygr9UAciE
+thumb: maxresdefault
+views: 2948882
 album: #OSNRAPII-JOURNEY
 year: 2022
 country: TW

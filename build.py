@@ -58,6 +58,8 @@ def parse_song(path):
         "level": meta.get("level", ""),
         "year": meta.get("year", ""),
         "album": meta.get("album", ""),
+        "views": int(meta["views"]) if meta.get("views", "").isdigit() else 0,
+        "thumb": meta.get("thumb", "") or "mqdefault",
         # XW is MusicBrainz's "worldwide" placeholder, not a country.
         "country": "" if meta.get("country", "") == "XW" else meta.get("country", ""),
         "youtube": meta.get("youtube", ""),
