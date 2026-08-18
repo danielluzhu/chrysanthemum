@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E4%BF%AE%E7%85%89%E6%84%9B%E6%83%85%20JJ%20Lin%20%E6%9E%97%E4%BF%8A%E5%82%91
 youtube_id: LWV-f6dMN3Q
+thumb: maxresdefault
+views: 162705469
 album: 因你而在
 year: 2013
 country: SG

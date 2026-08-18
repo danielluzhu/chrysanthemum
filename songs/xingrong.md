@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%BD%A2%E5%AE%B9%20%E6%B2%88%E4%BB%A5%E8%AA%A0
 youtube_id: I_SLgMIxF-s
+thumb: maxresdefault
+views: 4949674
 album: 初遇
 year: 2020
 country: CN
