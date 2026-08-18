@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%97%B4%E8%B7%9D%20en
 youtube_id: 0AZ5LnzSDQw
+thumb: maxresdefault
+views: 41981625
 album: 间距
 year: 2020
 country: 

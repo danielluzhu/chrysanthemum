@@ -327,7 +327,7 @@ function render() {
   grid.innerHTML = hits.length ? hits.map(s => `
     <a class="card" href="s/${esc(s.slug)}.html">
       ${s.youtubeId ? `<div class="cover">
-        <img src="https://i.ytimg.com/vi/${esc(s.youtubeId)}/maxresdefault.jpg"
+        <img src="https://i.ytimg.com/vi/${esc(s.youtubeId)}/${esc(s.thumb)}.jpg"
              onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${esc(s.youtubeId)}/mqdefault.jpg'"
              alt="" loading="lazy" decoding="async">
       </div>` : `<div class="cover cover-blank" aria-hidden="true">${BLOOM}</div>`}

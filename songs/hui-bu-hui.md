@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E4%BC%9A%E4%B8%8D%E4%BC%9A%20%E5%88%98%E5%A4%A7%E5%A3%AE
 youtube_id: mMgzX692uP8
+thumb: maxresdefault
+views: 7354577
 album: 
 year: 
 country: CN
