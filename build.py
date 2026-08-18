@@ -269,6 +269,7 @@ def build_home(songs):
 """
 
     script = """
+const BLOOM = __BLOOM__;
 const SONGS = __CARDS__;
 const state = { q: '', rights: 'all', level: 'all',
                 artist: 'all', album: 'all', year: 'all', country: 'all' };
@@ -375,7 +376,8 @@ document.querySelectorAll('.filters button').forEach(btn => {
 render();
 """
     return page("", "Chrysanthemum — Chinese songs line by line", body, "home",
-                script.replace("__CARDS__", cards))
+                script.replace("__CARDS__", cards)
+                      .replace("__BLOOM__", json.dumps(bloom_svg("bloom-blank"))))
 
 
 def build_song(song, prev, nxt):
