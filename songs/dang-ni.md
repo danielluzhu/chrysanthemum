@@ -8,9 +8,9 @@ era: contemporary
 rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%95%B6%E4%BD%A0%20JJ%20Lin%20%E6%9E%97%E4%BF%8A%E5%82%91
-youtube_id: DXSqDXeGgm4
-thumb: mqdefault
-views: 1835681
+youtube_id: lNCQbx-y9V8
+thumb: maxresdefault
+views: 8683119
 album: 
 year: 
 country: SG
