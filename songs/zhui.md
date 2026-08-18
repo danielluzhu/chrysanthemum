@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%9D%A0%20%E4%BD%A0%E7%9A%84%E5%A4%A7%E8%A1%A8%E5%93%A5%E6%9B%B2%E7%94%B2
 youtube_id: SSCDHXop86w
+thumb: maxresdefault
+views: 3274832
 album: 
 year: 
 country: 
