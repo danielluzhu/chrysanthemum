@@ -57,6 +57,6 @@ verbs in a row rather than one lump of sound, a lot of other sentences open up.
 安慰 | ānwèi | to comfort; comfort
 承认 | chéngrèn | to admit
 坚强 | jiānqiáng | strong, resilient
-depend 依赖 | yīlài | to depend on
+依赖 | yīlài | to depend on
 温暖 | wēnnuǎn | warmth; warm
 倾诉 | qīngsù | to pour out one's feelings
