@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%BE%9D%E7%84%B6%E6%84%9B%E4%BD%A0%20Leehom%20Wang%20%E7%8E%8B%E5%8A%9B%E5%AE%8F
 youtube_id: sU_ByeHJtw8
+album: 
+year: 
+country: TW
 ---
 
 ## notes

@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%B0%B8%E4%B8%8D%E5%A4%B1%E8%81%AF%E7%9A%84%E6%84%9B%20Eric%20Chou%20%E5%91%A8%E8%88%88%E5%93%B2
 youtube_id: WJK8486VjfU
+album: 如果雨之後
+year: 2017
+country: TW
 ---
 
 ## notes

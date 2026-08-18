@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%9C%89%E4%BA%9B%20%E9%A2%9C%E4%BA%BA%E4%B8%AD
 youtube_id: mKgWLAfiEL0
+album: 失眠症候群
+year: 2019
+country: TW
 ---
 
 ## notes
