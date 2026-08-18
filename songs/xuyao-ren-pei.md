@@ -8,9 +8,9 @@ era: contemporary
 rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%9C%80%E8%A6%81%E4%BA%BA%E9%99%AA%20Leehom%20Wang%20%E7%8E%8B%E5%8A%9B%E5%AE%8F
-youtube_id: Bk_mQ0v3EV4
+youtube_id: aXjMogbOrzs
 thumb: maxresdefault
-views: 784437
+views: 27855712
 album: 十八般武藝
 year: 2010
 country: TW
