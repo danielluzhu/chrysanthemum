@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%9B%9E%E6%86%B6%20Dizzy%20Dizzo%20%E8%94%A1%E8%A9%A9%E8%8A%B8
 youtube_id: O-WyIjbmxpc
+album: 只有分離
+year: 1982
+country: TW
 ---
 
 ## notes
