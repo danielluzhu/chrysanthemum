@@ -308,6 +308,22 @@ document.getElementById('q').addEventListener('input', e => {
   render();
 });
 
+fillSelect('f-artist',  'artist',  'artists');
+fillSelect('f-album',   'album',   'albums');
+fillSelect('f-year',    'year',    'years');
+fillSelect('f-country', 'country', 'countries', c => COUNTRIES[c] || c);
+
+resetEl.addEventListener('click', e => {
+  e.preventDefault();
+  Object.assign(state, { q: '', rights: 'all', level: 'all',
+                         artist: 'all', album: 'all', year: 'all', country: 'all' });
+  document.getElementById('q').value = '';
+  document.querySelectorAll('.selects select').forEach(s => { s.value = 'all'; });
+  document.querySelectorAll('.filters button').forEach(b =>
+    b.setAttribute('aria-pressed', String(b.dataset.v === 'all')));
+  render();
+});
+
 document.querySelectorAll('.filters button').forEach(btn => {
   btn.addEventListener('click', () => {
     const f = btn.dataset.f;
