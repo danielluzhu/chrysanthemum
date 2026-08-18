@@ -268,11 +268,15 @@ function render() {
   const hits = SONGS.filter(s =>
     (state.rights === 'all' || s.rights === state.rights) &&
     (state.level === 'all' || s.level === state.level) &&
+    matchField(s, 'artist') && matchField(s, 'album') &&
+    matchField(s, 'year') && matchField(s, 'country') &&
     (!state.q || s.hay.includes(state.q)));
 
-  countEl.textContent = hits.length === SONGS.length
-    ? SONGS.length + ' songs'
-    : hits.length + ' of ' + SONGS.length + ' songs';
+  const filtered = hits.length !== SONGS.length;
+  countEl.firstChild.textContent = filtered
+    ? hits.length + ' of ' + SONGS.length + ' songs '
+    : SONGS.length + ' songs ';
+  resetEl.hidden = !filtered;
 
   grid.innerHTML = hits.length ? hits.map(s => `
     <a class="card" href="s/${esc(s.slug)}.html">
