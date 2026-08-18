@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=hair%20tie%20%C3%98ZI
 youtube_id: 6U5-2ZtsrRs
+album: Zillions of Angry Tea Party Haters
+year: 2010
+country: BG
 ---
 
 ## notes

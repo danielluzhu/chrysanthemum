@@ -261,6 +261,8 @@ function matchField(song, key) {
 }
 const grid = document.getElementById('grid');
 const countEl = document.getElementById('count');
+const resetEl = document.getElementById('f-reset');
+countEl.insertBefore(document.createTextNode(''), resetEl);
 const esc = s => String(s).replace(/[&<>"]/g, c =>
   ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
