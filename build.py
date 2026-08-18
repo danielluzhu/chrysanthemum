@@ -324,7 +324,7 @@ function render() {
         <img src="https://i.ytimg.com/vi/${esc(s.youtubeId)}/maxresdefault.jpg"
              onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${esc(s.youtubeId)}/mqdefault.jpg'"
              alt="" loading="lazy" decoding="async">
-      </div>` : `<div class="cover cover-blank" aria-hidden="true">&#10045;</div>`}
+      </div>` : `<div class="cover cover-blank" aria-hidden="true">${BLOOM}</div>`}
       <div class="card-body">
       <div class="hz">${esc(s.title)}</div>
       <div class="py">${esc(s.pinyinTitle)}</div>
