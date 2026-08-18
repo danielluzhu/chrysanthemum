@@ -11,7 +11,7 @@ youtube: https://www.youtube.com/results?search_query=%E5%9B%B4%E7%BB%95%20space
 youtube_id: JBrUiMs_YJw
 album: 围绕
 year: 2021
-country: XW
+country: 
 ---
 
 ## notes

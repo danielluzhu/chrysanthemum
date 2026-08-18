@@ -11,7 +11,7 @@ youtube: https://www.youtube.com/results?search_query=Good%20Night%20Ghost%20%E7
 youtube_id: Vpda8MPu0mc
 album: Mad Brilliant
 year: 2003
-country: SE
+country: 
 ---
 
 ## notes

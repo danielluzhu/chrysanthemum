@@ -11,7 +11,7 @@ youtube: https://www.youtube.com/results?search_query=%E6%83%B3%E8%AF%B4%20Lambe
 youtube_id: uuSsDiy3fE0
 album: 光芒之神
 year: 1993
-country: DE
+country: 
 ---
 
 ## notes

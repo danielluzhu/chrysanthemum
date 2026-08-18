@@ -9,8 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%85%A2%E6%85%A2%E7%AD%89%20WeiBird%20%E9%9F%8B%E7%A6%AE%E5%AE%89
 youtube_id: smaCyk6HIuA
-album: 最後精選
-year: 2002
+album: 
+year: 
 country: TW
 ---
 

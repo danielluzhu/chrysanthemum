@@ -9,7 +9,7 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%91%8A%E7%99%BD%E6%B0%A3%E7%90%83%20Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB
 youtube_id: bu7nU9Mhpyo
-album: 周杰伦的床边故事
+album: 周杰倫的床邊故事
 year: 2016
 country: TW
 ---
