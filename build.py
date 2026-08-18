@@ -178,11 +178,14 @@ def page(base, title, body, nav, extra_script=""):
 </main>
 
 <footer class="site-foot"><div class="wrap">
-  <p>Full text appears only for songs in the <strong>public domain</strong> — classical
-     poems and traditional folk songs. Songs still under copyright are listed with a
-     link and a vocabulary sheet instead; open them on a licensed service to read along.</p>
-  <p>English translations are original to this project.
-     <a href="https://github.com/danielluzhu/chrysanthemum">Source on GitHub</a></p>
+  {bloom_svg("bloom-foot")}
+  <div>
+    <p>Full text appears only for songs in the <strong>public domain</strong> — classical
+       poems and traditional folk songs. Songs still under copyright are listed with a
+       link and a vocabulary sheet instead; open them on a licensed service to read along.</p>
+    <p>English translations are original to this project.
+       <a href="https://github.com/danielluzhu/chrysanthemum">Source on GitHub</a></p>
+  </div>
 </div></footer>
 
 <script>
