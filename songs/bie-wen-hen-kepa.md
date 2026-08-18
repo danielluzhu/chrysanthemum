@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%88%A5%E5%95%8F%E5%BE%88%E5%8F%AF%E6%80%95%20J.Sheon
 youtube_id: tRa3fOlnN7k
+album: J.Sheon 同名專輯 街巷
+year: 2017
+country: TW
 ---
 
 ## notes
