@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%88%B1%EF%BC%8C%E5%AD%98%E5%9C%A8%20%E7%8E%8B%E9%9D%96%E9%9B%AF
 youtube_id: H78JHtn83a4
+album: Meteor Garden OST
+year: 2018
+country: CN
 ---
 
 ## notes

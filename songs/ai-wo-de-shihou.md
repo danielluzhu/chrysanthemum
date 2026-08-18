@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%84%9B%E6%88%91%E7%9A%84%E6%99%82%E5%80%99%20Eric%20Chou%20%E5%91%A8%E8%88%88%E5%93%B2%2C%20%E5%96%AE%E4%BE%9D%E7%B4%94
 youtube_id: bG563p_moiE
+album: 
+year: 
+country: TW
 ---
 
 ## notes
