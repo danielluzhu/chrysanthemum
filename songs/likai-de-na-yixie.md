@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%9B%A2%E9%96%8B%E7%9A%84%E9%82%A3%E4%B8%80%E4%BA%9B%20Eric%20Chou%20%E5%91%A8%E8%88%88%E5%93%B2
 youtube_id: 37uw4W2MwgU
+album: 幸存者
+year: 2020
+country: TW
 ---
 
 ## notes
