@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%A5%BD%E5%96%9C%E6%AD%A1%E4%BD%A0%20%E9%A2%9C%E4%BA%BA%E4%B8%AD
 youtube_id: ARJMRiOlYGM
+thumb: maxresdefault
+views: 7512462
 album: 被伤过的心还可以爱谁
 year: 2010
 country: TW

@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%8A%B1%E9%9B%A8%E8%90%BD%20Ren%20Ran%20%E4%BB%BB%E7%84%B6
 youtube_id: zRGVcRikoro
+thumb: mqdefault
+views: 2471059
 album: 
 year: 
 country: CN

@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%9D%B4%E8%9D%B6%20Patrick%20Brasca%20%E6%B4%BE%E5%81%89%E4%BF%8A
 youtube_id: UylymieZuDQ
+thumb: maxresdefault
+views: 4311987
 album: 燥熱
 year: 2020
 country: CA
