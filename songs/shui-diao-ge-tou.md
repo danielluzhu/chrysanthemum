@@ -9,6 +9,8 @@ rights: public-domain
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E4%BD%86%E9%A1%98%E4%BA%BA%E9%95%B7%E4%B9%85+%E6%B0%B4%E8%AA%BF%E6%AD%8C%E9%A0%AD
 youtube_id: wA0H7Zvb0u4
+thumb: maxresdefault
+views: 352273
 country: CN
 ---
 

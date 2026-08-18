@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=14%E5%A4%A9%20Eric%20Chou%20%E5%91%A8%E8%88%88%E5%93%B2
 youtube_id: r5wB_9q4Yno
+thumb: maxresdefault
+views: 477993
 album: 周國賢 (EP 再版)
 year: 2004
 country: TW
