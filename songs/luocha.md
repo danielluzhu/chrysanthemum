@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%90%BD%E5%B7%AE%20In%20K%2C%20%E7%8E%8B%E5%BF%BB%E8%BE%B0
 youtube_id: FkK7SLdZpbM
+album: Love Love Love
+year: 2012
+country: CN
 ---
 
 ## notes
