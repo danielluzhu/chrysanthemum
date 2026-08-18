@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%B8%80%E8%B7%AF%E5%90%91%E5%8C%97%20Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB
 youtube_id: L229QDxDakU
+album: 11月的蕭邦
+year: 2005
+country: TW
 ---
 
 ## notes
