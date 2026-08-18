@@ -56,6 +56,10 @@ def parse_song(path):
         "era": meta.get("era", ""),
         "rights": meta.get("rights", "copyrighted"),
         "level": meta.get("level", ""),
+        "year": meta.get("year", ""),
+        "album": meta.get("album", ""),
+        # XW is MusicBrainz's "worldwide" placeholder, not a country.
+        "country": "" if meta.get("country", "") == "XW" else meta.get("country", ""),
         "youtube": meta.get("youtube", ""),
         "youtubeId": meta.get("youtube_id", ""),
         "notes": sections.get("notes", ""),
@@ -182,9 +186,11 @@ def build_home(songs):
             "titleEn": s["titleEn"], "artist": s["artist"], "era": s["era"],
             "rights": s["rights"], "level": s["level"],
             "youtubeId": s["youtubeId"],
+            "year": s["year"], "album": s["album"], "country": s["country"],
             "lines": len(s["lines"]), "vocab": len(s["vocab"]),
             "hay": " ".join([
-                s["title"], s["pinyinTitle"], s["titleEn"], s["artist"], s["era"], s["level"]
+                s["title"], s["pinyinTitle"], s["titleEn"], s["artist"], s["era"],
+                s["level"], s["year"], s["album"], s["country"],
             ]).lower(),
         }
         for s in songs

@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E4%B8%91%E5%85%AB%E6%80%AA%20Joker%20Xue%20%E8%96%9B%E4%B9%8B%E8%AC%99
 youtube_id: mCdi-W2R_AY
+album: 意外
+year: 2013
+country: CN
 ---
 
 ## notes
