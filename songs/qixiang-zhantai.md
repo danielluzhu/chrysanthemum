@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%B0%94%E8%B1%A1%E7%AB%99%E5%8F%B0%20Uu
 youtube_id: QyOTbSe1fjY
+thumb: maxresdefault
+views: 2138241
 album: 
 year: 
 country: JP

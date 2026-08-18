@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%B4%B3%E5%A3%AB%20Joker%20Xue%20%E8%96%9B%E4%B9%8B%E8%AC%99
 youtube_id: Ln_94OO-yDc
+thumb: maxresdefault
+views: 1966438
 album: Smile
 year: 1980
 country: CN
