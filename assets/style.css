@@ -111,6 +111,24 @@ button[aria-pressed="true"] {
 }
 .search::placeholder { color: var(--faint); }
 .search:focus { outline: 2px solid var(--gold); outline-offset: 1px; border-color: transparent; }
+.selects {
+  display: grid; gap: .6rem; margin-top: .85rem;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+}
+.selects label {
+  display: flex; flex-direction: column; gap: .25rem;
+  font-size: .72rem; text-transform: uppercase;
+  letter-spacing: .08em; color: var(--faint);
+}
+.selects select {
+  font: inherit; font-size: .9rem; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 8px; padding: .45rem .6rem; width: 100%;
+  text-transform: none; letter-spacing: normal;
+}
+.selects select:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
+#f-reset { margin-left: .5rem; font-size: .78rem; padding: .2rem .6rem; }
+
 .filters { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .85rem; align-items: center; }
 .filters .label {
   font-size: .72rem; text-transform: uppercase; letter-spacing: .08em;
