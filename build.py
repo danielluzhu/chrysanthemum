@@ -207,6 +207,12 @@ def build_home(songs):
 <section class="toolbar">
   <input class="search" id="q" type="search" autocomplete="off"
          placeholder="Search by title, pinyin, artist&hellip;" aria-label="Search songs">
+  <div class="selects">
+    <label>Artist  <select id="f-artist"></select></label>
+    <label>Album   <select id="f-album"></select></label>
+    <label>Year    <select id="f-year"></select></label>
+    <label>Country <select id="f-country"></select></label>
+  </div>
   <div class="filters">
     <span class="label">Show</span>
     <button data-f="rights" data-v="all" aria-pressed="true">All</button>
@@ -218,7 +224,7 @@ def build_home(songs):
     <button data-f="level" data-v="intermediate" aria-pressed="false">Intermediate</button>
     <button data-f="level" data-v="advanced" aria-pressed="false">Advanced</button>
   </div>
-  <p class="count" id="count"></p>
+  <p class="count" id="count"><button id="f-reset" hidden>Clear filters</button></p>
 </section>
 
 <section class="grid" id="grid"></section>

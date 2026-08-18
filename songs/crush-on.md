@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=Crush%20On%20%E6%9D%8E%E6%B5%A9%E7%91%8B%20Howard%20Lee
 youtube_id: YGzrowrKkw4
+album: The River
+year: 1980
+country: TW
 ---
 
 ## notes
