@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%B8%8D%E5%A6%82%20%E7%A7%A6%E6%B5%B7%E6%B8%85
 youtube_id: jY85rZhcEKM
+album: Hot Mix Chinese Club 夜店流行中文DJ舞曲 Electronic Mix Music
+year: 2017
+country: CN
 ---
 
 ## notes
