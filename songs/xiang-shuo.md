@@ -8,9 +8,9 @@ era: contemporary
 rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E6%83%B3%E8%AF%B4%20Lambert%E5%87%8C
-youtube_id: uuSsDiy3fE0
+youtube_id: zm7P2K-fPEk
 thumb: maxresdefault
-views: 49508
+views: 1562097
 album: 光芒之神
 year: 1993
 country: 

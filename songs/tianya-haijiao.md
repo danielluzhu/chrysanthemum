@@ -8,9 +8,9 @@ era: contemporary
 rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%A4%A9%E6%B6%AF%E6%B5%B7%E8%A7%92%20Leehom%20Wang%20%E7%8E%8B%E5%8A%9B%E5%AE%8F
-youtube_id: 0-CCvg7050E
+youtube_id: _OP1roi1_Fs
 thumb: maxresdefault
-views: 60223
+views: 11811022
 album: 
 year: 
 country: TW
