@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%8C%AB%20%E6%9D%8E%E6%B6%A6%E7%A5%BA
 youtube_id: MHUJyDOzCzc
+album: 茫
+year: 2020
+country: CN
 ---
 
 ## notes
