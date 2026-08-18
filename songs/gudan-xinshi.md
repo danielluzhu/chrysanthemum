@@ -8,9 +8,9 @@ era: contemporary
 rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%AD%A4%E5%8D%95%E5%BF%83%E4%BA%8B%20%E9%A2%9C%E4%BA%BA%E4%B8%AD
-youtube_id: iqlT9c6goPA
+youtube_id: gdfRWUmUVkI
 thumb: maxresdefault
-views: 1091122
+views: 10653333
 album: 終極一班：電視原聲帶
 year: 2005
 country: TW
