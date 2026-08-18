@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E7%B5%82%E6%96%BC%E7%B5%90%E6%9D%9F%E7%9A%84%E8%B5%B7%E9%BB%9E%20Mayday%20%E4%BA%94%E6%9C%88%E5%A4%A9
 youtube_id: Jv3zvWZlXkk
+album: 自傳
+year: 2016
+country: TW
 ---
 
 ## notes

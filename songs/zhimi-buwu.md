@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E6%89%A7%E8%BF%B7%E4%B8%8D%E6%82%9F%20%E5%B0%8F%E4%B9%90%E5%93%A5%20%E7%8E%8B%E5%94%AF%E4%B9%90
 youtube_id: 38J-o8bXM1k
+album: 
+year: 
+country: CN
 ---
 
 ## notes
