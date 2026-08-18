@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=trust%20me%20sunkis
 youtube_id: VTLE9uB3fwg
+album: trust me
+year: 2021
+country: US
 ---
 
 ## notes

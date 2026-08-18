@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=Tides%20Dizzy%20Dizzo%20%E8%94%A1%E8%A9%A9%E8%8A%B8%2C%20%E9%AB%98%E7%88%BE%E5%AE%A3%20OSN
 youtube_id: eB_NpkLoE38
+album: Tides
+year: 2021
+country: TW
 ---
 
 ## notes
