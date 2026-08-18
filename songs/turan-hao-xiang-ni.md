@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%AA%81%E7%84%B6%E5%A5%BD%E6%83%B3%E4%BD%A0%20Mayday%20%E4%BA%94%E6%9C%88%E5%A4%A9
 youtube_id: GtDRcXtDg-4
+thumb: maxresdefault
+views: 29159972
 album: 後青春期的詩
 year: 2008
 country: TW
