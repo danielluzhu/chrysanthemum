@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%A4%9C%E7%A9%BA%E4%B8%AD%E6%9C%80%E4%BA%AE%E7%9A%84%E6%98%9F%20Escape%20Plan%20%E9%80%83%E8%B7%91%E8%A8%88%E5%8A%83
 youtube_id: GPnymcrXgX0
+album: 世界
+year: 2012
+country: CN
 ---
 
 ## notes
