@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=All%20About%20You%20Dragon%20Pig%2C%20Cnballer%2C%20Cloud%20Wang%2C%20Bravex
 youtube_id: pFen0BlwJaI
+thumb: mqdefault
+views: 37472107
 album: 
 year: 
 country: CN

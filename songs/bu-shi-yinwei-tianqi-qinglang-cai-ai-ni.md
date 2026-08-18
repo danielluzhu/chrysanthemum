@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E4%B8%8D%E6%98%AF%E5%9B%A0%E7%82%BA%E5%A4%A9%E6%B0%A3%E6%99%B4%E6%9C%97%E6%89%8D%E6%84%9B%E4%BD%A0%20Bestards
 youtube_id: 9_068Ekk_fs
+thumb: maxresdefault
+views: 21016129
 album: 不是因為天氣晴朗才愛你
 year: 2018
 country: TW
