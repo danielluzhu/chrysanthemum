@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%B0%8F%E6%99%82%E5%80%99%E7%9A%84%E6%88%91%E5%80%91%20Eric%20Chou%20%E5%91%A8%E8%88%88%E5%93%B2
 youtube_id: lxsOcRm3dsU
+thumb: maxresdefault
+views: 8994932
 album: 小時候的我們
 year: 2020
 country: TW

@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%A4%8F%E5%A4%A9%20Nicky%20Lee%20%E6%9D%8E%E7%8E%96%E5%93%B2
 youtube_id: tLGgJLDk5kM
+thumb: mqdefault
+views: 6893689
 album: 就是喜歡你
 year: 1993
 country: TW
