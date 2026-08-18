@@ -11,8 +11,8 @@ youtube: https://www.youtube.com/results?search_query=Crush%20On%20%E6%9D%8E%E6%
 youtube_id: YGzrowrKkw4
 thumb: maxresdefault
 views: 40500550
-album: The River
-year: 1980
+album: 
+year: 
 country: TW
 ---
 

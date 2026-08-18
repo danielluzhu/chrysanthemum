@@ -11,8 +11,8 @@ youtube: https://www.youtube.com/results?search_query=%E5%9B%9E%E6%86%B6%20Dizzy
 youtube_id: O-WyIjbmxpc
 thumb: maxresdefault
 views: 275752
-album: 只有分離
-year: 1982
+album: 
+year: 
 country: TW
 ---
 

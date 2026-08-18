@@ -11,8 +11,8 @@ youtube: https://www.youtube.com/results?search_query=%E5%BE%9E%E4%BB%8A%E4%BB%A
 youtube_id: HWhhMKXAFpo
 thumb: maxresdefault
 views: 801096
-album: 無聲勝有聲
-year: 1988
+album: 
+year: 
 country: SG
 ---
 

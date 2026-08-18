@@ -11,8 +11,8 @@ youtube: https://www.youtube.com/results?search_query=So%20Bad%20%E9%AB%98%E7%88
 youtube_id: kTNNPbVFNHQ
 thumb: maxresdefault
 views: 21380147
-album: Psychedelic Underground
-year: 1969
+album: 
+year: 
 country: TW
 ---
 

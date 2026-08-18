@@ -11,8 +11,8 @@ youtube: https://www.youtube.com/results?search_query=%E4%B8%8B%E9%9B%A8%E5%A4%A
 youtube_id: rl77n9XQmOw
 thumb: maxresdefault
 views: 965255
-album: 永遠是你好友
-year: 1989
+album: 
+year: 
 country: JP
 ---
 

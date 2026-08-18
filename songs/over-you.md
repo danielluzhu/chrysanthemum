@@ -11,8 +11,8 @@ youtube: https://www.youtube.com/results?search_query=Over%20You%20Gen%20Neo%20%
 youtube_id: JSDeq_Wevkw
 thumb: maxresdefault
 views: 578429
-album: From Beneath the Streets
-year: 1987
+album: 
+year: 
 country: SG
 ---
 

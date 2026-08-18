@@ -11,8 +11,8 @@ youtube: https://www.youtube.com/results?search_query=%E7%B4%B3%E5%A3%AB%20Joker
 youtube_id: Ln_94OO-yDc
 thumb: maxresdefault
 views: 1966438
-album: Smile
-year: 1980
+album: 
+year: 
 country: CN
 ---
 

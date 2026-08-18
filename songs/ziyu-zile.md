@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%87%AA%E5%A8%B1%E8%87%AA%E4%B9%90%20%E9%87%91%E5%BF%97%E6%96%87
 youtube_id: 1bo-3bwu69E
+thumb: maxresdefault
+views: 2613513
 album: 
 year: 
 country: CN

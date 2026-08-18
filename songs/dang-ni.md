@@ -11,8 +11,8 @@ youtube: https://www.youtube.com/results?search_query=%E7%95%B6%E4%BD%A0%20JJ%20
 youtube_id: DXSqDXeGgm4
 thumb: mqdefault
 views: 1835681
-album: 死亡遊戲
-year: 1978
+album: 
+year: 
 country: SG
 ---
 
