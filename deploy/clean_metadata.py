@@ -79,6 +79,16 @@ def main():
                 print(f"clear {slug:34} compilation/live: {album[:40]}")
                 cleared_album += 1
 
+        # A track the importer marked "contemporary" cannot predate the era.
+        # Wrong-artist matches show up as implausibly old release dates —
+        # JJ Lin credited with a 1978 soundtrack, for instance.
+        year = field(text, "year")
+        era = field(text, "era")
+        if year.isdigit() and era == "contemporary" and int(year) < 1990:
+            text = set_field(set_field(text, "year", ""), "album", "")
+            print(f"clear {slug:34} implausible year for contemporary: {year}")
+            cleared_album += 1
+
         country = field(text, "country")
         if country and country not in PLAUSIBLE:
             text = set_field(text, "country", "")

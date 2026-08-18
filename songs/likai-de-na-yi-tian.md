@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%9B%A2%E9%96%8B%E7%9A%84%E9%82%A3%E4%B8%80%E5%A4%A9%20JJ%20Lin%20%E6%9E%97%E4%BF%8A%E5%82%91
 youtube_id: 4w1zOB0BFnk
+thumb: maxresdefault
+views: 1784344
 album: 
 year: 
 country: SG
