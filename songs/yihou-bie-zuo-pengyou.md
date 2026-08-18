@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%BB%A5%E5%BE%8C%E5%88%A5%E5%81%9A%E6%9C%8B%E5%8F%8B%20Eric%20Chou%20%E5%91%A8%E8%88%88%E5%93%B2
 youtube_id: Ew4VvF0DPMc
+thumb: maxresdefault
+views: 230600905
 album: 學著愛
 year: 2015
 country: TW
