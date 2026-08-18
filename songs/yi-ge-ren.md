@@ -8,9 +8,9 @@ era: contemporary
 rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E4%B8%80%E5%80%8B%E4%BA%BA%20Jackson%20Wang%20%E7%8E%8B%E5%98%89%E7%88%BE
-youtube_id: VTzeuTLvBlg
-thumb: mqdefault
-views: 21872
+youtube_id: xvPVmmZ5UFc
+thumb: maxresdefault
+views: 132296
 album: 一个人
 year: 2021
 country: KR
