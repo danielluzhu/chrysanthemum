@@ -54,7 +54,7 @@ Verb + 下去 | to keep on doing | 说下去 | go on talking
 天涯 | tiānyá | the edge of the sky; a far-off place
 海角 | hǎijiǎo | a headland; the corner of the sea
 追寻 | zhuīxún | to pursue, to search for
-distance 距离 | jùlí | distance
+距离 | jùlí | distance
 守护 | shǒuhù | to guard, to protect
 思念 | sīniàn | to miss
 方向 | fāngxiàng | direction
