@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=Somebody%20Else%20%E9%AB%98%E7%88%BE%E5%AE%A3%20OSN
 youtube_id: egZ_th99Krk
+album: #OSNRAPII-JOURNEY
+year: 2022
+country: TW
 ---
 
 ## notes
