@@ -54,7 +54,7 @@ Number + 天 | counting days — 天 needs no measure word, unlike most nouns | 
 习惯 | xíguàn | habit; to grow used to
 沉默 | chénmò | silence; silent
 距离 | jùlí | distance
-believe 相信 | xiāngxìn | to believe, to trust
+相信 | xiāngxìn | to believe, to trust
 放手 | fàngshǒu | to let go
 错过 | cuòguò | to miss, to let slip by
 心痛 | xīntòng | heartache

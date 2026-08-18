@@ -16,11 +16,49 @@ country: TW
 
 ## notes
 
-Imported from the source playlist. **Under copyright, so no lyrics here** — use
-the video, and read the words on a licensed service such as QQ&#38899;&#20048;,
-Apple Music, Spotify or YouTube's own captions.
+The title is worth sitting with before you press play. 好意思 is one of those
+phrases that resists direct translation: it describes having the nerve or the
+face to do something slightly shameless. Asked as 怎麼好意思 it means roughly
+"how could I possibly" — embarrassment and self-reproach folded into three
+syllables.
 
-Notes, a listening guide and vocabulary for this song are still to be written.
+**Under copyright, so no lyrics here.** Use the video and read the words on a
+licensed service.
+
+Learning 好意思 and its negation 不好意思 gets you a long way in everyday
+conversation, well beyond this song. 不好意思 is the standard way to say "excuse
+me" or "sorry to bother you" — you will use it daily.
+
+## listen for
+
+A quieter, more restrained Chou performance than his big ballads. The
+arrangement stays sparse for longer and never fully opens out, which suits a
+song about not saying something.
+
+Because the dynamics are narrow, this one is harder to follow than
+[[yihou-bie-zuo-pengyou]] — there are fewer landmarks. Try it after you are
+comfortable with two or three of his others.
+
+Listen for how often phrases end without resolving upward. That hanging quality
+is doing the emotional work.
+
+## patterns
+
+好意思 | to have the nerve / face to do something | 你怎么好意思？ | How could you?
+不好意思 | excuse me; sorry — the everyday apology, and the negation above | 不好意思，请问… | Excuse me, may I ask…
+怎麼 + verb | how — manner, or rhetorical disbelief | 你怎么知道？ | How do you know?
+应该 | should, ought to | 我应该早点告诉你 | I should have told you sooner
+其实 | actually, in fact — introduces a correction | 其实我很想你 | Actually, I miss you a lot
 
 ## vocab
 
+好意思 | hǎoyìsi | to have the nerve to; to feel no embarrassment
+其实 | qíshí | actually, in fact
+应该 | yīnggāi | should, ought to
+假装 | jiǎzhuāng | to pretend
+放弃 | fàngqì | to give up
+在乎 | zàihū | to care about
+逞强 | chěngqiáng | to put on a brave face
+懦弱 | nuòruò | cowardly, weak
+挽留 | wǎnliú | to urge someone to stay
+成全 | chéngquán | to let someone go for their own good
