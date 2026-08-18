@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=Good%20Night%20Ghost%20%E7%8E%8B%E7%90%B3%E5%87%AF
 youtube_id: Vpda8MPu0mc
+thumb: maxresdefault
+views: 3013829
 album: Mad Brilliant
 year: 2003
 country: 

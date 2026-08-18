@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=for%20ya%20%E8%92%8B%E5%B0%8F%E5%91%A2
 youtube_id: a42f6Oe_4P8
+thumb: maxresdefault
+views: 7694428
 album: for ya
 year: 2021
 country: CN
