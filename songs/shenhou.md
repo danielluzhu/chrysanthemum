@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%BA%AB%E5%90%8E%20space%20x
 youtube_id: to7w5XvTRVE
+album: 身后
+year: 2021
+country: XW
 ---
 
 ## notes
