@@ -8,9 +8,9 @@ era: contemporary
 rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=14%E5%A4%A9%20Eric%20Chou%20%E5%91%A8%E8%88%88%E5%93%B2
-youtube_id: r5wB_9q4Yno
+youtube_id: bG563p_moiE
 thumb: maxresdefault
-views: 477993
+views: 39740071
 album: 
 year: 
 country: TW

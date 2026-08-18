@@ -8,9 +8,9 @@ era: contemporary
 rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E4%B8%8B%E9%9B%A8%E5%A4%A9%20%E4%B8%8E%E5%B0%91%E5%B9%B4%E4%BB%96%2C%20%E8%8A%9D%E9%BA%BBMochi
-youtube_id: rl77n9XQmOw
+youtube_id: OqmkthmPBSw
 thumb: maxresdefault
-views: 965255
+views: 34399678
 album: 
 year: 
 country: JP
