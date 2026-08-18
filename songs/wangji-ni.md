@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%BF%98%E8%A8%98%E4%BD%A0%20Patrick%20Brasca%20%E6%B4%BE%E5%81%89%E4%BF%8A%2C%20Tyson%20Yoshi
 youtube_id: X_B9nxhaMUQ
+album: 
+year: 
+country: CA
 ---
 
 ## notes

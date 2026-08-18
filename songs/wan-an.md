@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E6%99%9A%E5%AE%89%20%E9%A2%9C%E4%BA%BA%E4%B8%AD
 youtube_id: FcyP7sIeWaE
+album: 晚安
+year: 2019
+country: TW
 ---
 
 ## notes
