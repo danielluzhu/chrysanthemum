@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=Over%20You%20Gen%20Neo%20%E6%A2%81%E6%A0%B9%E8%B5%AB
 youtube_id: JSDeq_Wevkw
+album: From Beneath the Streets
+year: 1987
+country: SG
 ---
 
 ## notes

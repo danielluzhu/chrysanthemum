@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=No%20Reason%20Ryan.B%2C%20effie
 youtube_id: _h-dE02tZkM
+album: No Reason
+year: 2018
+country: CN
 ---
 
 ## notes
