@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%A4%A9%E6%B6%AF%E6%B5%B7%E8%A7%92%20Leehom%20Wang%20%E7%8E%8B%E5%8A%9B%E5%AE%8F
 youtube_id: 0-CCvg7050E
+album: 霹雳大全 印巴影视插曲精选
+year: 1989
+country: TW
 ---
 
 ## notes
