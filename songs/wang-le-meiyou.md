@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%BF%98%E4%BA%86%E6%B2%A1%E6%9C%89%20%E7%8E%8B%E9%9D%96%E9%9B%AF
 youtube_id: M1PVOYGH734
+thumb: maxresdefault
+views: 5108996
 album: 忘了沒有
 year: 2020
 country: CN

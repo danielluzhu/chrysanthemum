@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%83%8F%E6%9E%81%E4%BA%86%20Ryan.B
 youtube_id: rAoHFM6oDqI
+thumb: maxresdefault
+views: 9261198
 album: 
 year: 
 country: CN

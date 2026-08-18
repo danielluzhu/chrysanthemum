@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=Without%20You%20%E9%AB%98%E7%88%BE%E5%AE%A3%20OSN
 youtube_id: HQDDlgGy2hg
+thumb: maxresdefault
+views: 128806187
 album: #osnrap
 year: 2019
 country: TW
