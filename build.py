@@ -125,6 +125,33 @@ def paras(text):
 
 # ---------------------------------------------------------------- chrome
 
+def bloom_svg(css_class="bloom"):
+    """An inline chrysanthemum: three rings of petals around a disc.
+
+    Drawn rather than set as a character so it inherits currentColor, scales
+    cleanly, and costs no extra request.
+    """
+    rings = [
+        # (petal count, length, width, opacity, angle offset)
+        (24, 46, 5.0, 0.55, 0),
+        (18, 34, 4.6, 0.75, 10),
+        (12, 22, 4.2, 1.00, 5),
+    ]
+    parts = []
+    for count, length, width, opacity, offset in rings:
+        petals = "".join(
+            f'<path d="M0,-5 C{width},-{length * 0.45:.0f} {width},-{length * 0.8:.0f} '
+            f'0,-{length} C-{width},-{length * 0.8:.0f} -{width},-{length * 0.45:.0f} 0,-5 Z" '
+            f'transform="rotate({offset + i * 360 / count:.2f})"/>'
+            for i in range(count)
+        )
+        parts.append(f'<g opacity="{opacity}">{petals}</g>')
+    parts.append('<circle r="6" opacity="0.95"/>')
+    return (f'<svg class="{css_class}" viewBox="-52 -52 104 104" '
+            f'fill="currentColor" aria-hidden="true" focusable="false">'
+            + "".join(parts) + "</svg>")
+
+
 def page(base, title, body, nav, extra_script=""):
     return f"""<!doctype html>
 <html lang="en">
