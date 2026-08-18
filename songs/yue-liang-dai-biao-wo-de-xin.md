@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E9%84%A7%E9%BA%97%E5%90%9B+%E6%9C%88%E4%BA%AE%E4%BB%A3%E8%A1%A8%E6%88%91%E7%9A%84%E5%BF%83
 youtube_id: eOtATMfvfg8
+album: 香港之戀
+year: 1977
+country: TW
 ---
 
 ## notes
