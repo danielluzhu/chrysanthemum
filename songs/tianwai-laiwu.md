@@ -56,7 +56,7 @@ Noun + 物 | classical compression: "thing / object" as a suffix | 庞然大物 
 陨落 | yǔnluò | to fall from the sky
 遥远 | yáoyuǎn | distant, remote
 仿佛 | fǎngfú | as if, seemingly
-existence 存在 | cúnzài | to exist; existence
+存在 | cúnzài | to exist; existence
 渺小 | miǎoxiǎo | tiny, insignificant
 宇宙 | yǔzhòu | universe
 坠落 | zhuìluò | to fall, to plummet
