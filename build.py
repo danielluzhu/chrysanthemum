@@ -194,7 +194,8 @@ def page(base, title, body, nav, extra_script=""):
 <title>{E(title)}</title>
 <meta name="description" content="Chinese songs line by line — characters, pinyin and English — for learners.">
 <link rel="stylesheet" href="{base}assets/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>%E2%9C%BD</text></svg>">
+<link rel="icon" type="image/svg+xml" href="{base}assets/favicon.svg">
+<meta name="theme-color" content="#c9a02a">
 </head>
 <body>
 <header class="site-head"><div class="wrap">
@@ -607,6 +608,8 @@ def main():
         sys.exit("no songs found in songs/")
 
     SONG_OUT.mkdir(exist_ok=True)
+    (ROOT / "assets").mkdir(exist_ok=True)
+    (ROOT / "assets" / "favicon.svg").write_text(favicon_svg(), encoding="utf-8")
     (ROOT / "index.html").write_text(build_home(songs), encoding="utf-8")
     (ROOT / "about.html").write_text(build_about(songs), encoding="utf-8")
 
