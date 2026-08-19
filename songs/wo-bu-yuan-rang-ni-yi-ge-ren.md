@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%88%91%E4%B8%8D%E9%A1%98%E8%AE%93%E4%BD%A0%E4%B8%80%E5%80%8B%E4%BA%BA%20Mayday%20%E4%BA%94%E6%9C%88%E5%A4%A9
 youtube_id: 38lcQsEMGrk
+album: 第二人生
+year: 2011
+country: TW
 thumb: maxresdefault
 views: 128161447
 ---

@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%88%91%E5%BE%88%E5%A5%BD%E9%A8%99%20Power%20Station%20%E5%8B%95%E5%8A%9B%E7%81%AB%E8%BB%8A
 youtube_id: 3HsIaWuNeX0
+album: 都是因為愛
+year: 2021
+country: US
 thumb: maxresdefault
 views: 43834259
 ---
