@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%8F%AF%E6%83%9C%E6%B2%92%E5%A6%82%E6%9E%9C%20%E6%9E%97%E4%BF%8A%E5%82%91%20JJ%20Lin
 youtube_id: vsBf_0gDxSM
+album: 新地球
+year: 2014
+country: SG
 thumb: mqdefault
 views: 74213177
 ---

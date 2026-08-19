@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E6%88%80%E6%84%9BING%20%E4%BA%94%E6%9C%88%E5%A4%A9%20Mayday
 youtube_id: iSkRGgYSQfY
+album: 五月天 fly to 2023 諾亞方舟十週年線上特別版 LIVE
+year: 2023
+country: TW
 thumb: maxresdefault
 views: 11111211
 ---
