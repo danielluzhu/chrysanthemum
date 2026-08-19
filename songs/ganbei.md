@@ -9,8 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%B9%BE%E6%9D%AF%20%E4%BA%94%E6%9C%88%E5%A4%A9%20Mayday
 youtube_id: qX2GsMj7154
-album: にんじん
-year: 1973
+album: 
+year: 
 country: TW
 thumb: maxresdefault
 views: 61774562

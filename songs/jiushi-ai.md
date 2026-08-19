@@ -9,8 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%B0%B1%E6%98%AF%E6%84%9B%20%E8%94%A1%E4%BE%9D%E6%9E%97%20Jolin%20Tsai
 youtube_id: nwcHdFQ-fq8
-album: 走不完的路
-year: 1979
+album: 
+year: 
 country: TW
 thumb: maxresdefault
 views: 8436109

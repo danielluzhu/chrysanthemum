@@ -9,8 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E7%8B%82%E6%83%B3%E6%9B%B2%20%E8%95%AD%E6%95%AC%E9%A8%B0%20Jam%20Hsiao
 youtube_id: qTQkaDoeaGQ
-album: 漁人碼頭夏日狂想曲新歌演唱會 (2nd Version)
-year: 2011
+album: 
+year: 
 country: TW
 thumb: maxresdefault
 views: 6460662

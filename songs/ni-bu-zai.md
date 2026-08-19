@@ -9,8 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E4%BD%A0%E4%B8%8D%E5%9C%A8%20%E7%8E%8B%E5%8A%9B%E5%AE%8F%20Leehom%20Wang
 youtube_id: _OP1roi1_Fs
-album: 费玉清精选集
-year: 1987
+album: 
+year: 
 country: TW
 thumb: maxresdefault
 views: 11811199

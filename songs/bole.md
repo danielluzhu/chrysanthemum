@@ -9,8 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E4%BC%AF%E6%A8%82%20%E6%9E%97%E5%AE%A5%E5%98%89%20Yoga%20Lin
 youtube_id: Q8XCxvpMYKQ
-album: 迷宮：香港演唱會紀念版
-year: 2008
+album: 
+year: 
 country: TW
 thumb: maxresdefault
 views: 5082532

@@ -11,7 +11,7 @@ youtube: https://www.youtube.com/results?search_query=%E6%99%AE%E9%80%9A%E6%9C%8
 youtube_id: 3L3Me4JXVqE
 album: Lyrics
 year: 1994
-country: DE
+country: 
 thumb: mqdefault
 views: 17890425
 ---

@@ -9,8 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E6%88%91%E7%9A%84%E6%84%9B%20%E5%AD%AB%E7%87%95%E5%A7%BF%20Stefanie%20Sun
 youtube_id: qyMm2-XsCB4
-album: 流雲．輕煙．愛
-year: 1984
+album: 
+year: 
 country: 
 thumb: mqdefault
 views: 1458571

@@ -9,8 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E7%AC%AC%E4%B8%80%E5%A4%A9%20%E5%AD%AB%E7%87%95%E5%A7%BF%20Stefanie%20Sun
 youtube_id: y3lP_gPjlUo
-album: 害羞的男孩
-year: 1987
+album: 
+year: 
 country: 
 thumb: mqdefault
 views: 5393630

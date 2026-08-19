@@ -11,7 +11,7 @@ youtube: https://www.youtube.com/results?search_query=%E5%8F%AA%E5%B0%8D%E4%BD%A
 youtube_id: jS7zzyoixf8
 album: 東方茱麗葉：電視原聲帶
 year: 2006
-country: CL
+country: 
 thumb: mqdefault
 views: 14809218
 ---

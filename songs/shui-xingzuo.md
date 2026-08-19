@@ -11,7 +11,7 @@ youtube: https://www.youtube.com/results?search_query=%E6%B0%B4%E6%98%9F%E5%BA%A
 youtube_id: OCioFrQ-pb8
 album: 
 year: 
-country: IT
+country: 
 thumb: maxresdefault
 views: 1385304
 ---

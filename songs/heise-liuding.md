@@ -11,7 +11,7 @@ youtube: https://www.youtube.com/results?search_query=%E9%BB%91%E8%89%B2%E6%9F%B
 youtube_id: VC4KT__tx5g
 album: 黑色柳丁
 year: 2002
-country: DE
+country: 
 thumb: mqdefault
 views: 2262618
 ---

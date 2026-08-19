@@ -11,7 +11,7 @@ youtube: https://www.youtube.com/results?search_query=%E4%BB%8A%E5%A4%A9%E6%B2%9
 youtube_id: Oi0evKHUzzQ
 album: Ultrasound 1997-2003 樂之路
 year: 2003
-country: DE
+country: 
 thumb: mqdefault
 views: 427369
 ---

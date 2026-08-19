@@ -9,8 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%B8%BA%E5%B0%8F%20%E7%94%B0%E9%A6%A5%E7%94%84%20Hebe%20Tien
 youtube_id: 0CraKyI8DRI
-album: 有一個人
-year: 1983
+album: 
+year: 
 country: TW
 thumb: maxresdefault
 views: 186664

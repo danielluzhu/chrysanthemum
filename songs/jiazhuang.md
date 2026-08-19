@@ -9,8 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%81%87%E8%A3%9D%20%E8%94%A1%E4%BE%9D%E6%9E%97%20Jolin%20Tsai
 youtube_id: _34cgR4oUw4
-album: 劉美君
-year: 1986
+album: 
+year: 
 country: TW
 thumb: mqdefault
 views: 4189935
