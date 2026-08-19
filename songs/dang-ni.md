@@ -16,6 +16,10 @@ year:
 country: SG
 ---
 
+## meaning
+
+A conditional held open — when you, if you, should you. The sentence never completes, which is the design.
+
 ## notes
 
 An early JJ Lin ballad, from the period that established him. Compared with

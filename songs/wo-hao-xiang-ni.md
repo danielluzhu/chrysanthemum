@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 16928871
 ---
 
+## meaning
+
+Missing someone, stated as simply as the language allows. Sodagreen's arrangement carries the weight the words deliberately do not.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

@@ -16,6 +16,10 @@ year:
 country: CN
 ---
 
+## meaning
+
+Behaving well while feeling anything but: stepping aside gracefully and hating it. 紳士 arrived in Chinese as a borrowed Western idea, so the word already carries an air of performance.
+
 ## notes
 
 Joker Xue again, and a title that carries more weight in Chinese than the

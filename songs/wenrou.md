@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 25489170
 ---
 
+## meaning
+
+Letting someone go without making it hard for them. The tenderness of the title is aimed at the person leaving, not at the singer.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

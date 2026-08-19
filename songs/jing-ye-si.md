@@ -14,6 +14,10 @@ views: 22231
 country: CN
 ---
 
+## meaning
+
+Moonlight on the floor mistaken for frost, a head raised and then lowered. Twenty characters that turn homesickness into a single physical gesture.
+
 ## notes
 
 Probably the most memorized poem in the Chinese language — most children in China

@@ -14,6 +14,10 @@ views: 352273
 country: CN
 ---
 
+## meaning
+
+Written at the Mid-Autumn Festival in 1076, drunk and far from his brother, Su Shi works from a question about the moon toward acceptance: people part and reunite as the moon waxes and wanes, and neither was ever meant to be perfect.
+
 ## notes
 
 Written at the Mid-Autumn Festival in 1076, while Su Shi was drunk, far from home,

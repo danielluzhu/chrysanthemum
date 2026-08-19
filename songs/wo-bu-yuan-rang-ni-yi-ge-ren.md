@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 128161447
 ---
 
+## meaning
+
+A promise not to leave someone to face things alone. Written as a film theme, and unusually direct for the band.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

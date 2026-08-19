@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 147548191
 ---
 
+## meaning
+
+The people two lovers become after they are no longer together. The title's 後來 — afterwards — is the whole subject.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

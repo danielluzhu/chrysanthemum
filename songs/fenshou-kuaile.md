@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 21973515
 ---
 
+## meaning
+
+Told to a friend rather than a lover: the breakup is the right outcome, so be happy about it. The cheerfulness is genuine advice, not irony.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

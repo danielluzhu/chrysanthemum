@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 74213177
 ---
 
+## meaning
+
+Regret over the things not said in time. The title translates roughly as 'a pity there is no if' — the acknowledgement that hindsight buys you nothing.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

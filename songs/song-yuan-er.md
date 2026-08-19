@@ -14,6 +14,10 @@ views: 378345
 country: CN
 ---
 
+## meaning
+
+Seeing a friend off to a garrison at the western frontier. Three lines set the scene and the fourth lands the whole weight: past Yang Pass there will be nobody left who knows him.
+
 ## notes
 
 Set to music as 阳关三叠 (*Yángguān Sān Dié*, "Three Refrains on Yang Pass"), one of

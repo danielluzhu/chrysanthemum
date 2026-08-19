@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 45816513
 ---
 
+## meaning
+
+Pretending not to mind. The singer narrates his own composure while making it obvious it is a performance.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

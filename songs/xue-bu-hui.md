@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 42749798
 ---
 
+## meaning
+
+Failing to learn the lesson a relationship should have taught. The frustration is aimed inward.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

@@ -16,6 +16,10 @@ year: 2011
 country: TW
 ---
 
+## meaning
+
+Steady, undramatic, still-in-love devotion — which is why it became a fixture at Chinese weddings. The interest is in the word 依然: still, as before, unchanged.
+
 ## notes
 
 Leehom Wang's 2011 ballad, written for his own wedding-adjacent era and long

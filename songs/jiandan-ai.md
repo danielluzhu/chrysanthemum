@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 15995365
 ---
 
+## meaning
+
+Young love with nothing complicating it. The whole point is the absence of drama — the vocabulary is small, the sentences are short, and the feeling is uncomplicated on purpose.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

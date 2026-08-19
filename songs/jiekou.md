@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 36740480
 ---
 
+## meaning
+
+The end of a relationship told through the excuses people reach for rather than the truth. The title is the accusation.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

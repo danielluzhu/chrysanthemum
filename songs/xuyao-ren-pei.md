@@ -16,6 +16,10 @@ year: 2010
 country: TW
 ---
 
+## meaning
+
+The plain admission that you do not want to be on your own. No metaphor, no story, just the need stated.
+
 ## notes
 
 Leehom Wang in a starker mode than [[yiran-ai-ni]]. Where that song is a wedding

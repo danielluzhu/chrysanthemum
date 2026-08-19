@@ -16,6 +16,10 @@ year: 2016
 country: TW
 ---
 
+## meaning
+
+A paradox in the title: a beginning that has finally finished. It is about the long tail of something ending, and how a conclusion can take years to actually arrive.
+
 ## notes
 
 The second Mayday track here, alongside [[turan-hao-xiang-ni]], and the harder

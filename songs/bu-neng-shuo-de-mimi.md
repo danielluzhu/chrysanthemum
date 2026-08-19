@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 50197273
 ---
 
+## meaning
+
+Written for Chou's own film about a secret that cannot be explained without being disbelieved. The song works as the film's thesis: some things can only be shown, never told.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

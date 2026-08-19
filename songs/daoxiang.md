@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 71594858
 ---
 
+## meaning
+
+An address to someone worn down and thinking of giving up, telling them to go home. Chou wrote it in the voice of the countryside he grew up around, and the fragrance of rice stands for everything simple that gets forgotten once ambition takes over.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

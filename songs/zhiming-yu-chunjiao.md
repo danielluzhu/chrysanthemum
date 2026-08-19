@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 16976850
 ---
 
+## meaning
+
+Two named characters, Zhiming and Chunjiao, and the end of their relationship — a small story rather than a general feeling. Sung largely in Taiwanese, which grounds it in a specific place.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

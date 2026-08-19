@@ -16,6 +16,10 @@ year:
 country: TW
 ---
 
+## meaning
+
+A promise pinned to a classical idiom meaning the ends of the earth. The phrase is old enough to appear in Tang poetry, and the song borrows that reach.
+
 ## notes
 
 The second Leehom Wang track here, and one whose title is a fixed idiom rather

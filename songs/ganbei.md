@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 61774562
 ---
 
+## meaning
+
+A toast raised to time passing and friends dispersing. Mayday's audience grew up with the band, and the song is openly about that shared ageing.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

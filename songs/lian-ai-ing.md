@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 11111211
 ---
 
+## meaning
+
+The giddy present-tense rush of being in love, with an English gerund stuck on the end of a Chinese phrase to make the point that it is still happening.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

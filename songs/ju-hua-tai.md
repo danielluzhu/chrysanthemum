@@ -16,6 +16,10 @@ year: 2006
 country: TW
 ---
 
+## meaning
+
+A soldier at the frontier and someone waiting at home, with chrysanthemums standing for loss. In Chinese tradition the flower belongs to autumn and mourning, not to cheerfulness.
+
 ## notes
 
 The song this project is named after. Written for the film *Curse of the Golden

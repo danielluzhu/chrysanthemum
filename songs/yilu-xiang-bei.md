@@ -16,6 +16,10 @@ year: 2005
 country: TW
 ---
 
+## meaning
+
+Driving north and away after a relationship has ended, watching someone recede in the mirror. The direction in the title is the only decision left to make.
+
 ## notes
 
 The second Jay Chou track here, and a very different one from

@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 104569559
 ---
 
+## meaning
+
+Mourning, dressed in gothic imagery — a nocturne for someone gone. Among Chou's darkest hits, and deliberately theatrical rather than confessional.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

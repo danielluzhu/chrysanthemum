@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 20581636
 ---
 
+## meaning
+
+Wanting to rewind a relationship to the point before it went wrong. The song sits in the gap between knowing that is impossible and wishing for it anyway.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

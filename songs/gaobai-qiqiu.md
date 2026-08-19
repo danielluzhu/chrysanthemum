@@ -16,6 +16,10 @@ year: 2016
 country: TW
 ---
 
+## meaning
+
+A confession of love staged as something light and almost weightless — a balloon let go in an imagined Paris of street corners and cafés. There is no conflict in it and no loss; it is simply the pleasure of telling someone, and it stays deliberately on the sunny side.
+
 ## notes
 
 Jay Chou's 2016 hit, lyrics by his long-time collaborator Vincent Fang — the same

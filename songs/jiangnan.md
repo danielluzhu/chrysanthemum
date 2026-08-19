@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 43318417
 ---
 
+## meaning
+
+Jiangnan is the water-town region south of the Yangtze, and the song uses its canals and rain as the setting for a love that does not last. Place carries the mood entirely.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

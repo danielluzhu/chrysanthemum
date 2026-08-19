@@ -16,6 +16,10 @@ year: 1977
 country: TW
 ---
 
+## meaning
+
+Answering the question of how much you are loved by pointing at the moon. The device is simple enough that the song has crossed languages and generations without needing explanation.
+
 ## notes
 
 Teresa Teng's 1977 recording is probably the single most recognized Chinese love

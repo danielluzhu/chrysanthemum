@@ -16,6 +16,10 @@ year: 2011
 country: CN
 ---
 
+## meaning
+
+An address to a star, asking for direction from someone lost enough to need it. It became a standard in mainland China because that plea scaled — it is sung at graduations and by crowds who read their own situation into it.
+
 ## notes
 
 Escape Plan's 2011 song, and one of the few genuine rock anthems in mainland

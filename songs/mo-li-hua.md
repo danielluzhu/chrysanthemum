@@ -14,6 +14,10 @@ views: 3465
 country: CN
 ---
 
+## meaning
+
+Straightforward praise of a jasmine flower, and the wish to pick one and give it away. The oldest and most-travelled Chinese folk tune, and it carries no subtext at all.
+
 ## notes
 
 The Chinese folk song best known outside China. A British envoy's attaché

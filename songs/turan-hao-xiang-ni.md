@@ -16,6 +16,10 @@ year: 2008
 country: TW
 ---
 
+## meaning
+
+The particular ambush of missing someone without warning, long after you thought you were finished with it. The word 突然 — suddenly — is doing all the work in the title.
+
 ## notes
 
 Mayday are the biggest rock band in the Mandarin-speaking world, and this 2008

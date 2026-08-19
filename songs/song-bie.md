@@ -14,6 +14,10 @@ views: 733642
 country: CN
 ---
 
+## meaning
+
+A farewell at a roadside pavilion, assembled from the standard furniture of Chinese parting poems — long pavilion, ancient road, willows, wine. Li Shutong's plainness is what keeps it from being merely conventional.
+
 ## notes
 
 A curious piece of history: the melody is American — Ordway's *Dreaming of Home and

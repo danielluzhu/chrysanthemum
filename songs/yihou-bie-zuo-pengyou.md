@@ -16,6 +16,10 @@ year: 2015
 country: TW
 ---
 
+## meaning
+
+The ache of being kept close as a friend by someone you wanted more from, and deciding you would rather have nothing. The title is an instruction, not a lament.
+
 ## notes
 
 Eric Chou's 2015 breakthrough, and the song that established the lane he has

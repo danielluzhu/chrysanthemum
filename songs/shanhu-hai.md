@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 51031258
 ---
 
+## meaning
+
+A duet staged at the sea's edge, where a relationship quietly runs out. The two voices talk past each other more than to each other, which is the point.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

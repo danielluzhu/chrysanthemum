@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 62293258
 ---
 
+## meaning
+
+Autobiographical advice, half to a child and half to his younger self: listen to your mother, and understand later what she was protecting you from. Unusually plain-spoken for Chou, and one of the few pop songs about filial duty that does not sound dutiful.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

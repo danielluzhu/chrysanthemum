@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 81453048
 ---
 
+## meaning
+
+Summer, orange blossom, and a young romance recalled with more sweetness than pain. Vincent Fang's lyric leans on the scent of the flower to date the memory.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

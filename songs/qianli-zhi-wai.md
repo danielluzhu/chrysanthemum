@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 47059787
 ---
 
+## meaning
+
+A duet across a thousand miles and, implicitly, across time — Chou's contemporary voice set against Fei Yu-ching's classical one. Separation is the subject, and the pairing of two utterly different singing styles is how the distance is made audible.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

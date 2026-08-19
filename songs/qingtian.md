@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 95598956
 ---
 
+## meaning
+
+Looking back at a school-age romance from a distance, with the weather standing in for the feeling. The title promises clear skies, which is precisely what the song does not deliver — the brightness belongs to the memory, not to where the singer is now.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

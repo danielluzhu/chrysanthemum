@@ -16,6 +16,10 @@ year: 2013
 country: CN
 ---
 
+## meaning
+
+Feeling unworthy of someone, told through a blunt colloquial insult rather than a poetic one. Using 丑八怪 — ugly freak — as a title is the move that makes the song land.
+
 ## notes
 
 Joker Xue 薛之謙 is one of the most distinctive songwriters in mainland Chinese

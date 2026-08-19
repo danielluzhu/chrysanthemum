@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 164682761
 ---
 
+## meaning
+
+A song written for no one in particular, which turns out to be about the person the writer cannot name. Lin has said it came from revisiting a childhood memory.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

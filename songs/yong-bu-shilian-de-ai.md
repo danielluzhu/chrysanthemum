@@ -16,6 +16,10 @@ year: 2017
 country: TW
 ---
 
+## meaning
+
+A love that never goes out of contact. 失聯 is the word used for a missing aircraft, which makes the promise in the title more absolute than the English suggests.
+
 ## notes
 
 One of Eric Chou's largest hits, and a good companion to

@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 16673051
 ---
 
+## meaning
+
+The cost of being the person everyone expects to cope. The title concedes what the pose denies — that the strength was always a performance.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

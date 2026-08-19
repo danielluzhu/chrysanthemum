@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 88896441
 ---
 
+## meaning
+
+The small piece of luck involved in having met a particular person at all. Written for a film about school-days memory, and the modesty of 小 — little — is the whole sentiment.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

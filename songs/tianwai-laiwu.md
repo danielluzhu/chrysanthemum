@@ -16,6 +16,10 @@ year: 2021
 country: CN
 ---
 
+## meaning
+
+Someone who does not belong to your world, described with the phrase used for meteorites and things arriving from beyond the sky.
+
 ## notes
 
 The third and most recent of the Joker Xue tracks here, and the strangest. 天外

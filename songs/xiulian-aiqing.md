@@ -16,6 +16,10 @@ year: 2013
 country: SG
 ---
 
+## meaning
+
+Love treated as a discipline you practise and slowly get better at, rather than something that simply happens to you. 修煉 is a word from Daoist and Buddhist cultivation, which is what gives the title its weight.
+
 ## notes
 
 JJ Lin's 2013 single, and one of the more interesting titles in Mandopop:
