@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%80%A3%E5%90%8D%E5%B8%B6%E5%A7%93%20aMEI%20%E5%BC%B5%E6%83%A0%E5%A6%B9
 youtube_id: qf09H2xFq2s
+thumb: maxresdefault
+views: 108462480
 ---
 
 ## notes
