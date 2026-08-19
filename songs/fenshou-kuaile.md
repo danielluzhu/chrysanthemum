@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%88%86%E6%89%8B%E5%BF%AB%E6%A8%82%20%E6%A2%81%E9%9D%9C%E8%8C%B9%20Fish%20Leong
 youtube_id: lBNYpPmjH8M
+album: Time and Love 演唱會全紀錄
+year: 2002
+country: MY
 thumb: mqdefault
 views: 21973515
 ---
