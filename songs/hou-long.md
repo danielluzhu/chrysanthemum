@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%8C%B4%E7%B1%A0%20Jam%20Hsiao%20%E8%95%AD%E6%95%AC%E9%A8%B0
 youtube_id: C7gVRitPfEw
+thumb: maxresdefault
+views: 2438
 ---
 
 ## notes

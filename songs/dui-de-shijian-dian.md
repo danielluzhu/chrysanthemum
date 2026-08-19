@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%B0%8D%E7%9A%84%E6%99%82%E9%96%93%E9%BB%9E%20JJ%20Lin%20%E6%9E%97%E4%BF%8A%E5%82%91
 youtube_id: gORotxnPczg
+thumb: maxresdefault
+views: 11502741
 ---
 
 ## notes

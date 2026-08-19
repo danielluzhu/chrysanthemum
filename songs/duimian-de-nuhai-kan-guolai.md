@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%B0%8D%E9%9D%A2%E7%9A%84%E5%A5%B3%E5%AD%A9%E7%9C%8B%E9%81%8E%E4%BE%86%20Richie%20Jen%20%E4%BB%BB%E8%B3%A2%E9%BD%8A
 youtube_id: 6aosRlnxg9I
+thumb: maxresdefault
+views: 18369651
 ---
 
 ## notes
