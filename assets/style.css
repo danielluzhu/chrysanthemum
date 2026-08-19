@@ -297,37 +297,39 @@ button[aria-pressed="true"] {
 }
 
 /* ---------- song page ---------- */
-.wrap-wide { max-width: 74rem; }
-
 .song-page { padding: 3rem 0 1rem; }
 .song-header { max-width: 44rem; }
+.song-layout { display: block; margin-top: 2rem; }
+.song-main { max-width: 44rem; }
 
-/* Two columns on wide screens: the text scrolls, the video stays put. */
-.song-layout {
-  display: grid; align-items: start;
-  grid-template-columns: minmax(0, 1fr) 24rem;
-  gap: 3rem; margin-top: 2rem;
+/* One vertical column. The video pins below the site header and holds its
+   position while everything else scrolls underneath it.
+
+   Height is capped so the pinned player never eats the screen: at 16/9 a
+   full-width video would be far too tall to sit above readable text, so the
+   width is clamped by viewport height as well as by column width. */
+.song-aside {
+  position: sticky; top: 4rem; z-index: 15;
+  margin: 0 -1.5rem; padding: .85rem 1.5rem 1rem;
+  background: color-mix(in srgb, var(--paper) 93%, transparent);
+  backdrop-filter: saturate(1.5) blur(12px);
+  -webkit-backdrop-filter: saturate(1.5) blur(12px);
+  border-bottom: 1px solid var(--rule);
 }
-.song-main { min-width: 0; max-width: 42rem; }
-.song-sticky { position: sticky; top: 5.25rem; }
-.sticky-toggles { display: flex; gap: .45rem; margin-top: .85rem; }
+.song-sticky {
+  max-width: min(34rem, 72vh);
+  margin: 0 auto;
+}
+.song-aside .video { margin-top: 0; }
+.song-aside .video-note { display: none; }
 
-@media (max-width: 62rem) {
-  .song-layout { grid-template-columns: 1fr; gap: 0; }
-  .song-main { max-width: 44rem; }
-  /* Narrow screens keep the video pinned to the top of the viewport instead,
-     so it stays visible while the text scrolls underneath it. */
-  .song-aside {
-    position: sticky; top: 4rem; z-index: 15;
-    margin: 0 -1.5rem; padding: .75rem 1.5rem 1rem;
-    background: color-mix(in srgb, var(--paper) 94%, transparent);
-    backdrop-filter: saturate(1.4) blur(10px);
-    -webkit-backdrop-filter: saturate(1.4) blur(10px);
-    border-bottom: 1px solid var(--rule);
-  }
-  .song-sticky { position: static; }
-  .song-aside .video { margin-top: 0; }
-  .song-aside .video-note { display: none; }
+.sticky-toggles {
+  display: flex; gap: .45rem; justify-content: center; margin-top: .8rem;
+}
+
+@media (max-width: 40rem) {
+  .song-aside { margin: 0 -1.25rem; padding: .6rem 1.25rem .75rem; }
+  .song-sticky { max-width: min(100%, 60vh); }
 }
 .back {
   display: inline-block; color: var(--muted); text-decoration: none;
