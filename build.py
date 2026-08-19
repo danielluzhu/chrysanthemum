@@ -565,7 +565,7 @@ document.querySelectorAll('.video-facade').forEach(el => {
 });
 """
     title = f"{song['title']} {song['titleEn']} — Chrysanthemum"
-    return page("../", title, body, "", script, wrap_class="wrap-wide")
+    return page("../", title, body, "", script)
 
 
 def build_about(songs):
