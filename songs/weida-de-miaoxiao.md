@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E5%81%89%E5%A4%A7%E7%9A%84%E6%B8%BA%E5%B0%8F%20JJ%20Lin%20%E6%9E%97%E4%BF%8A%E5%82%91
 youtube_id: JwjBbWQs71k
+album: Message In A Bottle
+year: 2017
+country: SG
 thumb: maxresdefault
 views: 30974693
 ---
