@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%88%91%E6%87%B7%E5%BF%B5%E7%9A%84%20%E5%AD%AB%E7%87%95%E5%A7%BF%20Stefanie%20Sun
 youtube_id: GSx8Olkop50
+album: 逆光 Against The Light
+year: 2007
+country: 
 thumb: maxresdefault
 views: 1380521
 ---
