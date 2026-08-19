@@ -297,7 +297,38 @@ button[aria-pressed="true"] {
 }
 
 /* ---------- song page ---------- */
-.song-page { padding: 3rem 0 1rem; max-width: 44rem; }
+.wrap-wide { max-width: 74rem; }
+
+.song-page { padding: 3rem 0 1rem; }
+.song-header { max-width: 44rem; }
+
+/* Two columns on wide screens: the text scrolls, the video stays put. */
+.song-layout {
+  display: grid; align-items: start;
+  grid-template-columns: minmax(0, 1fr) 24rem;
+  gap: 3rem; margin-top: 2rem;
+}
+.song-main { min-width: 0; max-width: 42rem; }
+.song-sticky { position: sticky; top: 5.25rem; }
+.sticky-toggles { display: flex; gap: .45rem; margin-top: .85rem; }
+
+@media (max-width: 62rem) {
+  .song-layout { grid-template-columns: 1fr; gap: 0; }
+  .song-main { max-width: 44rem; }
+  /* Narrow screens keep the video pinned to the top of the viewport instead,
+     so it stays visible while the text scrolls underneath it. */
+  .song-aside {
+    position: sticky; top: 4rem; z-index: 15;
+    margin: 0 -1.5rem; padding: .75rem 1.5rem 1rem;
+    background: color-mix(in srgb, var(--paper) 94%, transparent);
+    backdrop-filter: saturate(1.4) blur(10px);
+    -webkit-backdrop-filter: saturate(1.4) blur(10px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .song-sticky { position: static; }
+  .song-aside .video { margin-top: 0; }
+  .song-aside .video-note { display: none; }
+}
 .back {
   display: inline-block; color: var(--muted); text-decoration: none;
   font-size: .86rem; margin-bottom: 2rem; transition: color .18s;
