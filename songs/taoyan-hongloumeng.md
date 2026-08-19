@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E8%A8%8E%E5%8E%AD%E7%B4%85%E6%A8%93%E5%A4%A2%20%E9%99%B6%E5%96%86%20David%20Tao
 youtube_id: cOy2rdGe8LE
+album: 黑色柳丁
+year: 2002
+country: DE
 thumb: mqdefault
 views: 1064357
 ---
