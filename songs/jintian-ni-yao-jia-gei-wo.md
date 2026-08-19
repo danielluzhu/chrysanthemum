@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%BB%8A%E5%A4%A9%E4%BD%A0%E8%A6%81%E5%AB%81%E7%B5%A6%E6%88%91%20David%20Tao%20%E9%99%B6%E5%96%86%2C%20Jolin%20Tsai%20%E8%94%A1%E4%BE%9D%E6%9E%97
 youtube_id: WRwarsqzZ_M
+album: 唯舞獨尊
+year: 2006
+country: DE
 thumb: mqdefault
 views: 18497746
 ---
