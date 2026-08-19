@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%AA%AA%E5%A5%BD%E4%B8%8D%E5%93%AD%20Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB%2C%20%E4%BA%94%E6%9C%88%E5%A4%A9%E9%98%BF%E4%BF%A1
 youtube_id: HK7SPnGSxLM
+album: 說好不哭 (Won't Cry)
+year: 2019
+country: TW
 thumb: maxresdefault
 views: 90204350
 ---
