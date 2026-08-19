@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E6%88%91%E5%80%91%E7%9A%84%E6%84%9B%20%E7%8D%85%E5%AD%90%E5%90%88%E5%94%B1%E5%9C%98%20LION
 youtube_id: Zqgca5c2thc
+album: 瀟灑走一回
+year: 1991
+country: GB
 thumb: mqdefault
 views: 9335049
 ---

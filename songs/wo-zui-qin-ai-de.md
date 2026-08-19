@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%88%91%E6%9C%80%E8%A6%AA%E6%84%9B%E7%9A%84%20%E5%BC%B5%E6%83%A0%E5%A6%B9%20A-Mei
 youtube_id: TVjsnSJlULg
+album: 你在看我嗎
+year: 2011
+country: TW
 thumb: mqdefault
 views: 12913121
 ---
