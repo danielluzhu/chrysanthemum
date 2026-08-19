@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%84%9B%E7%9A%84%E4%B8%BB%E5%A0%B4%E7%A7%80%20%E7%BE%85%E5%BF%97%E7%A5%A5%20Show%20Lo
 youtube_id: QbOaheYJHeo
+album: 羅生門
+year: 2009
+country: TW
 thumb: mqdefault
 views: 1608447
 ---

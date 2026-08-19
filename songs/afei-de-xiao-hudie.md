@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%98%BF%E9%A3%9B%E7%9A%84%E5%B0%8F%E8%9D%B4%E8%9D%B6%20%E8%95%AD%E6%95%AC%E9%A8%B0%20Jam%20Hsiao
 youtube_id: vNR3MlBBDZo
+album: 王妃
+year: 2009
+country: TW
 thumb: mqdefault
 views: 10976586
 ---
