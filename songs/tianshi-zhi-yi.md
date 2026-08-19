@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BD%BF%E4%B9%8B%E7%BF%BC%20%E6%A5%8A%E4%B8%9E%E7%90%B3%20Rainie%20Yang
 youtube_id: aznNagothXs
+album: 天使之翼
+year: 2008
+country: TW
 thumb: mqdefault
 views: 2312673
 ---
