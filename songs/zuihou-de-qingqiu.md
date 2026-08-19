@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%9C%80%E5%BE%8C%E7%9A%84%E8%AB%8B%E6%B1%82%20%E7%8D%85%E5%AD%90%E5%90%88%E5%94%B1%E5%9C%98%20LION
 youtube_id: iVEbsg5wTGQ
+album: Lion
+year: 2016
+country: GB
 thumb: mqdefault
 views: 9689705
 ---
