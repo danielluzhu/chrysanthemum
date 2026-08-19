@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%97%A5%E4%B8%8D%E8%90%BD%20Jolin%20Tsai%20%E8%94%A1%E4%BE%9D%E6%9E%97
 youtube_id: 1GA8z-Wliew
+album: 特務J
+year: 2007
+country: TW
 thumb: mqdefault
 views: 24418681
 ---
