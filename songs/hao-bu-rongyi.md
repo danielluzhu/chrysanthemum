@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%A5%BD%E4%B8%8D%E5%AE%B9%E6%98%93%20%E5%91%8A%E4%BA%94%E4%BA%BA%20Accusefive
 youtube_id: caxiOmSWWEM
+thumb: maxresdefault
+views: 50794519
 ---
 
 ## notes

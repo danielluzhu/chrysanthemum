@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E9%BB%91%E8%89%B2%E6%9F%B3%E4%B8%81%20%E9%99%B6%E5%96%86%20David%20Tao
 youtube_id: VC4KT__tx5g
+thumb: mqdefault
+views: 2262618
 ---
 
 ## notes
