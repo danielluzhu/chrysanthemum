@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E4%BA%A4%E6%8F%9B%E9%A4%98%E7%94%9F%20JJ%20Lin%20%E6%9E%97%E4%BF%8A%E5%82%91
 youtube_id: mNQwhIx_0CM
+album: 交换余生
+year: 2020
+country: SG
 thumb: maxresdefault
 views: 22999440
 ---
