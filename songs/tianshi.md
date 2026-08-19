@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BD%BF%20%E4%BA%94%E6%9C%88%E5%A4%A9%20Mayday
 youtube_id: W1W0eKWQtck
+thumb: maxresdefault
+views: 3718090
 ---
 
 ## notes
