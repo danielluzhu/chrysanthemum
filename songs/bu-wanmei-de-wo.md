@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%B8%8D%E5%AE%8C%E7%BE%8E%E7%9A%84%E6%88%91%20Jam%20Hsiao%20%E8%95%AD%E6%95%AC%E9%A8%B0
 youtube_id: EIrKX29kPbQ
+album: 不完美的我
+year: 2024
+country: TW
 thumb: maxresdefault
 views: 664139
 ---
