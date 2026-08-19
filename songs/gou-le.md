@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%A4%A0%E4%BA%86%20%E7%BE%85%E5%BF%97%E7%A5%A5%20Show%20Lo
 youtube_id: R3rkSM3xO_k
+thumb: maxresdefault
+views: 6919792
 ---
 
 ## notes
