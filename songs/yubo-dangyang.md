@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E9%A4%98%E6%B3%A2%E7%9B%AA%E6%BC%BE%20%E7%94%B0%E9%A6%A5%E7%94%84%20Hebe%20Tien
 youtube_id: LEdrjjMfe-Q
+album: 日常
+year: 2016
+country: TW
 thumb: maxresdefault
 views: 18524566
 ---
