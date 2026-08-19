@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E5%8D%83%E9%87%8C%E4%B9%8B%E5%A4%96%20%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%2C%20%E8%B2%BB%E7%8E%89%E6%B8%85%20Fei%20Yu-ching
 youtube_id: ocDo3ySyHSI
+thumb: mqdefault
+views: 47059787
 ---
 
 ## notes
