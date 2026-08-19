@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%82%BA%E4%BB%80%E9%BA%BC%E4%BD%A0%E8%83%8C%E8%91%97%E6%88%91%E6%84%9B%E5%88%A5%E4%BA%BA%20%E8%A8%B1%E5%BF%97%E5%AE%89%20Andy%20Hui
 youtube_id: f0-IM9Yrn6Y
+thumb: maxresdefault
+views: 2575925
 ---
 
 ## notes
