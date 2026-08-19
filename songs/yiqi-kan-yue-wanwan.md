@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E4%B8%80%E8%B5%B7%E7%9C%8B%E6%9C%88%E5%BD%8E%E5%BD%8E%20Ozone
 youtube_id: aALhdCWYxJ0
+thumb: maxresdefault
+views: 1711995
 ---
 
 ## notes
