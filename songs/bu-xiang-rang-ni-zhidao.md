@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%B8%8D%E6%83%B3%E8%AE%93%E4%BD%A0%E7%9F%A5%E9%81%93%20%E5%91%A8%E8%95%99%20Chou%20Hui
 youtube_id: kXFMYK9jgFg
+album: 周蕙精選
+year: 1999
+country: TW
 thumb: mqdefault
 views: 4219675
 ---
