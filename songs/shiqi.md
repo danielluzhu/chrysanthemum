@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%8D%81%E4%B8%83%20S.H.E
 youtube_id: i8cptH7f7lE
+album: 十七
+year: 2018
+country: TW
 thumb: maxresdefault
 views: 20492728
 ---

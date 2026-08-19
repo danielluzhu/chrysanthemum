@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%96%84%E8%89%AF%E7%9A%84%E6%88%91%E5%80%91%20%E8%94%A1%E5%81%A5%E9%9B%85%20Tanya%20Chua
 youtube_id: gQJbdz_5054
+album: 
+year: 
+country: SG
 thumb: maxresdefault
 views: 4752652
 ---
