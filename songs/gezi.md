@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%B4%BF%E5%AD%90%20%E6%A5%8A%E5%AE%97%E7%B7%AF%20Aska%20Yang
 youtube_id: BnP5iis8c2Q
+album: 
+year: 
+country: TW
 thumb: mqdefault
 views: 140353
 ---
