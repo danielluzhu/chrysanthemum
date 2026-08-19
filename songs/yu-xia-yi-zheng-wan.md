@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A%20%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou
 youtube_id: jOxzAsnx9-0
+album: 跨时代
+year: 2010
+country: TW
 thumb: mqdefault
 views: 6484614
 ---
