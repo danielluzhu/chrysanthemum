@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E9%81%87%E8%A6%8B%20Stefanie%20Sun%20%E5%AD%AB%E7%87%95%E5%A7%BF
 youtube_id: m4nu_F_9dWU
+thumb: mqdefault
+views: 9685440
 ---
 
 ## notes
