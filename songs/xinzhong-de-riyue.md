@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E5%BF%83%E4%B8%AD%E7%9A%84%E6%97%A5%E6%9C%88%20%E7%8E%8B%E5%8A%9B%E5%AE%8F%20Leehom%20Wang
 youtube_id: 2B2IX7yTFvg
+thumb: maxresdefault
+views: 3676341
 ---
 
 ## notes

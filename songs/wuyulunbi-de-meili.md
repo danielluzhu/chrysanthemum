@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E7%84%A1%E8%88%87%E5%80%AB%E6%AF%94%E7%9A%84%E7%BE%8E%E9%BA%97%20%E8%98%87%E6%89%93%E7%B6%A0%20Sodagreen
 youtube_id: NA4otP-v6iI
+thumb: mqdefault
+views: 13961713
 ---
 
 ## notes

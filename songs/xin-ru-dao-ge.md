@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%BF%83%E5%A6%82%E5%88%80%E5%89%B2%20%E5%BC%B5%E5%AD%B8%E5%8F%8B%20Jacky%20Cheung
 youtube_id: CA5CwZ4Nmnk
+thumb: maxresdefault
+views: 4085731
 ---
 
 ## notes
