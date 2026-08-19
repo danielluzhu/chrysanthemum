@@ -65,6 +65,7 @@ def parse_song(path):
         "youtube": meta.get("youtube", ""),
         "youtubeId": meta.get("youtube_id", ""),
         "notes": sections.get("notes", ""),
+        "meaning": sections.get("meaning", ""),
         "listen": sections.get("listen for", ""),
         "lines": [],
         "patterns": [],
