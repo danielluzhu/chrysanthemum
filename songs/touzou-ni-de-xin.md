@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%81%B7%E8%B5%B0%E4%BD%A0%E7%9A%84%E5%BF%83%20Nine%20Chen%20%E9%99%B3%E9%9B%B6%E4%B9%9D%2C%20Feng%20Ze%20%E9%82%B1%E9%8B%92%E6%BE%A4
 youtube_id: vpqyqfDz8FE
+thumb: maxresdefault
+views: 1382104
 ---
 
 ## notes

@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E5%A4%AA%E7%A9%BA%E4%BA%BA%20%E5%90%B3%E9%9D%92%E5%B3%B0
 youtube_id: kRxk9v0bsC0
+thumb: maxresdefault
+views: 9227027
 ---
 
 ## notes
