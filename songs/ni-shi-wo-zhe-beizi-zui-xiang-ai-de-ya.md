@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%BD%A0%E6%98%AF%E6%88%91%E9%80%99%E8%BC%A9%E5%AD%90%E6%9C%80%E6%83%B3%E6%84%9B%E7%9A%84%E5%91%80%20W0LF%28S%29%20%E4%BA%94%E5%A0%85%E6%83%85
 youtube_id: 3wPONiZwy0o
+album: 
+year: 
+country: TW
 thumb: maxresdefault
 views: 9649973
 ---
