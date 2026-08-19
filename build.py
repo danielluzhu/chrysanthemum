@@ -496,21 +496,43 @@ def build_song(song, prev, nxt):
     else:
         listen = ""
 
+    # Toggles live in the pinned panel rather than beside the text, so they
+    # stay reachable however far down the page you have scrolled.
+    toggles = ("""
+  <div class="sticky-toggles">
+    <button id="t-pinyin" aria-pressed="true">Pinyin</button>
+    <button id="t-english" aria-pressed="true">English</button>
+  </div>""" if song["lines"] else "")
+
     body = f"""
 <article class="song-page">
   <a class="back" href="../index.html">&larr; All songs</a>
-  <h1 class="song-title">{E(song['title'])}</h1>
-  <p class="song-py">{E(song['pinyinTitle'])}</p>
-  <p class="song-en">{E(song['titleEn'])}</p>
-  <p class="song-meta">{E(song['artist'])}{' &middot; ' + E(song['era']) if song['era'] else ''}</p>
-  {badges(song, " song-head-badges")}
-  {meaning}
-  {f'<div class="notes">{paras(song["notes"])}</div>' if song["notes"] else ""}
-  {listen}
-  {lines}
-  {listen_for}
-  {patterns}
-  {vocab}
+
+  <header class="song-header">
+    <h1 class="song-title">{E(song['title'])}</h1>
+    <p class="song-py">{E(song['pinyinTitle'])}</p>
+    <p class="song-en">{E(song['titleEn'])}</p>
+    <p class="song-meta">{E(song['artist'])}{' &middot; ' + E(song['era']) if song['era'] else ''}</p>
+    {badges(song, " song-head-badges")}
+  </header>
+
+  <div class="song-layout">
+    <aside class="song-aside">
+      <div class="song-sticky">
+        {listen}{toggles}
+      </div>
+    </aside>
+
+    <div class="song-main">
+      {meaning}
+      {f'<div class="notes">{paras(song["notes"])}</div>' if song["notes"] else ""}
+      {lines}
+      {listen_for}
+      {patterns}
+      {vocab}
+    </div>
+  </div>
+
   {pager}
 </article>
 """
