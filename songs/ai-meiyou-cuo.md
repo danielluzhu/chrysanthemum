@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%84%9B%E6%B2%92%E6%9C%89%E9%8C%AF%20%E8%95%AD%E4%BA%9E%E8%BB%92%20Elva%20Hsiao
 youtube_id: o0WomLGknHA
+thumb: maxresdefault
+views: 1913599
 ---
 
 ## notes

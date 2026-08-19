@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E6%84%9B%E6%8A%95%E7%BE%85%E7%B6%B2%20%E7%BE%85%E5%BF%97%E7%A5%A5%20Show%20Lo
 youtube_id: f-FOf8RRq-U
+thumb: mqdefault
+views: 11502428
 ---
 
 ## notes
