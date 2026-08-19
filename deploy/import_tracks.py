@@ -100,10 +100,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--tracks", default=str(TRACKS),
+                    help="TSV to import (defaults to deploy/tracks.tsv)")
     args = ap.parse_args()
 
     rows = []
-    for line in TRACKS.read_text(encoding="utf-8").splitlines():
+    for line in pathlib.Path(args.tracks).read_text(encoding="utf-8").splitlines():
         if not line.strip() or line.startswith("#"):
             continue
         parts = line.split("\t")
