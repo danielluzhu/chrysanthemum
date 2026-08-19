@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%B8%8D%E8%83%BD%E8%AA%AA%E7%9A%84%E7%A7%98%E5%AF%86%20%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou
 youtube_id: uIWypArI73w
+album: 北京欢迎你 K歌情人
+year: 2007
+country: TW
 thumb: mqdefault
 views: 50197273
 ---
