@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E4%BF%AF%E8%A1%9D%E7%9A%84%E9%9D%88%E9%AD%82%20%E5%8B%95%E5%8A%9B%E7%81%AB%E8%BB%8A%20Power%20Station%2C%20%E6%9E%97%E4%BF%8A%E5%82%91%20JJ%20Lin
 youtube_id: 8zeXS7s7jok
+album: 俯冲的灵魂
+year: 2024
+country: US
 thumb: maxresdefault
 views: 2399861
 ---
