@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%83%B3%E7%9F%A5%E9%81%93%E4%BD%A0%E5%9C%A8%E6%83%B3%E4%BB%80%E9%BA%BC%20Eric%20Chou%20%E5%91%A8%E8%88%88%E5%93%B2
 youtube_id: kiSYRbMn67I
+album: 
+year: 
+country: TW
 thumb: maxresdefault
 views: 26605343
 ---
