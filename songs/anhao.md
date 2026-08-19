@@ -9,8 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%9A%97%E8%99%9F%20Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB
 youtube_id: CYT9DPJdtS4
-album: 不失者
-year: 1989
+album: 
+year: 
 country: TW
 thumb: maxresdefault
 views: 15995028

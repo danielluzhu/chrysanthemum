@@ -11,7 +11,7 @@ youtube: https://www.youtube.com/results?search_query=%E4%BB%8A%E5%A4%A9%E4%BD%A
 youtube_id: WRwarsqzZ_M
 album: 唯舞獨尊
 year: 2006
-country: DE
+country: 
 thumb: mqdefault
 views: 18497746
 ---

@@ -9,8 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%BA%AB%E6%9F%94%20Mayday%20%E4%BA%94%E6%9C%88%E5%A4%A9
 youtube_id: nWb_X3ZJQjw
-album: Smile
-year: 1985
+album: 
+year: 
 country: TW
 thumb: maxresdefault
 views: 25489170
