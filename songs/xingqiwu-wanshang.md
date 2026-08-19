@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E6%98%9F%E6%9C%9F%E4%BA%94%E6%99%9A%E4%B8%8A%20Energy
 youtube_id: btPv0-d3NbE
+album: 
+year: 
+country: GB
 thumb: maxresdefault
 views: 39466259
 ---
