@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%8F%8A%E7%91%9A%E6%B5%B7%20%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou%2C%20Lara
 youtube_id: kYhh1PpsOg4
+thumb: mqdefault
+views: 51031258
 ---
 
 ## notes

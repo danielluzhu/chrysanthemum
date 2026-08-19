@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%A6%82%E6%9E%9C%E6%9C%89%E4%B8%80%E5%A4%A9%20%E6%A2%81%E9%9D%9C%E8%8C%B9%20Fish%20Leong
 youtube_id: K3o6SfwZq_w
+thumb: mqdefault
+views: 14098085
 ---
 
 ## notes
