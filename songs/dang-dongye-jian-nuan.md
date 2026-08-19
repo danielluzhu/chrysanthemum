@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%95%B6%E5%86%AC%E5%A4%9C%E6%BC%B8%E6%9A%96%20%E5%AD%AB%E7%87%95%E5%A7%BF%20Stefanie%20Sun
 youtube_id: pD2VWvz9ZCY
+album: 是时候
+year: 2011
+country: 
 thumb: maxresdefault
 views: 3650094
 ---
