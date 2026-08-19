@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E6%B0%B4%E6%89%8B%E6%80%95%E6%B0%B4%20Jay%20Chou%20%E5%91%A8%E6%9D%B0%E5%80%AB
 youtube_id: wUJ37I6au2w
+album: 驚嘆號
+year: 2011
+country: TW
 thumb: maxresdefault
 views: 6092239
 ---
