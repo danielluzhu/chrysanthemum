@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%8A%B1%E8%9D%B4%E8%9D%B6%20%E8%94%A1%E4%BE%9D%E6%9E%97%20Jolin%20Tsai
 youtube_id: 1UTbjEsfIC8
+album: 蛻變
+year: 1990
+country: TW
 thumb: mqdefault
 views: 5141179
 ---
