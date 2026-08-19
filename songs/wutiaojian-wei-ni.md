@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%84%A1%E6%A2%9D%E4%BB%B6%E7%82%BA%E4%BD%A0%20%E6%A2%81%E9%9D%9C%E8%8C%B9%20Fish%20Leong
 youtube_id: XPD-0b66Wv4
+thumb: maxresdefault
+views: 20134386
 ---
 
 ## notes
