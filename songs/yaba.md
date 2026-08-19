@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%95%9E%E5%B7%B4%20%E6%BD%98%E7%91%8B%E6%9F%8F%20Wilber%20Pan
 youtube_id: yNwGRaLm_NI
+album: 
+year: 
+country: TW
 thumb: mqdefault
 views: 12136734
 ---
