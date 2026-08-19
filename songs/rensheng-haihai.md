@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 7968297
 ---
 
+## meaning
+
+A Taiwanese-language phrase meaning roughly that life is as wide and unpredictable as the sea, so there is little use taking any of it too hard. Consolation rather than complaint.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

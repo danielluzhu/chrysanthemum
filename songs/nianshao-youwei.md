@@ -16,6 +16,10 @@ year: 2018
 country: CN
 ---
 
+## meaning
+
+Looking back at a younger self who had ambition and not much else, and at the person he could not support at the time. The title names the ideal he failed to be.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use
