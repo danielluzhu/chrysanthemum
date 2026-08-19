@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E9%9B%A2%E9%96%8B%E6%88%91%20%E9%99%B6%E6%99%B6%E7%91%A9%20Matilda%20Tao
 youtube_id: Un0N9D4ZZew
+thumb: maxresdefault
+views: 1540704
 ---
 
 ## notes
