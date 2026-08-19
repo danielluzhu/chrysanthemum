@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=Play%E6%88%91%E5%91%B8%20Jolin%20Tsai%20%E8%94%A1%E4%BE%9D%E6%9E%97
 youtube_id: c86t8hoVw8E
+thumb: maxresdefault
+views: 41217781
 ---
 
 ## notes

@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%BE%8E%E9%BA%97%E3%80%81%E9%86%9C%E8%88%87%E6%88%91%20%E7%8D%85%E5%AD%90LION
 youtube_id: Xr6PMVhhx_c
+thumb: maxresdefault
+views: 597541
 ---
 
 ## notes
