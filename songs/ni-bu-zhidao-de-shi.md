@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E4%BA%8B%20%E7%8E%8B%E5%8A%9B%E5%AE%8F%20Leehom%20Wang
 youtube_id: eYQFKocqujc
+album: 十八般武藝
+year: 2010
+country: TW
 thumb: maxresdefault
 views: 7722659
 ---
