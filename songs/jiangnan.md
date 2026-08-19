@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%B1%9F%E5%8D%97%20%E6%9E%97%E4%BF%8A%E5%82%91%20JJ%20Lin
 youtube_id: G97_rOdHcnY
+album: 輕音樂 月圓曲
+year: 1975
+country: SG
 thumb: maxresdefault
 views: 43318417
 ---
