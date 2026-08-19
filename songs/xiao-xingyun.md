@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%B0%8F%E5%B9%B8%E9%81%8B%20Hebe%20Tien%20%E7%94%B0%E9%A6%A5%E7%94%84
 youtube_id: GCgvpwLNvtY
+thumb: maxresdefault
+views: 88896441
 ---
 
 ## notes

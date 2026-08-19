@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%84%A1%E4%BA%BA%E7%9F%A5%E6%9B%89%20Hebe%20Tien%20%E7%94%B0%E9%A6%A5%E7%94%84
 youtube_id: RtH0BAbUalk
+thumb: maxresdefault
+views: 15252285
 ---
 
 ## notes
