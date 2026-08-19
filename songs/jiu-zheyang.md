@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%B0%B1%E9%80%99%E6%A8%A3%20%E6%9D%8E%E6%A6%AE%E6%B5%A9%20Ronghao%20Li
 youtube_id: eGr3nLMwbAk
+thumb: mqdefault
+views: 16926128
 ---
 
 ## notes
