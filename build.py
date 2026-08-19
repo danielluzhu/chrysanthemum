@@ -421,14 +421,8 @@ render();
 def build_song(song, prev, nxt):
     lines = ""
     if song["lines"]:
-        lines = f"""
-<div class="section-head">
-  <h2>Line by line</h2>
-  <div class="toggles">
-    <button id="t-pinyin" aria-pressed="true">Pinyin</button>
-    <button id="t-english" aria-pressed="true">English</button>
-  </div>
-</div>
+        lines = """
+<div class="section-head"><h2>Line by line</h2></div>
 <div class="lines">""" + "".join(
             f"""<div class="line">
   <div class="hanzi">{E(l['hanzi'])}</div>
