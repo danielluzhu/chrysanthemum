@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%80%9E%E5%BC%B7%20%E8%95%AD%E4%BA%9E%E8%BB%92%20Elva%20Hsiao
 youtube_id: scgFBIek36U
+album: 認錯
+year: 1991
+country: TW
 thumb: mqdefault
 views: 7714087
 ---
