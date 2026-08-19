@@ -154,6 +154,37 @@ def bloom_svg(css_class="bloom"):
             + "".join(parts) + "</svg>")
 
 
+def favicon_svg():
+    """Standalone gold chrysanthemum for the browser tab.
+
+    Same construction as bloom_svg but coarser: at 16x16 the full 54-petal
+    version turns to mush, so this uses fewer, wider petals. The gold is fixed
+    rather than currentColor — a favicon inherits nothing — and sits midway
+    between the light and dark theme golds so it reads on either tab bar.
+    """
+    gold = "#c9a02a"
+    rings = [
+        # (petals, length, width, opacity, angle offset)
+        (14, 46, 9.5, 0.62, 0),
+        (10, 32, 8.5, 0.82, 18),
+        (7,  19, 7.5, 1.00, 8),
+    ]
+    parts = []
+    for count, length, width, opacity, offset in rings:
+        petals = "".join(
+            f'<path d="M0,-4 C{width},-{length * 0.42:.0f} {width},-{length * 0.78:.0f} '
+            f'0,-{length} C-{width},-{length * 0.78:.0f} -{width},-{length * 0.42:.0f} 0,-4 Z" '
+            f'transform="rotate({offset + i * 360 / count:.1f})"/>'
+            for i in range(count)
+        )
+        parts.append(f'<g opacity="{opacity}">{petals}</g>')
+    parts.append('<circle r="7"/>')
+    return (
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="-52 -52 104 104">'
+        f'<g fill="{gold}">' + "".join(parts) + "</g></svg>\n"
+    )
+
+
 def page(base, title, body, nav, extra_script=""):
     return f"""<!doctype html>
 <html lang="en">
