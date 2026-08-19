@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%A2%A8%E8%A1%A3%20%E5%AD%AB%E7%87%95%E5%A7%BF%20Stefanie%20Sun
 youtube_id: cfOsmenwU6w
+thumb: maxresdefault
+views: 7726978
 ---
 
 ## notes
