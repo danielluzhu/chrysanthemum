@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%84%9B%E6%83%85%E8%AD%89%E6%9B%B8%20%E5%AD%AB%E7%87%95%E5%A7%BF%20Stefanie%20Sun
 youtube_id: _l62qIfP6UI
+album: Yan Zi
+year: 2000
+country: 
 thumb: mqdefault
 views: 973807
 ---
