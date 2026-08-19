@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E5%AD%A4%E7%8D%A8%E5%A8%9B%E6%A8%82%20JJ%20Lin%20%E6%9E%97%E4%BF%8A%E5%82%91
 youtube_id: GSQV3oXyjMQ
+album: 
+year: 
+country: SG
 thumb: maxresdefault
 views: 2104132
 ---
