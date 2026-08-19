@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%8A%B1%E5%8F%88%E9%96%8B%E5%A5%BD%E4%BA%86%20S.H.E
 youtube_id: XWWE01Sbg08
+thumb: mqdefault
+views: 9935269
 ---
 
 ## notes
