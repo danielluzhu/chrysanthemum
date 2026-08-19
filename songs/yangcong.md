@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%B4%8B%E8%94%A5%20Aska%20Yang%20%E6%A5%8A%E5%AE%97%E7%B7%AF
 youtube_id: 78NED_I0lU0
+thumb: mqdefault
+views: 7632715
 ---
 
 ## notes
