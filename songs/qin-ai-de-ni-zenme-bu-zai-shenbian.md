@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%A6%AA%E6%84%9B%E7%9A%84%E4%BD%A0%E6%80%8E%E9%BA%BC%E4%B8%8D%E5%9C%A8%E8%BA%AB%E9%82%8A%20%E6%B1%9F%E7%BE%8E%E7%90%AA%20Maggie%20Chiang
 youtube_id: H6E6XaVSYgY
+album: 想起
+year: 2001
+country: TW
 thumb: maxresdefault
 views: 12322379
 ---

@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%99%B4%E5%A4%A9%20%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou
 youtube_id: DYptgVvkVLQ
+album: 同齡女子
+year: 1998
+country: TW
 thumb: mqdefault
 views: 95598956
 ---
