@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E9%82%A3%E5%80%8B%E7%94%B7%E4%BA%BA%20%E6%A5%8A%E5%AE%97%E7%B7%AF%20Aska%20Yang
 youtube_id: dfV78HLb_HU
+album: 原色
+year: 2011
+country: TW
 thumb: maxresdefault
 views: 14864031
 ---

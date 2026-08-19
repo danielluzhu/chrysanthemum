@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%98%8E%E6%98%8E%E5%B0%B1%20%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou
 youtube_id: UBySINroNkw
+album: 12新作
+year: 2012
+country: TW
 thumb: maxresdefault
 views: 108752389
 ---
