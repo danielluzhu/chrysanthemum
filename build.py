@@ -186,7 +186,7 @@ def favicon_svg():
     )
 
 
-def page(base, title, body, nav, extra_script=""):
+def page(base, title, body, nav, extra_script="", wrap_class=""):
     return f"""<!doctype html>
 <html lang="en">
 <head>
