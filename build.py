@@ -437,6 +437,10 @@ def build_song(song, prev, nxt):
 </div>""" for l in song["lines"]
         ) + "</div>"
 
+    meaning = ""
+    if song["meaning"]:
+        meaning = f'<div class="meaning">{paras(song["meaning"])}</div>'
+
     listen_for = ""
     if song["listen"]:
         listen_for = (f'<div class="section-head"><h2>What to listen for</h2></div>'
@@ -506,6 +510,7 @@ def build_song(song, prev, nxt):
   <p class="song-en">{E(song['titleEn'])}</p>
   <p class="song-meta">{E(song['artist'])}{' &middot; ' + E(song['era']) if song['era'] else ''}</p>
   {badges(song, " song-head-badges")}
+  {meaning}
   {f'<div class="notes">{paras(song["notes"])}</div>' if song["notes"] else ""}
   {listen}
   {lines}
