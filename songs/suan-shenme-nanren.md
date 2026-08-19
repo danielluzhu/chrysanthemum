@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%AE%97%E4%BB%80%E9%BA%BC%E7%94%B7%E4%BA%BA%20%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou
 youtube_id: v489sYYjtHI
+album: 哎哟，不错哦
+year: 2014
+country: TW
 thumb: mqdefault
 views: 118714482
 ---
