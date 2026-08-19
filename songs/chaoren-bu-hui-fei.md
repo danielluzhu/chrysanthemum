@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%B6%85%E4%BA%BA%E4%B8%8D%E6%9C%83%E9%A3%9B%20%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou
 youtube_id: 4j0Fgmsxr-o
+thumb: mqdefault
+views: 16673051
 ---
 
 ## notes
