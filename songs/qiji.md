@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%A5%87%E8%B9%9F%20%E5%BC%B5%E5%AE%87%20Phil%20Chang
 youtube_id: p01ohl2hrIg
+album: ザ･ナムコ･グラフィティ1 完全保存版! NG総集編&特別編集号 特別付録
+year: 1994
+country: TW
 thumb: mqdefault
 views: 172829
 ---
