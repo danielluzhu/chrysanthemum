@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%80%99%E9%B3%A5%20S.H.E
 youtube_id: ZWcxk0c1Du0
+album: Encore（安可）
+year: 2004
+country: TW
 thumb: mqdefault
 views: 3818852
 ---

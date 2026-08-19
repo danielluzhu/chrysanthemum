@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%BE%8C%E4%BE%86%E7%9A%84%E6%88%91%E5%80%91%20%E4%BA%94%E6%9C%88%E5%A4%A9%20Mayday
 youtube_id: pd3eV-SG23E
+album: 自伝 History of Tomorrow
+year: 2017
+country: TW
 thumb: maxresdefault
 views: 147548191
 ---
