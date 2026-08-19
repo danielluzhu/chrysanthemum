@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E7%B5%95%E4%B8%8D%E7%B5%95%20%E6%9E%97%E4%BF%8A%E5%82%91%20JJ%20Lin
 youtube_id: QaYcm-NMSUg
+album: 絕不絕
+year: 2024
+country: SG
 thumb: maxresdefault
 views: 433975
 ---
