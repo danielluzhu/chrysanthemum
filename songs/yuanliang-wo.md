@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%8E%9F%E8%AB%92%E6%88%91%20%E8%95%AD%E6%95%AC%E9%A8%B0%20Jam%20Hsiao
 youtube_id: yaDuOKA-NOg
+album: 情變
+year: 1986
+country: TW
 thumb: mqdefault
 views: 8090721
 ---

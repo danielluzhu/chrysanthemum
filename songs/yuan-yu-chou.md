@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E9%A1%98%E8%88%87%E6%84%81%20%E6%9E%97%E4%BF%8A%E5%82%91%20JJ%20Lin
 youtube_id: MISqtaNt1vg
+album: 重拾_快樂
+year: 2023
+country: SG
 thumb: maxresdefault
 views: 6845172
 ---
