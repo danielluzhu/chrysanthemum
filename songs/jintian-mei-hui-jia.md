@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E4%BB%8A%E5%A4%A9%E6%B2%92%E5%9B%9E%E5%AE%B6%20%E9%99%B6%E5%96%86%20David%20Tao
 youtube_id: Oi0evKHUzzQ
+album: Ultrasound 1997-2003 樂之路
+year: 2003
+country: DE
 thumb: mqdefault
 views: 427369
 ---
