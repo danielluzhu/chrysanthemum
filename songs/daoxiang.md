@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E7%A8%BB%E9%A6%99%20%E5%91%A8%E6%9D%B0%E5%80%AB%20Jay%20Chou
 youtube_id: sHD_z90ZKV0
+album: 魔杰座
+year: 2008
+country: TW
 thumb: mqdefault
 views: 71594858
 ---

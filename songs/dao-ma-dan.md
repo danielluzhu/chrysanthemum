@@ -9,6 +9,9 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E5%88%80%E9%A6%AC%E6%97%A6%20%E6%9D%8E%E7%8E%9F%20CoCo%20Lee
 youtube_id: MZdxy7_lc8U
+album: Coco Lee
+year: 2001
+country: CN
 thumb: maxresdefault
 views: 5069369
 ---
