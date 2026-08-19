@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%AA%AA%E8%AC%8A%20%E6%9E%97%E5%AE%A5%E5%98%89%20Yoga%20Lin
 youtube_id: ftfJRzW0MPo
+thumb: maxresdefault
+views: 45816513
 ---
 
 ## notes

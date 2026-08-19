@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E8%AA%AA%E6%84%9B%E4%BD%A0%20%E8%94%A1%E4%BE%9D%E6%9E%97%20Jolin%20Tsai
 youtube_id: Aq6KNRyvm-Y
+thumb: maxresdefault
+views: 34495403
 ---
 
 ## notes

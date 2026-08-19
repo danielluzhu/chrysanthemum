@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E8%A9%A9%E4%BA%BA%E6%BC%AB%E6%AD%A5%20%E8%94%A1%E4%BE%9D%E6%9E%97%20Jolin%20Tsai
 youtube_id: o9FK1_i1TUs
+thumb: maxresdefault
+views: 10285870
 ---
 
 ## notes
