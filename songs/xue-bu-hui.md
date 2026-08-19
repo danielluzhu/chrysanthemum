@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%AD%B8%E4%B8%8D%E6%9C%83%20%E6%9E%97%E4%BF%8A%E5%82%91%20JJ%20Lin
 youtube_id: 27R6ZavdzzQ
+album: 被愛的女人
+year: 1995
+country: SG
 thumb: maxresdefault
 views: 42749798
 ---
