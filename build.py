@@ -208,7 +208,7 @@ def page(base, title, body, nav, extra_script="", wrap_class=""):
   </nav>
 </div></header>
 
-<main class="wrap">
+<main class="wrap {wrap_class}">
 {body}
 </main>
 
@@ -565,7 +565,7 @@ document.querySelectorAll('.video-facade').forEach(el => {
 });
 """
     title = f"{song['title']} {song['titleEn']} — Chrysanthemum"
-    return page("../", title, body, "", script)
+    return page("../", title, body, "", script, wrap_class="wrap-wide")
 
 
 def build_about(songs):
