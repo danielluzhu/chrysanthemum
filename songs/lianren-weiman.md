@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%88%80%E4%BA%BA%E6%9C%AA%E6%BB%BF%20S.H.E
 youtube_id: jL6D7rqk4SQ
+album: 女生宿舍
+year: 2001
+country: TW
 thumb: mqdefault
 views: 24173020
 ---
