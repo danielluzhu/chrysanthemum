@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%88%BB%E5%9C%A8%E6%88%91%E5%BF%83%E5%BA%95%E7%9A%84%E5%90%8D%E5%AD%97%20%E7%9B%A7%E5%BB%A3%E4%BB%B2
 youtube_id: m78lJuzftcc
+thumb: maxresdefault
+views: 81316968
 ---
 
 ## notes

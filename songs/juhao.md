@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E5%8F%A5%E8%99%9F%20G.E.M.%20%E9%84%A7%E7%B4%AB%E6%A3%8B
 youtube_id: 7XlqcS6B7WA
+thumb: maxresdefault
+views: 66478142
 ---
 
 ## notes
