@@ -9,6 +9,9 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E6%B0%B4%E6%98%9F%E5%BA%A7%20AcQUA%E6%BA%90%E5%B0%91%E5%B9%B4
 youtube_id: OCioFrQ-pb8
+album: 
+year: 
+country: IT
 thumb: maxresdefault
 views: 1385304
 ---
