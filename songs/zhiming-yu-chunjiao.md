@@ -9,6 +9,8 @@ rights: copyrighted
 level: advanced
 youtube: https://www.youtube.com/results?search_query=%E5%BF%97%E6%98%8E%E8%88%87%E6%98%A5%E5%AC%8C%20%E4%BA%94%E6%9C%88%E5%A4%A9%20Mayday
 youtube_id: 5VUUGZ1-nlY
+thumb: maxresdefault
+views: 16976850
 ---
 
 ## notes

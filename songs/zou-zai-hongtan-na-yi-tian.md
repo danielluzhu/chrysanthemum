@@ -9,6 +9,8 @@ rights: copyrighted
 level: intermediate
 youtube: https://www.youtube.com/results?search_query=%E8%B5%B0%E5%9C%A8%E7%B4%85%E6%AF%AF%E9%82%A3%E4%B8%80%E5%A4%A9%20%E5%BD%AD%E4%BD%B3%E6%85%A7%20Julia%20Peng
 youtube_id: hhbvQPQjraY
+thumb: maxresdefault
+views: 5290890
 ---
 
 ## notes
