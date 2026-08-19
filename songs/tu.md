@@ -9,6 +9,8 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E9%80%94%20%E5%BC%B5%E5%93%B2%E7%80%9A%20Zhang%20Zhehan
 youtube_id: iqzL8r-hsu8
+thumb: maxresdefault
+views: 620
 ---
 
 ## notes
