@@ -9,6 +9,9 @@ rights: copyrighted
 level: beginner
 youtube: https://www.youtube.com/results?search_query=%E5%A5%BD%E6%83%B3%E5%A5%BD%E5%A5%BD%E6%84%9B%E4%BD%A0%20%E5%91%A8%E8%95%99%20Chou%20Hui
 youtube_id: TUqKBTQizwA
+album: 滚石俱乐部·女人篇
+year: 2000
+country: TW
 thumb: mqdefault
 views: 4425569
 ---
