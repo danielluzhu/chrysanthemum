@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 90204350
 ---
 
+## meaning
+
+A parting that both people agreed to handle without tears, and the effort that costs. Jay Chou and Mayday's Ashin trade the restraint back and forth.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

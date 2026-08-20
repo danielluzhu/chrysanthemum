@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 50794519
 ---
 
+## meaning
+
+A phrase meaning 'only with great difficulty' — something achieved narrowly, at cost. The song sits on the exhaustion that comes after the achieving.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

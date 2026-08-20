@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 108462480
 ---
 
+## meaning
+
+Being addressed by your full name by someone who once used something softer. In Chinese that shift is unmistakable, and the song uses it to measure exactly how far two people have moved apart.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

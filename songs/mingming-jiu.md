@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 108752389
 ---
 
+## meaning
+
+The distance between what is obvious to everyone and what neither person will say. 明明就 is a colloquial 'plainly, clearly' — the word you use when the truth is in plain sight and being ignored.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

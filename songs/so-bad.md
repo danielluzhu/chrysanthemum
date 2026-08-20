@@ -16,6 +16,10 @@ year:
 country: TW
 ---
 
+## meaning
+
+Wanting something you know is a bad idea, at speed. The fastest of OSN's tracks here and the least reflective, deliberately.
+
 ## notes
 
 The fastest of the OSN tracks collected here, and the one to leave until last.

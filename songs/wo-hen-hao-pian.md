@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 43834259
 ---
 
+## meaning
+
+Knowing you are being lied to and letting it happen. The title is an admission offered without much self-pity.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

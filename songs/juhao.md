@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 66478142
 ---
 
+## meaning
+
+Putting a full stop on a relationship — the punctuation mark as the decision. Ending it is presented as a grammatical necessity rather than an emotional one, which is the whole conceit.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

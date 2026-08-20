@@ -16,6 +16,10 @@ year:
 country: TW
 ---
 
+## meaning
+
+Embarrassment at wanting more from someone than the friendship on offer, and not having the nerve to say so. The title asks 'how could I possibly' — 好意思 is about having the face to do something slightly shameless, and the song is about not having it.
+
 ## notes
 
 The title is worth sitting with before you press play. 好意思 is one of those

@@ -16,6 +16,10 @@ year: 2022
 country: TW
 ---
 
+## meaning
+
+Someone has moved on to another person. Chinese distinguishes 别人, other people in general, from 另一个人, one specific other — and the song is about the second.
+
 ## notes
 
 The third of five OSN tracks here, and the one whose subject — someone has moved

@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 186658520
 ---
 
+## meaning
+
+A duet looking back on a relationship both people knew was a mistake and entered anyway. 不該 — 'shouldn't have' — is the verdict, delivered by two voices that keep disagreeing about it.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

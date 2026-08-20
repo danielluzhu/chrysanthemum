@@ -16,6 +16,10 @@ year: 2022
 country: TW
 ---
 
+## meaning
+
+Going round and round an argument or a relationship without arriving anywhere. Chinese has the same figure — 兜圈子, to circle around, meaning to avoid the point.
+
 ## notes
 
 Another OSN track built on the same Mandarin-English blend as

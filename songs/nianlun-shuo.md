@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 43660872
 ---
 
+## meaning
+
+Tree rings as a record of everything a person has lived through: each year laid down, none removable. The song argues that what marked you is also what shaped you.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

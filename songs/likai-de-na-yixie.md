@@ -16,6 +16,10 @@ year: 2020
 country: TW
 ---
 
+## meaning
+
+The people who left, considered as a group rather than one by one. The grammar of the title turns a verb into a noun: those-that-left.
+
 ## notes
 
 The last of the seven Eric Chou tracks on this playlist. By now the register

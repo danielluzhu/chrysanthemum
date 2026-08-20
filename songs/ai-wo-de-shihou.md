@@ -16,6 +16,10 @@ year:
 country: TW
 ---
 
+## meaning
+
+A period that has ended, addressed as a time rather than a person: when you loved me. The duet form lets both sides of it speak.
+
 ## notes
 
 A duet with 單依純, a singer who broke through on a televised competition and has

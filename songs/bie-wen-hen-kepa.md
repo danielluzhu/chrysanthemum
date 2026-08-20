@@ -16,6 +16,10 @@ year: 2017
 country: TW
 ---
 
+## meaning
+
+Deflecting a question because the honest answer would be worse than the silence. J.Sheon writes in Taipei street register, closer to speech than most Mandopop.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

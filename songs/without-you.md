@@ -16,6 +16,10 @@ year: 2019
 country: TW
 ---
 
+## meaning
+
+Life carrying on badly in someone's absence, delivered in the Mandarin-English mix that runs through OSN's work. The English phrase is the one that repeats, which is how the register of the song is set.
+
 ## notes
 
 高爾宣 OSN is one of the most-represented artists on this playlist, and his work

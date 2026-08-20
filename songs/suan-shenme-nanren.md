@@ -16,6 +16,10 @@ thumb: mqdefault
 views: 118714482
 ---
 
+## meaning
+
+Self-reproach at having failed someone who deserved better. The title is the question the singer turns on himself: what kind of man does that make me.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

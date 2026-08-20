@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 81316968
 ---
 
+## meaning
+
+A name that could not be spoken at the time and so was kept. Written for a film about a first love between two schoolboys in 1980s Taiwan, when saying it aloud was not an option.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

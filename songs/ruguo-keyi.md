@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 206249460
 ---
 
+## meaning
+
+A bargain offered to no one in particular: if it were possible, everything would be traded for more time with someone. Written as a film theme, and the conditional in the title never resolves because it cannot.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

@@ -16,6 +16,10 @@ year: 2021
 country: TW
 ---
 
+## meaning
+
+Emotional highs and lows set against the sea. 潮 means tide but also, in modern slang, trendy or cool — the double sense is part of why the title works.
+
 ## notes
 
 A collaboration between OSN and Dizzy Dizzo 蔡詩芸, one of the few prominent

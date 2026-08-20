@@ -16,6 +16,10 @@ thumb: maxresdefault
 views: 41217781
 ---
 
+## meaning
+
+A satire of celebrity and the media that feeds on it. 呸 is the sound of spitting — Tsai pairs the English 'play' with a gesture of contempt, and the whole track is built on that collision.
+
 ## notes
 
 Imported from the source playlist. **Under copyright, so no lyrics here** — use

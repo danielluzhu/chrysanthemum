@@ -16,6 +16,10 @@ year: 2020
 country: TW
 ---
 
+## meaning
+
+The two people we were as children, viewed from adulthood. 小時候的我們 is a time expression made possessive — 'the us of back then'.
+
 ## notes
 
 A nostalgia song — Chou looking back at childhood rather than at a relationship,

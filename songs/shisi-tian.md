@@ -16,6 +16,10 @@ year:
 country: TW
 ---
 
+## meaning
+
+A relationship measured out in a specific count of days rather than in feelings. Naming the number gives the song a concreteness most breakup ballads avoid.
+
 ## notes
 
 A Chou ballad built around a specific span of time rather than a feeling — the
